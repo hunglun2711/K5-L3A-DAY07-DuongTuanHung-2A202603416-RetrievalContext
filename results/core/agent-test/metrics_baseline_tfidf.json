@@ -1,0 +1,33 @@
+{
+  "split": "test",
+  "config": "baseline_tfidf",
+  "cases": 8,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 8,
+    "N": 8
+  },
+  "grounded_answer": {
+    "0": 3,
+    "1": 2,
+    "2": 1,
+    "N": 6,
+    "mean": 0.6666666666666666
+  },
+  "citation_validity": {
+    "n": 2,
+    "N": 3
+  },
+  "answer_citation_coverage": {
+    "n": 3,
+    "N": 3
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 3,
+    "N": 6
+  }
+}

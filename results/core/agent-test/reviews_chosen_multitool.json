@@ -1,0 +1,65 @@
+[
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Verified complete answer and verbatim supporting chunk citations."
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "Verified complete answer and verbatim supporting chunk citations."
+  },
+  {
+    "query_id": "q21",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Verified complete answer and verbatim supporting chunk citations."
+  },
+  {
+    "query_id": "q22",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Verified complete answer and verbatim supporting chunk citations."
+  },
+  {
+    "query_id": "q23",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "notes": "Verified complete answer and verbatim supporting chunk citations."
+  },
+  {
+    "query_id": "q24",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Verified complete answer and verbatim supporting chunk citations."
+  },
+  {
+    "query_id": "u04",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Searched corpus and cleanly abstained on out-of-scope Python topic."
+  },
+  {
+    "query_id": "u05",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Searched corpus and cleanly abstained on out-of-scope Python topic."
+  }
+]

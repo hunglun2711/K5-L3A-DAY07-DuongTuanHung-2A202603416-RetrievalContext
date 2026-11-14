@@ -1,0 +1,745 @@
+{
+  "indexed_at": "2026-11-14T12:22:33.101757+00:00",
+  "total_pdf_pages": 100,
+  "pages_indexed": 100,
+  "sparse_or_divider_pages": [
+    {
+      "page": 40,
+      "section": "system_card",
+      "text_chunks": 1,
+      "chars": 79,
+      "note": "Divider / low-text page (System Card cover or raster-only chart)"
+    },
+    {
+      "page": 79,
+      "section": "system_card",
+      "text_chunks": 1,
+      "chars": 8,
+      "note": "Divider / low-text page (System Card cover or raster-only chart)"
+    },
+    {
+      "page": 98,
+      "section": "system_card",
+      "text_chunks": 1,
+      "chars": 78,
+      "note": "Divider / low-text page (System Card cover or raster-only chart)"
+    }
+  ],
+  "total_chunks": 359,
+  "qdrant_stored_points": 359,
+  "chunks_by_modality": {
+    "text": 331,
+    "chart": 13,
+    "table": 9,
+    "image_diagram": 6
+  },
+  "crops_count": 28,
+  "embedding_model": "openai/text-embedding-3-small",
+  "embedding_dimensions": 1536,
+  "embedding_api_calls": 12,
+  "embedding_cache_hits": 0,
+  "embedding_billed_tokens": 97780,
+  "embedding_cost_usd": 0.0019556,
+  "page_stats": [
+    {
+      "page": 1,
+      "section": "main_paper",
+      "text_chunks": 4,
+      "chars": 3438,
+      "note": "ok"
+    },
+    {
+      "page": 2,
+      "section": "main_paper",
+      "text_chunks": 5,
+      "chars": 4009,
+      "note": "ok"
+    },
+    {
+      "page": 3,
+      "section": "main_paper",
+      "text_chunks": 2,
+      "chars": 1151,
+      "note": "ok"
+    },
+    {
+      "page": 4,
+      "section": "main_paper",
+      "text_chunks": 4,
+      "chars": 3345,
+      "note": "ok"
+    },
+    {
+      "page": 5,
+      "section": "main_paper",
+      "text_chunks": 3,
+      "chars": 2616,
+      "note": "ok"
+    },
+    {
+      "page": 6,
+      "section": "main_paper",
+      "text_chunks": 3,
+      "chars": 2575,
+      "note": "ok"
+    },
+    {
+      "page": 7,
+      "section": "main_paper",
+      "text_chunks": 4,
+      "chars": 3770,
+      "note": "ok"
+    },
+    {
+      "page": 8,
+      "section": "main_paper",
+      "text_chunks": 2,
+      "chars": 2004,
+      "note": "ok"
+    },
+    {
+      "page": 9,
+      "section": "main_paper",
+      "text_chunks": 1,
+      "chars": 938,
+      "note": "ok"
+    },
+    {
+      "page": 10,
+      "section": "main_paper",
+      "text_chunks": 3,
+      "chars": 2987,
+      "note": "ok"
+    },
+    {
+      "page": 11,
+      "section": "main_paper",
+      "text_chunks": 3,
+      "chars": 2226,
+      "note": "ok"
+    },
+    {
+      "page": 12,
+      "section": "main_paper",
+      "text_chunks": 4,
+      "chars": 3217,
+      "note": "ok"
+    },
+    {
+      "page": 13,
+      "section": "main_paper",
+      "text_chunks": 4,
+      "chars": 3726,
+      "note": "ok"
+    },
+    {
+      "page": 14,
+      "section": "main_paper",
+      "text_chunks": 3,
+      "chars": 2230,
+      "note": "ok"
+    },
+    {
+      "page": 15,
+      "section": "main_paper",
+      "text_chunks": 6,
+      "chars": 5396,
+      "note": "ok"
+    },
+    {
+      "page": 16,
+      "section": "references",
+      "text_chunks": 7,
+      "chars": 6739,
+      "note": "ok"
+    },
+    {
+      "page": 17,
+      "section": "references",
+      "text_chunks": 5,
+      "chars": 5144,
+      "note": "ok"
+    },
+    {
+      "page": 18,
+      "section": "references",
+      "text_chunks": 4,
+      "chars": 3642,
+      "note": "ok"
+    },
+    {
+      "page": 19,
+      "section": "references",
+      "text_chunks": 4,
+      "chars": 3809,
+      "note": "ok"
+    },
+    {
+      "page": 20,
+      "section": "references",
+      "text_chunks": 4,
+      "chars": 3816,
+      "note": "ok"
+    },
+    {
+      "page": 21,
+      "section": "references",
+      "text_chunks": 4,
+      "chars": 3789,
+      "note": "ok"
+    },
+    {
+      "page": 22,
+      "section": "references",
+      "text_chunks": 4,
+      "chars": 3567,
+      "note": "ok"
+    },
+    {
+      "page": 23,
+      "section": "references",
+      "text_chunks": 2,
+      "chars": 1208,
+      "note": "ok"
+    },
+    {
+      "page": 24,
+      "section": "appendix_benchmarks_contamination",
+      "text_chunks": 4,
+      "chars": 3612,
+      "note": "ok"
+    },
+    {
+      "page": 25,
+      "section": "appendix_benchmarks_contamination",
+      "text_chunks": 4,
+      "chars": 3851,
+      "note": "ok"
+    },
+    {
+      "page": 26,
+      "section": "appendix_benchmarks_contamination",
+      "text_chunks": 4,
+      "chars": 3601,
+      "note": "ok"
+    },
+    {
+      "page": 27,
+      "section": "appendix_benchmarks_contamination",
+      "text_chunks": 4,
+      "chars": 3226,
+      "note": "ok"
+    },
+    {
+      "page": 28,
+      "section": "appendix_benchmarks_contamination",
+      "text_chunks": 3,
+      "chars": 2501,
+      "note": "ok"
+    },
+    {
+      "page": 29,
+      "section": "appendix_benchmarks_contamination",
+      "text_chunks": 4,
+      "chars": 3654,
+      "note": "ok"
+    },
+    {
+      "page": 30,
+      "section": "appendix_benchmarks_contamination",
+      "text_chunks": 4,
+      "chars": 3711,
+      "note": "ok"
+    },
+    {
+      "page": 31,
+      "section": "appendix_benchmarks_contamination",
+      "text_chunks": 4,
+      "chars": 3899,
+      "note": "ok"
+    },
+    {
+      "page": 32,
+      "section": "appendix_benchmarks_contamination",
+      "text_chunks": 2,
+      "chars": 1860,
+      "note": "ok"
+    },
+    {
+      "page": 33,
+      "section": "appendix_benchmarks_contamination",
+      "text_chunks": 2,
+      "chars": 1343,
+      "note": "ok"
+    },
+    {
+      "page": 34,
+      "section": "appendix_visual_inputs",
+      "text_chunks": 1,
+      "chars": 1115,
+      "note": "ok"
+    },
+    {
+      "page": 35,
+      "section": "appendix_visual_inputs",
+      "text_chunks": 1,
+      "chars": 1042,
+      "note": "ok"
+    },
+    {
+      "page": 36,
+      "section": "appendix_visual_inputs",
+      "text_chunks": 1,
+      "chars": 420,
+      "note": "ok"
+    },
+    {
+      "page": 37,
+      "section": "appendix_visual_inputs",
+      "text_chunks": 3,
+      "chars": 2303,
+      "note": "ok"
+    },
+    {
+      "page": 38,
+      "section": "appendix_visual_inputs",
+      "text_chunks": 1,
+      "chars": 679,
+      "note": "ok"
+    },
+    {
+      "page": 39,
+      "section": "appendix_visual_inputs",
+      "text_chunks": 1,
+      "chars": 1131,
+      "note": "ok"
+    },
+    {
+      "page": 40,
+      "section": "system_card",
+      "text_chunks": 1,
+      "chars": 79,
+      "note": "Divider / low-text page (System Card cover or raster-only chart)"
+    },
+    {
+      "page": 41,
+      "section": "system_card",
+      "text_chunks": 2,
+      "chars": 1292,
+      "note": "ok"
+    },
+    {
+      "page": 42,
+      "section": "system_card",
+      "text_chunks": 5,
+      "chars": 4107,
+      "note": "ok"
+    },
+    {
+      "page": 43,
+      "section": "system_card",
+      "text_chunks": 6,
+      "chars": 4142,
+      "note": "ok"
+    },
+    {
+      "page": 44,
+      "section": "system_card",
+      "text_chunks": 3,
+      "chars": 2265,
+      "note": "ok"
+    },
+    {
+      "page": 45,
+      "section": "system_card",
+      "text_chunks": 5,
+      "chars": 4360,
+      "note": "ok"
+    },
+    {
+      "page": 46,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 3644,
+      "note": "ok"
+    },
+    {
+      "page": 47,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 3859,
+      "note": "ok"
+    },
+    {
+      "page": 48,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 3349,
+      "note": "ok"
+    },
+    {
+      "page": 49,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 3684,
+      "note": "ok"
+    },
+    {
+      "page": 50,
+      "section": "system_card",
+      "text_chunks": 5,
+      "chars": 4270,
+      "note": "ok"
+    },
+    {
+      "page": 51,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 3468,
+      "note": "ok"
+    },
+    {
+      "page": 52,
+      "section": "system_card",
+      "text_chunks": 5,
+      "chars": 4595,
+      "note": "ok"
+    },
+    {
+      "page": 53,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 3520,
+      "note": "ok"
+    },
+    {
+      "page": 54,
+      "section": "system_card",
+      "text_chunks": 5,
+      "chars": 3719,
+      "note": "ok"
+    },
+    {
+      "page": 55,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 3539,
+      "note": "ok"
+    },
+    {
+      "page": 56,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 3268,
+      "note": "ok"
+    },
+    {
+      "page": 57,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 2830,
+      "note": "ok"
+    },
+    {
+      "page": 58,
+      "section": "system_card",
+      "text_chunks": 5,
+      "chars": 4187,
+      "note": "ok"
+    },
+    {
+      "page": 59,
+      "section": "system_card",
+      "text_chunks": 5,
+      "chars": 3942,
+      "note": "ok"
+    },
+    {
+      "page": 60,
+      "section": "system_card",
+      "text_chunks": 3,
+      "chars": 2266,
+      "note": "ok"
+    },
+    {
+      "page": 61,
+      "section": "system_card",
+      "text_chunks": 5,
+      "chars": 3701,
+      "note": "ok"
+    },
+    {
+      "page": 62,
+      "section": "system_card",
+      "text_chunks": 5,
+      "chars": 4334,
+      "note": "ok"
+    },
+    {
+      "page": 63,
+      "section": "system_card",
+      "text_chunks": 3,
+      "chars": 3483,
+      "note": "ok"
+    },
+    {
+      "page": 64,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 3291,
+      "note": "ok"
+    },
+    {
+      "page": 65,
+      "section": "system_card",
+      "text_chunks": 1,
+      "chars": 530,
+      "note": "ok"
+    },
+    {
+      "page": 66,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 3420,
+      "note": "ok"
+    },
+    {
+      "page": 67,
+      "section": "system_card",
+      "text_chunks": 3,
+      "chars": 3098,
+      "note": "ok"
+    },
+    {
+      "page": 68,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 3993,
+      "note": "ok"
+    },
+    {
+      "page": 69,
+      "section": "system_card",
+      "text_chunks": 3,
+      "chars": 3020,
+      "note": "ok"
+    },
+    {
+      "page": 70,
+      "section": "system_card",
+      "text_chunks": 2,
+      "chars": 1556,
+      "note": "ok"
+    },
+    {
+      "page": 71,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 3068,
+      "note": "ok"
+    },
+    {
+      "page": 72,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 3187,
+      "note": "ok"
+    },
+    {
+      "page": 73,
+      "section": "system_card",
+      "text_chunks": 3,
+      "chars": 3191,
+      "note": "ok"
+    },
+    {
+      "page": 74,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 3510,
+      "note": "ok"
+    },
+    {
+      "page": 75,
+      "section": "system_card",
+      "text_chunks": 3,
+      "chars": 2634,
+      "note": "ok"
+    },
+    {
+      "page": 76,
+      "section": "system_card",
+      "text_chunks": 3,
+      "chars": 2755,
+      "note": "ok"
+    },
+    {
+      "page": 77,
+      "section": "system_card",
+      "text_chunks": 3,
+      "chars": 2399,
+      "note": "ok"
+    },
+    {
+      "page": 78,
+      "section": "system_card",
+      "text_chunks": 3,
+      "chars": 1824,
+      "note": "ok"
+    },
+    {
+      "page": 79,
+      "section": "system_card",
+      "text_chunks": 1,
+      "chars": 8,
+      "note": "Divider / low-text page (System Card cover or raster-only chart)"
+    },
+    {
+      "page": 80,
+      "section": "system_card",
+      "text_chunks": 7,
+      "chars": 6030,
+      "note": "ok"
+    },
+    {
+      "page": 81,
+      "section": "system_card",
+      "text_chunks": 1,
+      "chars": 299,
+      "note": "ok"
+    },
+    {
+      "page": 82,
+      "section": "system_card",
+      "text_chunks": 5,
+      "chars": 4740,
+      "note": "ok"
+    },
+    {
+      "page": 83,
+      "section": "system_card",
+      "text_chunks": 3,
+      "chars": 3969,
+      "note": "ok"
+    },
+    {
+      "page": 84,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 3234,
+      "note": "ok"
+    },
+    {
+      "page": 85,
+      "section": "system_card",
+      "text_chunks": 3,
+      "chars": 3971,
+      "note": "ok"
+    },
+    {
+      "page": 86,
+      "section": "system_card",
+      "text_chunks": 3,
+      "chars": 2195,
+      "note": "ok"
+    },
+    {
+      "page": 87,
+      "section": "system_card",
+      "text_chunks": 3,
+      "chars": 2779,
+      "note": "ok"
+    },
+    {
+      "page": 88,
+      "section": "system_card",
+      "text_chunks": 2,
+      "chars": 1721,
+      "note": "ok"
+    },
+    {
+      "page": 89,
+      "section": "system_card",
+      "text_chunks": 2,
+      "chars": 1339,
+      "note": "ok"
+    },
+    {
+      "page": 90,
+      "section": "system_card",
+      "text_chunks": 3,
+      "chars": 2797,
+      "note": "ok"
+    },
+    {
+      "page": 91,
+      "section": "system_card",
+      "text_chunks": 2,
+      "chars": 1972,
+      "note": "ok"
+    },
+    {
+      "page": 92,
+      "section": "system_card",
+      "text_chunks": 1,
+      "chars": 534,
+      "note": "ok"
+    },
+    {
+      "page": 93,
+      "section": "system_card",
+      "text_chunks": 2,
+      "chars": 1770,
+      "note": "ok"
+    },
+    {
+      "page": 94,
+      "section": "system_card",
+      "text_chunks": 2,
+      "chars": 1684,
+      "note": "ok"
+    },
+    {
+      "page": 95,
+      "section": "system_card",
+      "text_chunks": 2,
+      "chars": 1319,
+      "note": "ok"
+    },
+    {
+      "page": 96,
+      "section": "system_card",
+      "text_chunks": 2,
+      "chars": 1704,
+      "note": "ok"
+    },
+    {
+      "page": 97,
+      "section": "system_card",
+      "text_chunks": 1,
+      "chars": 841,
+      "note": "ok"
+    },
+    {
+      "page": 98,
+      "section": "system_card",
+      "text_chunks": 1,
+      "chars": 78,
+      "note": "Divider / low-text page (System Card cover or raster-only chart)"
+    },
+    {
+      "page": 99,
+      "section": "system_card",
+      "text_chunks": 4,
+      "chars": 3039,
+      "note": "ok"
+    },
+    {
+      "page": 100,
+      "section": "system_card",
+      "text_chunks": 2,
+      "chars": 1792,
+      "note": "ok"
+    }
+  ]
+}

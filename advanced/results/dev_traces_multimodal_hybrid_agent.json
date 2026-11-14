@@ -1,0 +1,1549 @@
+[
+  {
+    "id": "adv_dev_t01",
+    "split": "dev",
+    "question": "In Table 1, what score and estimated percentile did GPT-4 (with vision) achieve on the Uniform Bar Exam (MBE+MEE+MPT), and by how many points did it exceed GPT-3.5?",
+    "config": "multimodal_hybrid_agent",
+    "model": "openai/gpt-4o-mini",
+    "status": "answered",
+    "answer": "GPT-4 (with vision) achieved a score of 298 out of 400 on the Uniform Bar Exam, corresponding to an estimated percentile of approximately 90th. This score exceeds GPT-3.5's score of 213 by 85 points [5]. [gpt4_p005_tab01_table]",
+    "citations": [
+      "gpt4_p005_tab01_table"
+    ],
+    "reason": "",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p032_tab11_table",
+        "page": 32,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p005_tab01_table",
+        "page": 5,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p007_tab02_table",
+        "page": 7,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p013_tab06_tab07",
+        "page": 13,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p030_tab09_table",
+        "page": 30,
+        "modality": "table"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "keyword_search",
+        "args": {
+          "query": "Table 1",
+          "modality": "table"
+        },
+        "returned_ids": [
+          "gpt4_p032_tab11_table",
+          "gpt4_p005_tab01_table",
+          "gpt4_p007_tab02_table",
+          "gpt4_p013_tab06_tab07",
+          "gpt4_p030_tab09_table"
+        ]
+      }
+    ],
+    "tool_calls_count": 1,
+    "llm_calls_count": 2,
+    "prompt_tokens": 4322,
+    "completion_tokens": 149,
+    "embed_tokens": 0,
+    "cost_usd": 0.0006609,
+    "latency_ms": 4434.75
+  },
+  {
+    "id": "adv_dev_t02",
+    "split": "dev",
+    "question": "According to Table 2, on which single academic benchmark did external benchmark-specific tuned SOTA still outperform GPT-4, and what were their exact F1 scores?",
+    "config": "multimodal_hybrid_agent",
+    "model": "openai/gpt-4o-mini",
+    "status": "answered",
+    "answer": "On the DROP benchmark, the external benchmark-specific tuned SOTA outperformed GPT-4, scoring 88.4 F1 compared to GPT-4's score of 80.9. This indicates that the tuned model achieved a significantly higher performance in reading comprehension and arithmetic tasks [gpt4_p007_tab02_table].",
+    "citations": [
+      "gpt4_p007_tab02_table"
+    ],
+    "reason": "",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p005_tab01_table",
+        "page": 5,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p030_tab09_table",
+        "page": 30,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p031_tab10_table",
+        "page": 31,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p007_tab02_table",
+        "page": 7,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p013_tab06_tab07",
+        "page": 13,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p007_text_01",
+        "page": 7,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p007_text_00",
+        "page": 7,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p006_text_02",
+        "page": 6,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p001_text_02",
+        "page": 1,
+        "modality": "text"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "keyword_search",
+        "args": {
+          "query": "Table 2",
+          "modality": "table"
+        },
+        "returned_ids": [
+          "gpt4_p005_tab01_table",
+          "gpt4_p030_tab09_table",
+          "gpt4_p031_tab10_table",
+          "gpt4_p007_tab02_table",
+          "gpt4_p013_tab06_tab07"
+        ]
+      },
+      {
+        "step": 2,
+        "tool": "keyword_search",
+        "args": {
+          "query": "Table 2",
+          "modality": "table"
+        },
+        "returned_ids": [
+          "gpt4_p005_tab01_table",
+          "gpt4_p030_tab09_table",
+          "gpt4_p031_tab10_table",
+          "gpt4_p007_tab02_table",
+          "gpt4_p013_tab06_tab07"
+        ]
+      },
+      {
+        "step": 3,
+        "tool": "keyword_search",
+        "args": {
+          "query": "external benchmark-specific tuned SOTA",
+          "modality": "all"
+        },
+        "returned_ids": [
+          "gpt4_p007_tab02_table",
+          "gpt4_p007_text_01",
+          "gpt4_p007_text_00",
+          "gpt4_p006_text_02",
+          "gpt4_p001_text_02"
+        ]
+      }
+    ],
+    "tool_calls_count": 3,
+    "llm_calls_count": 4,
+    "prompt_tokens": 13569,
+    "completion_tokens": 194,
+    "embed_tokens": 0,
+    "cost_usd": 0.00189255,
+    "latency_ms": 6889.81
+  },
+  {
+    "id": "adv_dev_t03",
+    "split": "dev",
+    "question": "In Table 8, what is the overall average score across multiple-choice exam benchmarks for the GPT-4 base model compared to the post-RLHF GPT-4 model?",
+    "config": "multimodal_hybrid_agent",
+    "model": "openai/gpt-4o-mini",
+    "status": "answered",
+    "answer": "The overall average score across multiple-choice exam benchmarks for the GPT-4 base model is 73.7%, while the post-RLHF GPT-4 model achieves an average score of 74.0% [gpt4_p028_tab08_table].",
+    "citations": [
+      "gpt4_p028_tab08_table"
+    ],
+    "reason": "",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p028_tab08_table",
+        "page": 28,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p007_tab02_table",
+        "page": 7,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p032_tab11_table",
+        "page": 32,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p031_tab10_table",
+        "page": 31,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p005_tab01_table",
+        "page": 5,
+        "modality": "table"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "multimodal_hybrid_search",
+        "args": {
+          "query": "Table 8 overall average score multiple-choice exam benchmarks GPT-4 base model post-RLHF GPT-4 model",
+          "modality": "table"
+        },
+        "returned_ids": [
+          "gpt4_p028_tab08_table",
+          "gpt4_p007_tab02_table",
+          "gpt4_p032_tab11_table",
+          "gpt4_p031_tab10_table",
+          "gpt4_p005_tab01_table"
+        ]
+      }
+    ],
+    "tool_calls_count": 1,
+    "llm_calls_count": 2,
+    "prompt_tokens": 5068,
+    "completion_tokens": 174,
+    "embed_tokens": 25,
+    "cost_usd": 0.0007883,
+    "latency_ms": 6477.78
+  },
+  {
+    "id": "adv_dev_i01",
+    "split": "dev",
+    "question": "In Table 3's three-panel visual input example, what connector is shown plugged into the smartphone, how many pins does it have, and what makes the adapter humorous?",
+    "config": "multimodal_hybrid_agent",
+    "model": "openai/gpt-4o-mini",
+    "status": "answered",
+    "answer": "In Table 3's visual input example, a blue 15-pin VGA connector is shown plugged into a smartphone. The humor comes from the absurdity of using a large, outdated VGA connector with a modern smartphone's small Lightning port, highlighting the contrast between old and new technology [gpt4_p009_img01_adapter].",
+    "citations": [
+      "gpt4_p009_img01_adapter"
+    ],
+    "reason": "",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p009_img01_adapter",
+        "page": 9,
+        "modality": "image_diagram"
+      },
+      {
+        "id": "gpt4_p009_text_00",
+        "page": 9,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p039_img_comic",
+        "page": 39,
+        "modality": "image_diagram"
+      },
+      {
+        "id": "gpt4_p031_tab10_table",
+        "page": 31,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p007_tab02_table",
+        "page": 7,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p037_text_02",
+        "page": 37,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p099_text_03",
+        "page": 99,
+        "modality": "text"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "multimodal_hybrid_search",
+        "args": {
+          "query": "Table 3 three-panel visual input example connector smartphone pins humorous",
+          "sub_queries": [
+            "Table 3",
+            "three-panel visual input example",
+            "connector smartphone",
+            "pins",
+            "humorous adapter"
+          ],
+          "modality": "all"
+        },
+        "returned_ids": [
+          "gpt4_p009_img01_adapter",
+          "gpt4_p009_text_00",
+          "gpt4_p039_img_comic",
+          "gpt4_p031_tab10_table",
+          "gpt4_p007_tab02_table",
+          "gpt4_p037_text_02",
+          "gpt4_p099_text_03"
+        ]
+      }
+    ],
+    "tool_calls_count": 1,
+    "llm_calls_count": 2,
+    "prompt_tokens": 3366,
+    "completion_tokens": 179,
+    "embed_tokens": 10,
+    "cost_usd": 0.0006125,
+    "latency_ms": 9954.41
+  },
+  {
+    "id": "adv_dev_i02",
+    "split": "dev",
+    "question": "What unusual scene is photographed in Table 16 ('Extreme Ironing') on page 36?",
+    "config": "multimodal_hybrid_agent",
+    "model": "openai/gpt-4o-mini",
+    "status": "answered",
+    "answer": "The unusual scene photographed in Table 16 ('Extreme Ironing') shows a man in a bright yellow shirt ironing a blue garment on a folding ironing board attached to the back of a yellow NYC taxi. This striking image captures the man balancing on the taxi while another blurred yellow cab passes by, highlighting the absurdity of ironing in such a setting [gpt4_p036_img_ironing]. [gpt4_p036_text_00]",
+    "citations": [
+      "gpt4_p036_img_ironing",
+      "gpt4_p036_text_00"
+    ],
+    "reason": "",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p036_img_ironing",
+        "page": 36,
+        "modality": "image_diagram"
+      },
+      {
+        "id": "gpt4_p036_text_00",
+        "page": 36,
+        "modality": "text"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "get_page_context",
+        "args": {
+          "page": 36
+        },
+        "returned_ids": [
+          "gpt4_p036_img_ironing",
+          "gpt4_p036_text_00"
+        ]
+      }
+    ],
+    "tool_calls_count": 1,
+    "llm_calls_count": 2,
+    "prompt_tokens": 2507,
+    "completion_tokens": 157,
+    "embed_tokens": 0,
+    "cost_usd": 0.00047025,
+    "latency_ms": 4965.3
+  },
+  {
+    "id": "adv_dev_i03",
+    "split": "dev",
+    "question": "In Table 18 ('Chicken Nugget Map'), what expectation does the meme's caption text set up, and what is actually depicted in the photograph below it?",
+    "config": "multimodal_hybrid_agent",
+    "model": "openai/gpt-4o-mini",
+    "status": "answered",
+    "answer": "The meme's caption sets up the expectation of a beautiful image of Earth from space. However, the photograph actually depicts chicken nuggets arranged to resemble a world map, creating humor through the unexpected contrast between the caption and the image [gpt4_p038_text_00].",
+    "citations": [
+      "gpt4_p038_text_00"
+    ],
+    "reason": "",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p007_tab02_table",
+        "page": 7,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p011_tab04_table",
+        "page": 11,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p013_tab06_tab07",
+        "page": 13,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p032_tab11_table",
+        "page": 32,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p028_tab08_table",
+        "page": 28,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p018_text_00",
+        "page": 18,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p018_text_01",
+        "page": 18,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p018_text_02",
+        "page": 18,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p018_text_03",
+        "page": 18,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p038_text_00",
+        "page": 38,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p029_text_03",
+        "page": 29,
+        "modality": "text"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "keyword_search",
+        "args": {
+          "query": "Table 18 Chicken Nugget Map",
+          "modality": "table"
+        },
+        "returned_ids": [
+          "gpt4_p007_tab02_table",
+          "gpt4_p011_tab04_table",
+          "gpt4_p013_tab06_tab07",
+          "gpt4_p032_tab11_table",
+          "gpt4_p028_tab08_table"
+        ]
+      },
+      {
+        "step": 2,
+        "tool": "get_page_context",
+        "args": {
+          "page": 18
+        },
+        "returned_ids": [
+          "gpt4_p018_text_00",
+          "gpt4_p018_text_01",
+          "gpt4_p018_text_02",
+          "gpt4_p018_text_03"
+        ]
+      },
+      {
+        "step": 3,
+        "tool": "keyword_search",
+        "args": {
+          "query": "Chicken Nugget Map",
+          "modality": "text"
+        },
+        "returned_ids": [
+          "gpt4_p038_text_00",
+          "gpt4_p029_text_03"
+        ]
+      }
+    ],
+    "tool_calls_count": 3,
+    "llm_calls_count": 3,
+    "prompt_tokens": 9498,
+    "completion_tokens": 179,
+    "embed_tokens": 0,
+    "cost_usd": 0.0011577,
+    "latency_ms": 5824.87
+  },
+  {
+    "id": "adv_dev_c01",
+    "split": "dev",
+    "question": "In Figure 3 ('Inverse scaling prize, hindsight neglect'), what accuracy pattern appears from ada through gpt-3.5, and how does gpt-4 break it?",
+    "config": "multimodal_hybrid_agent",
+    "model": "openai/gpt-4o-mini",
+    "status": "answered",
+    "answer": "In Figure 3, ada shows ~42% accuracy, babbage ~34%, curie ~18%, and gpt-3.5 ~16%, indicating an inverse scaling trend where performance decreases with model size. However, gpt-4 breaks this trend, achieving a sharp increase in accuracy to ~97%-100% [gpt4_p004_fig03_chart]. [gpt4_p004_text_01]",
+    "citations": [
+      "gpt4_p004_fig03_chart",
+      "gpt4_p004_text_01"
+    ],
+    "reason": "",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p004_fig03_chart",
+        "page": 4,
+        "modality": "chart"
+      },
+      {
+        "id": "gpt4_p004_text_01",
+        "page": 4,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p020_text_03",
+        "page": 20,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p065_text_00",
+        "page": 65,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p065_sc_fig08_chart",
+        "page": 65,
+        "modality": "chart"
+      },
+      {
+        "id": "gpt4_p011_fig07_chart",
+        "page": 11,
+        "modality": "chart"
+      },
+      {
+        "id": "gpt4_p011_tab04_table",
+        "page": 11,
+        "modality": "table"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "multimodal_hybrid_search",
+        "args": {
+          "query": "Figure 3 Inverse scaling prize hindsight neglect",
+          "sub_queries": [
+            "accuracy pattern ada gpt-3.5",
+            "gpt-4 break accuracy pattern"
+          ],
+          "modality": "all"
+        },
+        "returned_ids": [
+          "gpt4_p004_fig03_chart",
+          "gpt4_p004_text_01",
+          "gpt4_p020_text_03",
+          "gpt4_p065_text_00",
+          "gpt4_p065_sc_fig08_chart",
+          "gpt4_p011_fig07_chart",
+          "gpt4_p011_tab04_table"
+        ]
+      }
+    ],
+    "tool_calls_count": 1,
+    "llm_calls_count": 2,
+    "prompt_tokens": 4379,
+    "completion_tokens": 208,
+    "embed_tokens": 0,
+    "cost_usd": 0.00070485,
+    "latency_ms": 4650.01
+  },
+  {
+    "id": "adv_dev_c02",
+    "split": "dev",
+    "question": "How many evaluation categories appear on the x-axis of Figure 6 ('Internal factual eval by category'), and by how many percentage points does GPT-4 improve over the latest GPT-3.5 model overall?",
+    "config": "multimodal_hybrid_agent",
+    "model": "openai/gpt-4o-mini",
+    "status": "answered",
+    "answer": "Figure 6 ('Internal factual eval by category') displays 9 evaluation categories on the x-axis: learning, technology, writing, history, math, science, recommendation, code, and business. GPT-4 improves over the latest GPT-3.5 model by 19 percentage points overall in internal factual evaluations [gpt4_p010_fig06_chart, gpt4_p010_text_01]. [gpt4_p010_fig06_chart, gpt4_p010_text_01]",
+    "citations": [
+      "gpt4_p010_fig06_chart",
+      "gpt4_p010_text_01"
+    ],
+    "reason": "",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p010_fig06_chart",
+        "page": 10,
+        "modality": "chart"
+      },
+      {
+        "id": "gpt4_p010_text_00",
+        "page": 10,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p010_text_01",
+        "page": 10,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p046_text_02",
+        "page": 46,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p002_text_03",
+        "page": 2,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p064_text_00",
+        "page": 64,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p007_text_02",
+        "page": 7,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p011_text_01",
+        "page": 11,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p054_text_01",
+        "page": 54,
+        "modality": "text"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "keyword_search",
+        "args": {
+          "query": "Figure 6 Internal factual eval by category",
+          "modality": "all"
+        },
+        "returned_ids": [
+          "gpt4_p010_fig06_chart",
+          "gpt4_p010_text_00",
+          "gpt4_p010_text_01",
+          "gpt4_p046_text_02",
+          "gpt4_p002_text_03"
+        ]
+      },
+      {
+        "step": 2,
+        "tool": "keyword_search",
+        "args": {
+          "query": "GPT-4 improvement over GPT-3.5",
+          "modality": "all"
+        },
+        "returned_ids": [
+          "gpt4_p064_text_00",
+          "gpt4_p007_text_02",
+          "gpt4_p011_text_01",
+          "gpt4_p054_text_01",
+          "gpt4_p010_text_01"
+        ]
+      }
+    ],
+    "tool_calls_count": 2,
+    "llm_calls_count": 2,
+    "prompt_tokens": 4985,
+    "completion_tokens": 216,
+    "embed_tokens": 0,
+    "cost_usd": 0.00080055,
+    "latency_ms": 4754.52
+  },
+  {
+    "id": "adv_dev_c03",
+    "split": "dev",
+    "question": "In System Card Figure 11 (pairwise Instruction Following matrix on page 98), what are GPT-4 RLHF's exact win rates against GPT-3.5 Turbo RLHF and GPT-3.5 RLHF?",
+    "config": "multimodal_hybrid_agent",
+    "model": "openai/gpt-4o-mini",
+    "status": "answered",
+    "answer": "In System Card Figure 11, GPT-4 RLHF has a win rate of **61.1%** against GPT-3.5 Turbo RLHF and **70.2%** against GPT-3.5 RLHF [gpt4_p098_sc_fig11_chart].",
+    "citations": [
+      "gpt4_p098_sc_fig11_chart"
+    ],
+    "reason": "",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p098_sc_fig11_chart",
+        "page": 98,
+        "modality": "chart"
+      },
+      {
+        "id": "gpt4_p098_text_00",
+        "page": 98,
+        "modality": "text"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "get_page_context",
+        "args": {
+          "page": 98
+        },
+        "returned_ids": [
+          "gpt4_p098_sc_fig11_chart",
+          "gpt4_p098_text_00"
+        ]
+      }
+    ],
+    "tool_calls_count": 1,
+    "llm_calls_count": 2,
+    "prompt_tokens": 2637,
+    "completion_tokens": 152,
+    "embed_tokens": 0,
+    "cost_usd": 0.00040995,
+    "latency_ms": 5524.5
+  },
+  {
+    "id": "adv_dev_m01",
+    "split": "dev",
+    "question": "Combining Table 1 (page 5) and Table 9 (page 30), what is GPT-4's LSAT contamination percentage, and how does its full-exam LSAT score compare to its non-contaminated LSAT score?",
+    "config": "multimodal_hybrid_agent",
+    "model": "openai/gpt-4o-mini",
+    "status": "answered",
+    "answer": "GPT-4's LSAT contamination percentage is 39%. The full-exam LSAT score is 163 (~88th percentile), while the non-contaminated LSAT score is 169 (~97th percentile), indicating a notable difference due to contamination [gpt4_p030_tab09_table][gpt4_p005_tab01_table].",
+    "citations": [
+      "gpt4_p030_tab09_table",
+      "gpt4_p005_tab01_table"
+    ],
+    "reason": "",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p005_tab01_table",
+        "page": 5,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p005_text_00",
+        "page": 5,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p005_text_01",
+        "page": 5,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p005_text_02",
+        "page": 5,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p030_tab09_table",
+        "page": 30,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p030_text_00",
+        "page": 30,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p030_text_01",
+        "page": 30,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p030_text_02",
+        "page": 30,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p030_text_03",
+        "page": 30,
+        "modality": "text"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "get_page_context",
+        "args": {
+          "page": 5
+        },
+        "returned_ids": [
+          "gpt4_p005_tab01_table",
+          "gpt4_p005_text_00",
+          "gpt4_p005_text_01",
+          "gpt4_p005_text_02"
+        ]
+      },
+      {
+        "step": 2,
+        "tool": "get_page_context",
+        "args": {
+          "page": 30
+        },
+        "returned_ids": [
+          "gpt4_p030_tab09_table",
+          "gpt4_p030_text_00",
+          "gpt4_p030_text_01",
+          "gpt4_p030_text_02",
+          "gpt4_p030_text_03"
+        ]
+      }
+    ],
+    "tool_calls_count": 2,
+    "llm_calls_count": 2,
+    "prompt_tokens": 9115,
+    "completion_tokens": 232,
+    "embed_tokens": 0,
+    "cost_usd": 0.00150645,
+    "latency_ms": 6325.66
+  },
+  {
+    "id": "adv_dev_m02",
+    "split": "dev",
+    "question": "Using Table 2 (page 7) and Table 11 (page 32) together, report GPT-4's 0-shot HumanEval score, its pretraining contamination percentage, non-contaminated score, and measured degradation.",
+    "config": "multimodal_hybrid_agent",
+    "model": "openai/gpt-4o-mini",
+    "status": "answered",
+    "answer": "GPT-4 achieved a 0-shot HumanEval score of 67.0% with a pretraining contamination percentage of 25%. Its non-contaminated score is 65.58%, indicating a measured degradation of -2.12% [chunk_id: gpt4_p032_tab11_table]. [gpt4_p007_tab02_table, gpt4_p032_tab11_table]",
+    "citations": [
+      "gpt4_p007_tab02_table",
+      "gpt4_p032_tab11_table"
+    ],
+    "reason": "",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p007_tab02_table",
+        "page": 7,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p007_text_00",
+        "page": 7,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p007_text_01",
+        "page": 7,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p007_text_02",
+        "page": 7,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p007_text_03",
+        "page": 7,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p032_tab11_table",
+        "page": 32,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p032_text_00",
+        "page": 32,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p032_text_01",
+        "page": 32,
+        "modality": "text"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "get_page_context",
+        "args": {
+          "page": 7
+        },
+        "returned_ids": [
+          "gpt4_p007_tab02_table",
+          "gpt4_p007_text_00",
+          "gpt4_p007_text_01",
+          "gpt4_p007_text_02",
+          "gpt4_p007_text_03"
+        ]
+      },
+      {
+        "step": 2,
+        "tool": "get_page_context",
+        "args": {
+          "page": 32
+        },
+        "returned_ids": [
+          "gpt4_p032_tab11_table",
+          "gpt4_p032_text_00",
+          "gpt4_p032_text_01"
+        ]
+      }
+    ],
+    "tool_calls_count": 2,
+    "llm_calls_count": 2,
+    "prompt_tokens": 6182,
+    "completion_tokens": 203,
+    "embed_tokens": 0,
+    "cost_usd": 0.0010491,
+    "latency_ms": 5754.5
+  },
+  {
+    "id": "adv_dev_m03",
+    "split": "dev",
+    "question": "Contrast RLHF's effect on MMLU Expected Calibration Error (Figure 8, page 12) versus its effect on average MCQ exam benchmark accuracy (Table 8, page 28).",
+    "config": "multimodal_hybrid_agent",
+    "model": "openai/gpt-4o-mini",
+    "status": "answered",
+    "answer": "RLHF significantly worsens the Expected Calibration Error (ECE) on MMLU, increasing it from 0.007 to 0.074, indicating poorer calibration post-training [chunk_id: gpt4_p012_fig08_chart]. In contrast, the average accuracy on MCQ exams shows a slight improvement from 73.7% for the base model to 74.0% for the RLHF model, suggesting minimal impact on overall performance [chunk_id: gpt4_p028_tab08_table]. [gpt4_p012_fig08_chart, gpt4_p028_tab08_table]",
+    "citations": [
+      "gpt4_p012_fig08_chart",
+      "gpt4_p028_tab08_table"
+    ],
+    "reason": "",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p012_fig08_chart",
+        "page": 12,
+        "modality": "chart"
+      },
+      {
+        "id": "gpt4_p012_text_00",
+        "page": 12,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p012_text_01",
+        "page": 12,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p012_text_02",
+        "page": 12,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p012_text_03",
+        "page": 12,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p028_tab08_table",
+        "page": 28,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p028_text_00",
+        "page": 28,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p028_text_01",
+        "page": 28,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p028_text_02",
+        "page": 28,
+        "modality": "text"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "get_page_context",
+        "args": {
+          "page": 12
+        },
+        "returned_ids": [
+          "gpt4_p012_fig08_chart",
+          "gpt4_p012_text_00",
+          "gpt4_p012_text_01",
+          "gpt4_p012_text_02",
+          "gpt4_p012_text_03"
+        ]
+      },
+      {
+        "step": 2,
+        "tool": "get_page_context",
+        "args": {
+          "page": 28
+        },
+        "returned_ids": [
+          "gpt4_p028_tab08_table",
+          "gpt4_p028_text_00",
+          "gpt4_p028_text_01",
+          "gpt4_p028_text_02"
+        ]
+      }
+    ],
+    "tool_calls_count": 2,
+    "llm_calls_count": 2,
+    "prompt_tokens": 5873,
+    "completion_tokens": 241,
+    "embed_tokens": 0,
+    "cost_usd": 0.00094875,
+    "latency_ms": 5501.22
+  },
+  {
+    "id": "adv_dev_x01",
+    "split": "dev",
+    "question": "In Section 5 (Limitations, page 10), why is GPT-4 not yet fully reliable, and what exact usage protocols does the report recommend for high-stakes contexts?",
+    "config": "multimodal_hybrid_agent",
+    "model": "openai/gpt-4o-mini",
+    "status": "answered",
+    "answer": "GPT-4 is not fully reliable due to its tendency to \"hallucinate\" facts and make reasoning errors. For high-stakes contexts, the report recommends protocols such as human review, grounding outputs with additional context, or avoiding high-stakes uses altogether to ensure safety and accuracy [gpt4_p010_text_00].",
+    "citations": [
+      "gpt4_p010_text_00"
+    ],
+    "reason": "",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p010_fig06_chart",
+        "page": 10,
+        "modality": "chart"
+      },
+      {
+        "id": "gpt4_p010_text_00",
+        "page": 10,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p010_text_01",
+        "page": 10,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p010_text_02",
+        "page": 10,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p048_text_03",
+        "page": 48,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p002_text_00",
+        "page": 2,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p001_text_03",
+        "page": 1,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p053_text_03",
+        "page": 53,
+        "modality": "text"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "get_page_context",
+        "args": {
+          "page": 10
+        },
+        "returned_ids": [
+          "gpt4_p010_fig06_chart",
+          "gpt4_p010_text_00",
+          "gpt4_p010_text_01",
+          "gpt4_p010_text_02"
+        ]
+      },
+      {
+        "step": 2,
+        "tool": "keyword_search",
+        "args": {
+          "query": "limitations",
+          "modality": "text"
+        },
+        "returned_ids": [
+          "gpt4_p048_text_03",
+          "gpt4_p002_text_00",
+          "gpt4_p010_text_00",
+          "gpt4_p001_text_03",
+          "gpt4_p053_text_03"
+        ]
+      }
+    ],
+    "tool_calls_count": 2,
+    "llm_calls_count": 2,
+    "prompt_tokens": 4234,
+    "completion_tokens": 174,
+    "embed_tokens": 0,
+    "cost_usd": 0.0006627,
+    "latency_ms": 4394.76
+  },
+  {
+    "id": "adv_dev_x02",
+    "split": "dev",
+    "question": "In Appendix C (page 29), what exact 50-character substring-matching rule defines whether an evaluation example is contaminated by GPT-4's training data?",
+    "config": "multimodal_hybrid_agent",
+    "model": "openai/gpt-4o-mini",
+    "status": "answered",
+    "answer": "An evaluation example is considered contaminated if any of three randomly selected 50-character substrings matches a substring from the processed training example. This method focuses on partial information, excluding answers and responses, which may lead to false positives or negatives [gpt4_p029_text_00].",
+    "citations": [
+      "gpt4_p029_text_00"
+    ],
+    "reason": "",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p029_text_00",
+        "page": 29,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p029_text_01",
+        "page": 29,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p029_text_02",
+        "page": 29,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p029_text_03",
+        "page": 29,
+        "modality": "text"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "get_page_context",
+        "args": {
+          "page": 29
+        },
+        "returned_ids": [
+          "gpt4_p029_text_00",
+          "gpt4_p029_text_01",
+          "gpt4_p029_text_02",
+          "gpt4_p029_text_03"
+        ]
+      }
+    ],
+    "tool_calls_count": 1,
+    "llm_calls_count": 2,
+    "prompt_tokens": 2991,
+    "completion_tokens": 118,
+    "embed_tokens": 0,
+    "cost_usd": 0.00044265,
+    "latency_ms": 3896.71
+  },
+  {
+    "id": "adv_dev_x03",
+    "split": "dev",
+    "question": "What did ARC conclude on System Card page 56 after testing versions of GPT-4 on the autonomous replication task (without task-specific fine-tuning)?",
+    "config": "multimodal_hybrid_agent",
+    "model": "openai/gpt-4o-mini",
+    "status": "answered",
+    "answer": "ARC found that the evaluated versions of GPT-4 were ineffective at the autonomous replication task based on preliminary experiments without task-specific fine-tuning. They noted that fine-tuning could significantly impact performance and indicated that further experiments with the final deployed model and their own fine-tuning are necessary for a reliable assessment of GPT-4's risky emergent capabilities [gpt4_p056_text_00].",
+    "citations": [
+      "gpt4_p056_text_00"
+    ],
+    "reason": "",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p056_text_00",
+        "page": 56,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p056_text_01",
+        "page": 56,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p056_text_02",
+        "page": 56,
+        "modality": "text"
+      },
+      {
+        "id": "gpt4_p056_text_03",
+        "page": 56,
+        "modality": "text"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "get_page_context",
+        "args": {
+          "page": 56
+        },
+        "returned_ids": [
+          "gpt4_p056_text_00",
+          "gpt4_p056_text_01",
+          "gpt4_p056_text_02",
+          "gpt4_p056_text_03"
+        ]
+      }
+    ],
+    "tool_calls_count": 1,
+    "llm_calls_count": 2,
+    "prompt_tokens": 2922,
+    "completion_tokens": 155,
+    "embed_tokens": 0,
+    "cost_usd": 0.0004545,
+    "latency_ms": 4311.71
+  },
+  {
+    "id": "adv_dev_u01",
+    "split": "dev",
+    "question": "How many total parameters (in trillions), transformer layers, and attention heads does GPT-4 use according to Section 2 of the report?",
+    "config": "multimodal_hybrid_agent",
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này.",
+    "citations": [],
+    "evidence_check": "",
+    "reason": "",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p039_img_comic",
+        "page": 39,
+        "modality": "image_diagram",
+        "crop_path": "advanced/crops/gpt4_p039_img_comic.png",
+        "bbox": [
+          110,
+          95,
+          505,
+          675
+        ]
+      },
+      {
+        "id": "gpt4_p002_text_01",
+        "page": 2,
+        "modality": "text",
+        "crop_path": null,
+        "bbox": [
+          107.5,
+          208.1,
+          505.2,
+          361.8
+        ]
+      },
+      {
+        "id": "gpt4_p001_text_00",
+        "page": 1,
+        "modality": "text",
+        "crop_path": null,
+        "bbox": [
+          10.9,
+          99.8,
+          469.8,
+          555.0
+        ]
+      },
+      {
+        "id": "gpt4_p001_text_03",
+        "page": 1,
+        "modality": "text",
+        "crop_path": null,
+        "bbox": [
+          108.0,
+          674.0,
+          504.4,
+          722.1
+        ]
+      },
+      {
+        "id": "gpt4_p002_text_00",
+        "page": 2,
+        "modality": "text",
+        "crop_path": null,
+        "bbox": [
+          107.6,
+          74.3,
+          505.7,
+          195.3
+        ]
+      },
+      {
+        "id": "gpt4_p082_text_04",
+        "page": 82,
+        "modality": "text",
+        "crop_path": null,
+        "bbox": [
+          76.8,
+          579.5,
+          547.3,
+          667.0
+        ]
+      },
+      {
+        "id": "gpt4_p007_text_01",
+        "page": 7,
+        "modality": "text",
+        "crop_path": null,
+        "bbox": [
+          122.6,
+          353.3,
+          490.2,
+          450.0
+        ]
+      },
+      {
+        "id": "gpt4_p005_text_02",
+        "page": 5,
+        "modality": "text",
+        "crop_path": null,
+        "bbox": [
+          122.6,
+          623.9,
+          505.5,
+          685.2
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "multimodal_hybrid_search",
+        "args": {
+          "query": "How many total parameters (in trillions), transformer layers, and attention heads does GPT-4 use according to Section 2 of the report?",
+          "modality": "all",
+          "top_k": 5
+        },
+        "returned_ids": [
+          "gpt4_p002_text_01",
+          "gpt4_p001_text_00",
+          "gpt4_p001_text_03",
+          "gpt4_p002_text_00",
+          "gpt4_p082_text_04"
+        ]
+      },
+      {
+        "step": 2,
+        "tool": "keyword_search",
+        "args": {
+          "query": "How many total parameters (in trillions), transformer layers, and attention heads does GPT-4 use according to Section 2 of the report?",
+          "modality": "all",
+          "top_k": 5
+        },
+        "returned_ids": [
+          "gpt4_p082_text_04",
+          "gpt4_p002_text_01",
+          "gpt4_p039_img_comic",
+          "gpt4_p007_text_01",
+          "gpt4_p005_text_02"
+        ]
+      }
+    ],
+    "tool_calls_count": 2,
+    "llm_calls_count": 1,
+    "prompt_tokens": 3019,
+    "completion_tokens": 380,
+    "embed_tokens": 0,
+    "cost_usd": 0.0,
+    "latency_ms": 200288.31
+  },
+  {
+    "id": "adv_dev_u02",
+    "split": "dev",
+    "question": "In Table 14's daily meat consumption chart (page 34), what were the exact 1997 grams-per-day figures for Brazil and Vietnam?",
+    "config": "multimodal_hybrid_agent",
+    "model": "openai/gpt-4o-mini",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này.",
+    "citations": [],
+    "reason": "The specific grams-per-day figures for Brazil and Vietnam in 1997 were not present in the retrieved chart or text.",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p034_chart_meat",
+        "page": 34,
+        "modality": "chart"
+      },
+      {
+        "id": "gpt4_p034_text_00",
+        "page": 34,
+        "modality": "text"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "get_page_context",
+        "args": {
+          "page": 34
+        },
+        "returned_ids": [
+          "gpt4_p034_chart_meat",
+          "gpt4_p034_text_00"
+        ]
+      },
+      {
+        "step": 2,
+        "tool": "keyword_search",
+        "args": {
+          "query": "1997 daily meat consumption Brazil Vietnam",
+          "modality": "chart"
+        },
+        "returned_ids": [
+          "gpt4_p034_chart_meat"
+        ]
+      },
+      {
+        "step": 3,
+        "tool": "get_page_context",
+        "args": {
+          "page": 34
+        },
+        "returned_ids": [
+          "gpt4_p034_chart_meat",
+          "gpt4_p034_text_00"
+        ]
+      }
+    ],
+    "tool_calls_count": 3,
+    "llm_calls_count": 4,
+    "prompt_tokens": 8246,
+    "completion_tokens": 143,
+    "embed_tokens": 0,
+    "cost_usd": 0.0011883,
+    "latency_ms": 6316.72
+  },
+  {
+    "id": "adv_dev_u03",
+    "split": "dev",
+    "question": "What accuracy did GPT-4 achieve on SWE-bench Verified and GPQA Diamond in Table 2?",
+    "config": "multimodal_hybrid_agent",
+    "model": "google/gemma-4-31b-it:free",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này.",
+    "citations": [],
+    "reason": "Table 2 (chunk gpt4_p007_tab02_table) lists benchmarks such as MMLU, HellaSwag, ARC, WinoGrande, HumanEval, DROP, and GSM-8K, but does not include SWE-bench Verified or GPQA Diamond.",
+    "error": null,
+    "retrieved_chunks": [
+      {
+        "id": "gpt4_p011_tab04_table",
+        "page": 11,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p032_tab11_table",
+        "page": 32,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p033_tab13_table",
+        "page": 33,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p028_tab08_table",
+        "page": 28,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p013_tab06_tab07",
+        "page": 13,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p007_tab02_table",
+        "page": 7,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p031_tab10_table",
+        "page": 31,
+        "modality": "table"
+      },
+      {
+        "id": "gpt4_p005_tab01_table",
+        "page": 5,
+        "modality": "table"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "tool": "keyword_search",
+        "args": {
+          "query": "SWE-bench Verified",
+          "modality": "table"
+        },
+        "returned_ids": [
+          "gpt4_p011_tab04_table",
+          "gpt4_p032_tab11_table",
+          "gpt4_p033_tab13_table",
+          "gpt4_p028_tab08_table",
+          "gpt4_p013_tab06_tab07"
+        ]
+      },
+      {
+        "step": 2,
+        "tool": "keyword_search",
+        "args": {
+          "query": "GPQA Diamond",
+          "modality": "table"
+        },
+        "returned_ids": []
+      },
+      {
+        "step": 3,
+        "tool": "multimodal_hybrid_search",
+        "args": {
+          "query": "Table 2",
+          "sub_queries": [
+            "SWE-bench Verified",
+            "GPQA Diamond"
+          ],
+          "modality": "table"
+        },
+        "returned_ids": [
+          "gpt4_p007_tab02_table",
+          "gpt4_p031_tab10_table",
+          "gpt4_p028_tab08_table",
+          "gpt4_p032_tab11_table",
+          "gpt4_p011_tab04_table",
+          "gpt4_p005_tab01_table"
+        ]
+      }
+    ],
+    "tool_calls_count": 3,
+    "llm_calls_count": 3,
+    "prompt_tokens": 11204,
+    "completion_tokens": 243,
+    "embed_tokens": 8,
+    "cost_usd": 0.00058861,
+    "latency_ms": 15445.2
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      false
+    ],
+    "notes": "Answer covers both ord() and chr() accurately; first citation p02_para_01 supports chr(), while second citation p04_para_00 is an ord('0') MCQ quiz rather than the p02_para_00 ord('P') definition cited in prose."
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 1,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "Both cited chunks (p10_para_02 and p11_para_01) are exact sources, but answer contains contradictory phrasing ('identity and type of the variable change, but only... which object it refers to changes')."
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q16",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "u01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Correctly searched and abstained because topic is outside Ch1,3,4,5."
+  },
+  {
+    "query_id": "u02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Correctly searched and abstained because topic is outside Ch1,3,4,5."
+  },
+  {
+    "query_id": "u03",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Correctly searched and abstained because topic is outside Ch1,3,4,5."
+  }
+]

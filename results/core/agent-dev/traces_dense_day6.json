@@ -1,0 +1,2078 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "answerable": true,
+    "question": "In the print() function, what are the default separator between comma-separated values and the default character added at the end of the output?",
+    "status": "answered",
+    "answer": "In the print() function, the default separator between comma-separated values is a space character, and the default character added at the end of the output is a newline character [openstax-py-ch01_p08_para_00].",
+    "citations": [
+      "openstax-py-ch01_p08_para_00"
+    ],
+    "final_context": "[openstax-py-ch01_p08_para_00 | starter/data/openstax_python_ch01_intro.pdf | page 8]\nMultiple values, separated by commas, can be printed in the same statement. By default, each value is separated by a space character in the output. The sep option can be used to change this behavior.\n\nBy default, the print() function adds a newline character at the end of the output. A newline character tells the display to move to the next line. The end option can be used to continue printing on the same line.\n\nCode Output\nprint(\"Today is Monday.\") print(\"I like string beans.\") Today is Monday. I like string beans. print(\"Today\", \"is\", \"Monday\") print(\"Today\", \"is\", \"Monday\", sep=\"...\")\n\nToday is Monday\nToday...is...Monday print(\"Today is Monday, \", end=\"\") print(\"I like string beans.\")\n\n[openstax-py-ch01_p07_para_02 | starter/data/openstax_python_ch01_intro.pdf | page 7]\nBasic output\nThe print() function displays output to the user. Output is the information or result produced by a program.\n\nThe sep and end options can be used to customize the output. Table 1.1 shows examples of sep and end.\n\nTRY IT\n\n[openstax-py-ch01_p09_para_00 | starter/data/openstax_python_ch01_intro.pdf | page 9]\nprint(\"555\", \"0123\", sep=\"-\")\na. 555 0123\n\nb. 5550123-\n\nc. 555-0123 DO SPACES REALLY MATTER? Spaces and newline characters are not inherently important. However, learning to be precise is an essential skill for programming. Noticing little details, like how words are separated and how lines end, helps new programmers become better.",
+    "final_context_ids": [
+      "openstax-py-ch01_p08_para_00",
+      "openstax-py-ch01_p07_para_02",
+      "openstax-py-ch01_p09_para_00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "print() function default separator and end character",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch01_p08_para_00",
+            "source_id": "openstax-py-ch01",
+            "source": "starter/data/openstax_python_ch01_intro.pdf",
+            "page": 8,
+            "text": "Multiple values, separated by commas, can be printed in the same statement. By default, each value is separated by a space character in the output. The sep option can be used to change this behavior.\n\nBy default, the print() function adds a newline character at the end of the output. A newline character tells the display to move to the next line. The end option can be used to continue printing on the same line.\n\nCode Output\nprint(\"Today is Monday.\") print(\"I like string beans.\") Today is Monday. I like string beans. print(\"Today\", \"is\", \"Monday\") print(\"Today\", \"is\", \"Monday\", sep=\"...\")\n\nToday is Monday\nToday...is...Monday print(\"Today is Monday, \", end=\"\") print(\"I like string beans.\")",
+            "metadata": {
+              "section": "ch01_statements_variables",
+              "chapter": "Chapter 1: Statements",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 696,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.589961862801562,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch01_p07_para_02",
+            "source_id": "openstax-py-ch01",
+            "source": "starter/data/openstax_python_ch01_intro.pdf",
+            "page": 7,
+            "text": "Basic output\nThe print() function displays output to the user. Output is the information or result produced by a program.\n\nThe sep and end options can be used to customize the output. Table 1.1 shows examples of sep and end.\n\nTRY IT",
+            "metadata": {
+              "section": "ch01_statements_variables",
+              "chapter": "Chapter 1: Statements",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 232,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 2
+            },
+            "score": 0.5346465193877816,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch01_p09_para_00",
+            "source_id": "openstax-py-ch01",
+            "source": "starter/data/openstax_python_ch01_intro.pdf",
+            "page": 9,
+            "text": "print(\"555\", \"0123\", sep=\"-\")\na. 555 0123\n\nb. 5550123-\n\nc. 555-0123 DO SPACES REALLY MATTER? Spaces and newline characters are not inherently important. However, learning to be precise is an essential skill for programming. Noticing little details, like how words are separated and how lines end, helps new programmers become better.",
+            "metadata": {
+              "section": "ch01_statements_variables",
+              "chapter": "Chapter 1: Statements",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 333,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.5066464798433313,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch01_p08_para_00 | starter/data/openstax_python_ch01_intro.pdf | page 8]\nMultiple values, separated by commas, can be printed in the same statement. By default, each value is separated by a space character in the output. The sep option can be used to change this behavior.\n\nBy default, the print() function adds a newline character at the end of the output. A newline character tells the display to move to the next line. The end option can be used to continue printing on the same line.\n\nCode Output\nprint(\"Today is Monday.\") print(\"I like string beans.\") Today is Monday. I like string beans. print(\"Today\", \"is\", \"Monday\") print(\"Today\", \"is\", \"Monday\", sep=\"...\")\n\nToday is Monday\nToday...is...Monday print(\"Today is Monday, \", end=\"\") print(\"I like string beans.\")\n\n[openstax-py-ch01_p07_para_02 | starter/data/openstax_python_ch01_intro.pdf | page 7]\nBasic output\nThe print() function displays output to the user. Output is the information or result produced by a program.\n\nThe sep and end options can be used to customize the output. Table 1.1 shows examples of sep and end.\n\nTRY IT\n\n[openstax-py-ch01_p09_para_00 | starter/data/openstax_python_ch01_intro.pdf | page 9]\nprint(\"555\", \"0123\", sep=\"-\")\na. 555 0123\n\nb. 5550123-\n\nc. 555-0123 DO SPACES REALLY MATTER? Spaces and newline characters are not inherently important. However, learning to be precise is an essential skill for programming. Noticing little details, like how words are separated and how lines end, helps new programmers become better.",
+        "context_ids": [
+          "openstax-py-ch01_p08_para_00",
+          "openstax-py-ch01_p07_para_02",
+          "openstax-py-ch01_p09_para_00"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 4972.65,
+    "prompt_tokens": 1040,
+    "completion_tokens": 96,
+    "embed_tokens": 8,
+    "service_cost_usd": 0.00021376
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "answerable": true,
+    "question": "Why does Python remain readable for beginners compared to Java when printing 'Hello, World!'?",
+    "status": "answered",
+    "answer": "Python remains readable for beginners compared to Java when printing 'Hello, World!' because Python's syntax is concise and straightforward, allowing the program to be written in just one line: print(\"Hello, World!\"). In contrast, the equivalent Java program requires five lines of code, which can be more complex for beginners to understand [openstax-py-ch01_p06_para_02], [openstax-py-ch01_p06_para_03].",
+    "citations": [
+      "openstax-py-ch01_p06_para_02",
+      "openstax-py-ch01_p06_para_03"
+    ],
+    "final_context": "[openstax-py-ch01_p06_para_03 | starter/data/openstax_python_ch01_intro.pdf | page 6]\n[Hello world in Python and Java] public class Hello { public static void main(String[] args) { System.out.println(\"Hello, World!\"); } } However, conciseness is not the only consideration for which language is used. In different situations different languages may be more appropriate. Ex: Java is often used in Android development.\n\nCHECKPOINT\n\nCounting lines in a file\nCounting lines in a file; ch 1, video 2 (https://www.openstax.org/r/counting-lines) 1.1 • Background 9\n\n[openstax-py-ch01_p06_para_02 | starter/data/openstax_python_ch01_intro.pdf | page 6]\n[The Python language] Another reason why Python is popular is because the syntax is concise and straightforward. The syntax of a language defines how code must be structured. Syntax rules define the keywords, symbols, and formatting used in programs. Compared to other programming languages, Python is more concise and straightforward.\n\nEXAMPLE 1.1\n\nHello world in Python and Java\nBy tradition, Hello World (https://openstax.org/r/100helloworld) is the first program to write when learning a new language. This program simply displays the message \"Hello, World!\" to the user. The hello world program is only one line in Python: print(\"Hello, World!\") In contrast, the hello world program is five lines in Java (a different language).",
+    "final_context_ids": [
+      "openstax-py-ch01_p06_para_03",
+      "openstax-py-ch01_p06_para_02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Python readability compared to Java Hello World example",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch01_p06_para_03",
+            "source_id": "openstax-py-ch01",
+            "source": "starter/data/openstax_python_ch01_intro.pdf",
+            "page": 6,
+            "text": "[Hello world in Python and Java] public class Hello { public static void main(String[] args) { System.out.println(\"Hello, World!\"); } } However, conciseness is not the only consideration for which language is used. In different situations different languages may be more appropriate. Ex: Java is often used in Android development.\n\nCHECKPOINT\n\nCounting lines in a file\nCounting lines in a file; ch 1, video 2 (https://www.openstax.org/r/counting-lines) 1.1 • Background 9",
+            "metadata": {
+              "section": "ch01_statements_variables",
+              "chapter": "Chapter 1: Statements",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 471,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 3
+            },
+            "score": 0.5582728566248082,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch01_p06_para_02",
+            "source_id": "openstax-py-ch01",
+            "source": "starter/data/openstax_python_ch01_intro.pdf",
+            "page": 6,
+            "text": "[The Python language] Another reason why Python is popular is because the syntax is concise and straightforward. The syntax of a language defines how code must be structured. Syntax rules define the keywords, symbols, and formatting used in programs. Compared to other programming languages, Python is more concise and straightforward.\n\nEXAMPLE 1.1\n\nHello world in Python and Java\nBy tradition, Hello World (https://openstax.org/r/100helloworld) is the first program to write when learning a new language. This program simply displays the message \"Hello, World!\" to the user. The hello world program is only one line in Python: print(\"Hello, World!\") In contrast, the hello world program is five lines in Java (a different language).",
+            "metadata": {
+              "section": "ch01_statements_variables",
+              "chapter": "Chapter 1: Statements",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 733,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 2
+            },
+            "score": 0.5436917161311594,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch01_p07_para_00",
+            "source_id": "openstax-py-ch01",
+            "source": "starter/data/openstax_python_ch01_intro.pdf",
+            "page": 7,
+            "text": "CONCEPTS IN PRACTICE\n\nPython vs Java syntax\n5 . In general, Python programs are _____ than Java programs.\n\na. faster\n\nb. longer\n\nc. shorter\n\n6 . In the example programs above, what syntax required by Java is not required by Python?\n\na. semicolons\n\nb. parentheses\n\nc. quote marks\n\nFavorite song\nThe program below asks for your name and displays a friendly greeting. Run the program and see what happens. In the error message, EOF stands for End of File.\n\n• Many of the programs in this chapter expect input from the user. Enter your name in the Input box below the code. Run the program again, and see what changes.",
+            "metadata": {
+              "section": "ch01_statements_variables",
+              "chapter": "Chapter 1: Statements",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 614,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.4342795492670236,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch01_p06_para_03 | starter/data/openstax_python_ch01_intro.pdf | page 6]\n[Hello world in Python and Java] public class Hello { public static void main(String[] args) { System.out.println(\"Hello, World!\"); } } However, conciseness is not the only consideration for which language is used. In different situations different languages may be more appropriate. Ex: Java is often used in Android development.\n\nCHECKPOINT\n\nCounting lines in a file\nCounting lines in a file; ch 1, video 2 (https://www.openstax.org/r/counting-lines) 1.1 • Background 9\n\n[openstax-py-ch01_p06_para_02 | starter/data/openstax_python_ch01_intro.pdf | page 6]\n[The Python language] Another reason why Python is popular is because the syntax is concise and straightforward. The syntax of a language defines how code must be structured. Syntax rules define the keywords, symbols, and formatting used in programs. Compared to other programming languages, Python is more concise and straightforward.\n\nEXAMPLE 1.1\n\nHello world in Python and Java\nBy tradition, Hello World (https://openstax.org/r/100helloworld) is the first program to write when learning a new language. This program simply displays the message \"Hello, World!\" to the user. The hello world program is only one line in Python: print(\"Hello, World!\") In contrast, the hello world program is five lines in Java (a different language).",
+        "context_ids": [
+          "openstax-py-ch01_p06_para_03",
+          "openstax-py-ch01_p06_para_02"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 6610.02,
+    "prompt_tokens": 947,
+    "completion_tokens": 155,
+    "embed_tokens": 8,
+    "service_cost_usd": 0.00023521
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "answerable": true,
+    "question": "What characters are permitted in a Python variable name, and what restriction applies to the starting character and reserved words?",
+    "status": "answered",
+    "answer": "In Python, variable names can consist of letters, digits, and underscores, but they cannot start with a digit. Additionally, reserved words (keywords) cannot be used as variable names. Examples of keywords include 'class', 'import', and 'def' [openstax-py-ch01_p12_para_01], [openstax-py-ch01_p12_para_00].",
+    "citations": [
+      "openstax-py-ch01_p12_para_01",
+      "openstax-py-ch01_p12_para_00"
+    ],
+    "final_context": "[openstax-py-ch01_p12_para_01 | starter/data/openstax_python_ch01_intro.pdf | page 12]\n[Variable naming rules] Python has reserved words, known as keywords, which have special functions and cannot be used as names for variables (or other objects).\n\nFalse await else import pass\n\nNone break except in raise\n\nTrue class finally is return\nand continue for lambda try as def from nonlocal while assert del global not with asynch elif if or yield Table 1.2 Keywords\n\nCONCEPTS IN PRACTICE\n\nValid variable names\n5 . Which can be used as a variable name?\n\na. median\n\nb. class\n\nc. import\n\n6 . Why is the name, 2nd_input, not a valid variable name?\n\na. contains an underscore\n\nb. starts with a digit\n\nc. is a keyword\n\n7 . Which would be a good name for a variable storing a zip code?\n\na. z\n\nb. var_2 1.3 • Variables 15\n\n[openstax-py-ch01_p12_para_00 | starter/data/openstax_python_ch01_intro.pdf | page 12]\na. temperature = 98.5\n\nb. 98.5 = temperature\n\nc. temperature - 23.2\n\nVariable naming rules\nA variable name can consist of letters, digits, and underscores and be of any length. The name cannot start with a digit. Ex: 101class is invalid. Also, letter case matters. Ex: Total is different from total. Python's style guide recommends writing variable names in snake case, which is all lowercase with underscores in between each word, such as first_name or total_price. A name should be short and descriptive, so words are preferred over single characters in programs for readability. Ex: A variable named count indicates the variable's purpose better than a variable named c.",
+    "final_context_ids": [
+      "openstax-py-ch01_p12_para_01",
+      "openstax-py-ch01_p12_para_00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Python variable name characters permitted starting character reserved words",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch01_p12_para_01",
+            "source_id": "openstax-py-ch01",
+            "source": "starter/data/openstax_python_ch01_intro.pdf",
+            "page": 12,
+            "text": "[Variable naming rules] Python has reserved words, known as keywords, which have special functions and cannot be used as names for variables (or other objects).\n\nFalse await else import pass\n\nNone break except in raise\n\nTrue class finally is return\nand continue for lambda try as def from nonlocal while assert del global not with asynch elif if or yield Table 1.2 Keywords\n\nCONCEPTS IN PRACTICE\n\nValid variable names\n5 . Which can be used as a variable name?\n\na. median\n\nb. class\n\nc. import\n\n6 . Why is the name, 2nd_input, not a valid variable name?\n\na. contains an underscore\n\nb. starts with a digit\n\nc. is a keyword\n\n7 . Which would be a good name for a variable storing a zip code?\n\na. z\n\nb. var_2 1.3 • Variables 15",
+            "metadata": {
+              "section": "ch01_statements_variables",
+              "chapter": "Chapter 1: Statements",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 721,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.5767253628102198,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch01_p12_para_00",
+            "source_id": "openstax-py-ch01",
+            "source": "starter/data/openstax_python_ch01_intro.pdf",
+            "page": 12,
+            "text": "a. temperature = 98.5\n\nb. 98.5 = temperature\n\nc. temperature - 23.2\n\nVariable naming rules\nA variable name can consist of letters, digits, and underscores and be of any length. The name cannot start with a digit. Ex: 101class is invalid. Also, letter case matters. Ex: Total is different from total. Python's style guide recommends writing variable names in snake case, which is all lowercase with underscores in between each word, such as first_name or total_price. A name should be short and descriptive, so words are preferred over single characters in programs for readability. Ex: A variable named count indicates the variable's purpose better than a variable named c.",
+            "metadata": {
+              "section": "ch01_statements_variables",
+              "chapter": "Chapter 1: Statements",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 673,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.45875159100921964,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch01_p13_para_00",
+            "source_id": "openstax-py-ch01",
+            "source": "starter/data/openstax_python_ch01_intro.pdf",
+            "page": 13,
+            "text": "c. zip_code\n\n8 . Given the variable name, DogBreed, which improvement conforms to Python's style guide?\n\na. dog_breed\n\nb. dogBreed\n\nc. dog-breed\n\nFinal score\nWrite a Python computer program that:\n\n• Creates a variable, team1, assigned with the value \"Liverpool\".\n\n• Creates a variable, team2, assigned with the value \"Chelsea\".\n\n• Creates a variable score1, assigned with the value 4.\n\n• Creates a variable, score2, assigned with the value 3.\n\n• Prints team1, \"versus\", and team2 as a single line of output.\n\n• Prints \"Final score: \", score1, \"to\", score2 as a single line of output.\n\nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pages/ 1-3-variables)\n\n1.4 String basics\n\nLearning objectives",
+            "metadata": {
+              "section": "ch01_statements_variables",
+              "chapter": "Chapter 1: Statements",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 731,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.3912510887821516,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch01_p12_para_01 | starter/data/openstax_python_ch01_intro.pdf | page 12]\n[Variable naming rules] Python has reserved words, known as keywords, which have special functions and cannot be used as names for variables (or other objects).\n\nFalse await else import pass\n\nNone break except in raise\n\nTrue class finally is return\nand continue for lambda try as def from nonlocal while assert del global not with asynch elif if or yield Table 1.2 Keywords\n\nCONCEPTS IN PRACTICE\n\nValid variable names\n5 . Which can be used as a variable name?\n\na. median\n\nb. class\n\nc. import\n\n6 . Why is the name, 2nd_input, not a valid variable name?\n\na. contains an underscore\n\nb. starts with a digit\n\nc. is a keyword\n\n7 . Which would be a good name for a variable storing a zip code?\n\na. z\n\nb. var_2 1.3 • Variables 15\n\n[openstax-py-ch01_p12_para_00 | starter/data/openstax_python_ch01_intro.pdf | page 12]\na. temperature = 98.5\n\nb. 98.5 = temperature\n\nc. temperature - 23.2\n\nVariable naming rules\nA variable name can consist of letters, digits, and underscores and be of any length. The name cannot start with a digit. Ex: 101class is invalid. Also, letter case matters. Ex: Total is different from total. Python's style guide recommends writing variable names in snake case, which is all lowercase with underscores in between each word, such as first_name or total_price. A name should be short and descriptive, so words are preferred over single characters in programs for readability. Ex: A variable named count indicates the variable's purpose better than a variable named c.",
+        "context_ids": [
+          "openstax-py-ch01_p12_para_01",
+          "openstax-py-ch01_p12_para_00"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 6294.73,
+    "prompt_tokens": 1024,
+    "completion_tokens": 143,
+    "embed_tokens": 9,
+    "service_cost_usd": 0.00023958
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "answerable": true,
+    "question": "When reading user input in a basic statement, what are the three components of variable = input(\"prompt\") and can the prompt be left out?",
+    "status": "answered",
+    "answer": "The three components of the statement variable = input(\"prompt\") are: 1. A variable, which stores a value in memory; 2. The input() function, which reads one line of input from the user; and 3. A prompt, which is a message indicating the program is waiting for input. The prompt can be omitted or replaced with any message [openstax-py-ch01_p09_para_01].",
+    "citations": [
+      "openstax-py-ch01_p09_para_01"
+    ],
+    "final_context": "[openstax-py-ch01_p09_para_01 | starter/data/openstax_python_ch01_intro.pdf | page 9]\nBasic input\nComputer programs often receive input from the user. Input is what a user enters into a program. An input statement, variable = input(\"prompt\"), has three parts: 1. A variable refers to a value stored in memory. In the statement above, variable can be replaced with any name the programmer chooses. 2. The input() function reads one line of input from the user. A function is a named, reusable block of code that performs a task when called. The input is stored in the computer's memory and can be accessed later using the variable. 3. A prompt is a short message that indicates the program is waiting for input. In the statement above, \"prompt\" can be omitted or replaced with any message.\n\nCHECKPOINT\n\n[openstax-py-ch01_p09_para_02 | starter/data/openstax_python_ch01_intro.pdf | page 9]\nObtaining input from the user\nDisplaying output to the user; ch 1, video 3 (https://www.openstax.org/r/obtaining-input)\n\nCONCEPTS IN PRACTICE\n\nThe input() function\n4 . Which line of code correctly obtains and stores user input?\n\na. input()\n\nb. today_is = input\n\nc. today_is = input()\n\n5 . Someone named Sophia enters their name when prompted with print(\"Please enter your name: \") name = input() What is displayed by print(\"You entered:\", name)?\n\na. You entered: name\n\n[openstax-py-ch01_p07_para_02 | starter/data/openstax_python_ch01_intro.pdf | page 7]\nBasic output\nThe print() function displays output to the user. Output is the information or result produced by a program.\n\nThe sep and end options can be used to customize the output. Table 1.1 shows examples of sep and end.\n\nTRY IT",
+    "final_context_ids": [
+      "openstax-py-ch01_p09_para_01",
+      "openstax-py-ch01_p09_para_02",
+      "openstax-py-ch01_p07_para_02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "input function components prompt",
+        "filter": {
+          "section": "ch01_statements_variables"
+        },
+        "results": [
+          {
+            "id": "openstax-py-ch01_p09_para_01",
+            "source_id": "openstax-py-ch01",
+            "source": "starter/data/openstax_python_ch01_intro.pdf",
+            "page": 9,
+            "text": "Basic input\nComputer programs often receive input from the user. Input is what a user enters into a program. An input statement, variable = input(\"prompt\"), has three parts: 1. A variable refers to a value stored in memory. In the statement above, variable can be replaced with any name the programmer chooses. 2. The input() function reads one line of input from the user. A function is a named, reusable block of code that performs a task when called. The input is stored in the computer's memory and can be accessed later using the variable. 3. A prompt is a short message that indicates the program is waiting for input. In the statement above, \"prompt\" can be omitted or replaced with any message.\n\nCHECKPOINT",
+            "metadata": {
+              "section": "ch01_statements_variables",
+              "chapter": "Chapter 1: Statements",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 714,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.5682046025751959,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch01_p09_para_02",
+            "source_id": "openstax-py-ch01",
+            "source": "starter/data/openstax_python_ch01_intro.pdf",
+            "page": 9,
+            "text": "Obtaining input from the user\nDisplaying output to the user; ch 1, video 3 (https://www.openstax.org/r/obtaining-input)\n\nCONCEPTS IN PRACTICE\n\nThe input() function\n4 . Which line of code correctly obtains and stores user input?\n\na. input()\n\nb. today_is = input\n\nc. today_is = input()\n\n5 . Someone named Sophia enters their name when prompted with print(\"Please enter your name: \") name = input() What is displayed by print(\"You entered:\", name)?\n\na. You entered: name",
+            "metadata": {
+              "section": "ch01_statements_variables",
+              "chapter": "Chapter 1: Statements",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 467,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 2
+            },
+            "score": 0.39840805927847806,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch01_p07_para_02",
+            "source_id": "openstax-py-ch01",
+            "source": "starter/data/openstax_python_ch01_intro.pdf",
+            "page": 7,
+            "text": "Basic output\nThe print() function displays output to the user. Output is the information or result produced by a program.\n\nThe sep and end options can be used to customize the output. Table 1.1 shows examples of sep and end.\n\nTRY IT",
+            "metadata": {
+              "section": "ch01_statements_variables",
+              "chapter": "Chapter 1: Statements",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 232,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 2
+            },
+            "score": 0.3505926534269272,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch01_p09_para_01 | starter/data/openstax_python_ch01_intro.pdf | page 9]\nBasic input\nComputer programs often receive input from the user. Input is what a user enters into a program. An input statement, variable = input(\"prompt\"), has three parts: 1. A variable refers to a value stored in memory. In the statement above, variable can be replaced with any name the programmer chooses. 2. The input() function reads one line of input from the user. A function is a named, reusable block of code that performs a task when called. The input is stored in the computer's memory and can be accessed later using the variable. 3. A prompt is a short message that indicates the program is waiting for input. In the statement above, \"prompt\" can be omitted or replaced with any message.\n\nCHECKPOINT\n\n[openstax-py-ch01_p09_para_02 | starter/data/openstax_python_ch01_intro.pdf | page 9]\nObtaining input from the user\nDisplaying output to the user; ch 1, video 3 (https://www.openstax.org/r/obtaining-input)\n\nCONCEPTS IN PRACTICE\n\nThe input() function\n4 . Which line of code correctly obtains and stores user input?\n\na. input()\n\nb. today_is = input\n\nc. today_is = input()\n\n5 . Someone named Sophia enters their name when prompted with print(\"Please enter your name: \") name = input() What is displayed by print(\"You entered:\", name)?\n\na. You entered: name\n\n[openstax-py-ch01_p07_para_02 | starter/data/openstax_python_ch01_intro.pdf | page 7]\nBasic output\nThe print() function displays output to the user. Output is the information or result produced by a program.\n\nThe sep and end options can be used to customize the output. Table 1.1 shows examples of sep and end.\n\nTRY IT",
+        "context_ids": [
+          "openstax-py-ch01_p09_para_01",
+          "openstax-py-ch01_p09_para_02",
+          "openstax-py-ch01_p07_para_02"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 6338.86,
+    "prompt_tokens": 1068,
+    "completion_tokens": 133,
+    "embed_tokens": 4,
+    "service_cost_usd": 0.00024008
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "answerable": true,
+    "question": "How should you enclose a string literal in Python if the text inside it contains a single quote versus a double quote?",
+    "status": "answered",
+    "answer": "To enclose a string literal in Python containing a single quote, use double quotes. For example, \"Won't this work?\". Conversely, to include a double quote in a string, use single quotes, such as 'They said \"Try it!\", so I did' [openstax-py-ch01_p13_para_01].",
+    "citations": [
+      "openstax-py-ch01_p13_para_01"
+    ],
+    "final_context": "[openstax-py-ch01_p13_para_01 | starter/data/openstax_python_ch01_intro.pdf | page 13]\nBy the end of this section you should be able to\n• Use the built-in len() function to get a string's length.\n\n• Concatenate string literals and variables using the + operator.\n\nQuote marks\nA string is a sequence of characters enclosed by matching single (') or double (\") quotes. Ex: \"Happy birthday!\" and '21' are both strings. To include a single quote (') in a string, enclose the string with matching double quotes (\"). Ex: \"Won't this work?\" To include a double quote (\"), enclose the string with matching single quotes ('). Ex: 'They said \"Try it!\", so I did'.\n\nValid string Invalid string\n\"17\" or '17' 17 \"seventeen\" or 'seventeen' seventeen \"Where?\" or 'Where?' \"Where?' Table 1.3 Rules for strings.\n\nTRY IT\n\n[openstax-py-ch03_p05_para_01 | starter/data/openstax_python_ch03_types.pdf | page 5]\n[Hopper quote] Write a program that prints the following text, including the quotation marks. Your program may not use single quotes (') anywhere in the code. The last line must be indented with a tab character.\n\n\"To me programming is more than an important practical art.\n\nIt is also a gigantic undertaking in the foundations of knowledge.\" -- Grace Hopper Access multimedia content (http://openstax.org/books/introduction-python-programming/pages/ 3-1-strings-revisited)\n\nShift cipher\nDuring the Roman Empire, Julius Caesar (100–44 BCE) used a simple technique to encrypt private messages. Each letter of the message was replaced with the third next letter of the alphabet. Ex: If the message was CAT, the C became F, the A became D, and the T became W, resulting in the message FDW.",
+    "final_context_ids": [
+      "openstax-py-ch01_p13_para_01",
+      "openstax-py-ch03_p05_para_01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "enclose string literal Python single quote double quote",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch01_p13_para_01",
+            "source_id": "openstax-py-ch01",
+            "source": "starter/data/openstax_python_ch01_intro.pdf",
+            "page": 13,
+            "text": "By the end of this section you should be able to\n• Use the built-in len() function to get a string's length.\n\n• Concatenate string literals and variables using the + operator.\n\nQuote marks\nA string is a sequence of characters enclosed by matching single (') or double (\") quotes. Ex: \"Happy birthday!\" and '21' are both strings. To include a single quote (') in a string, enclose the string with matching double quotes (\"). Ex: \"Won't this work?\" To include a double quote (\"), enclose the string with matching single quotes ('). Ex: 'They said \"Try it!\", so I did'.\n\nValid string Invalid string\n\"17\" or '17' 17 \"seventeen\" or 'seventeen' seventeen \"Where?\" or 'Where?' \"Where?' Table 1.3 Rules for strings.\n\nTRY IT",
+            "metadata": {
+              "section": "ch01_statements_variables",
+              "chapter": "Chapter 1: Statements",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 715,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.3759622589002675,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch03_p05_para_01",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 5,
+            "text": "[Hopper quote] Write a program that prints the following text, including the quotation marks. Your program may not use single quotes (') anywhere in the code. The last line must be indented with a tab character.\n\n\"To me programming is more than an important practical art.\n\nIt is also a gigantic undertaking in the foundations of knowledge.\" -- Grace Hopper Access multimedia content (http://openstax.org/books/introduction-python-programming/pages/ 3-1-strings-revisited)\n\nShift cipher\nDuring the Roman Empire, Julius Caesar (100–44 BCE) used a simple technique to encrypt private messages. Each letter of the message was replaced with the third next letter of the alphabet. Ex: If the message was CAT, the C became F, the A became D, and the T became W, resulting in the message FDW.",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 785,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.3343872327996962,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch03_p04_para_01",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 4,
+            "text": "[Escape] \\t A tab character; useful for indenting paragraphs or aligning text on multiple lines. print(\"Escape\\ tsequence!\") Escape sequence! \\' A single quote; an alternative to enclosing the string in double quotes. print('I\\'ll try my best!') I'll try my best \\\" A double quote; an alternative to enclosing the string in single quotes. print(\"I heard you said \\\"Yes\\\"\") I heard you said \"Yes\" \\\\ A backslash character. print(\"This prints a \\\\\") This prints a \\ Table 3.2 Common escape sequences.\n\nCONCEPTS IN PRACTICE\n\nTabs and newlines\n7 . Which of the following is an escape sequence?\n\na. t",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 595,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.3307468319158635,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch01_p13_para_01 | starter/data/openstax_python_ch01_intro.pdf | page 13]\nBy the end of this section you should be able to\n• Use the built-in len() function to get a string's length.\n\n• Concatenate string literals and variables using the + operator.\n\nQuote marks\nA string is a sequence of characters enclosed by matching single (') or double (\") quotes. Ex: \"Happy birthday!\" and '21' are both strings. To include a single quote (') in a string, enclose the string with matching double quotes (\"). Ex: \"Won't this work?\" To include a double quote (\"), enclose the string with matching single quotes ('). Ex: 'They said \"Try it!\", so I did'.\n\nValid string Invalid string\n\"17\" or '17' 17 \"seventeen\" or 'seventeen' seventeen \"Where?\" or 'Where?' \"Where?' Table 1.3 Rules for strings.\n\nTRY IT\n\n[openstax-py-ch03_p05_para_01 | starter/data/openstax_python_ch03_types.pdf | page 5]\n[Hopper quote] Write a program that prints the following text, including the quotation marks. Your program may not use single quotes (') anywhere in the code. The last line must be indented with a tab character.\n\n\"To me programming is more than an important practical art.\n\nIt is also a gigantic undertaking in the foundations of knowledge.\" -- Grace Hopper Access multimedia content (http://openstax.org/books/introduction-python-programming/pages/ 3-1-strings-revisited)\n\nShift cipher\nDuring the Roman Empire, Julius Caesar (100–44 BCE) used a simple technique to encrypt private messages. Each letter of the message was replaced with the third next letter of the alphabet. Ex: If the message was CAT, the C became F, the A became D, and the T became W, resulting in the message FDW.",
+        "context_ids": [
+          "openstax-py-ch01_p13_para_01",
+          "openstax-py-ch03_p05_para_01"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 5591.32,
+    "prompt_tokens": 1047,
+    "completion_tokens": 121,
+    "embed_tokens": 9,
+    "service_cost_usd": 0.00022983
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which built-in Python functions convert between a character and its Unicode integer code point?",
+    "status": "answered",
+    "answer": "The built-in Python functions that convert between a character and its Unicode integer code point are ord() and chr(). The ord() function returns the Unicode code point for a given character, while the chr() function converts a code point to a character [openstax-py-ch03_p02_para_01].",
+    "citations": [
+      "openstax-py-ch03_p02_para_01"
+    ],
+    "final_context": "[openstax-py-ch03_p02_para_01 | starter/data/openstax_python_ch03_types.pdf | page 2]\n[Unicode] Similarly, the built-in chr() function converts a code point to a character. Ex: chr(33) returns the string \"!\".\n\nUnicode is an extension of ASCII, the American Standard Code for Information Interchange. Originally, ASCII defined only 128 code points, enough to support the English language. Unicode defines over one million code\n\n[openstax-py-ch03_p03_para_00 | starter/data/openstax_python_ch03_types.pdf | page 3]\npoints and supports most of the world's written languages.\n\n32 (space) 33 ! 34 \" 35 # 36 $ 37 % 38 & 39 ' 40 ( 41 ) 42 * 43 + 44 , 45 -\n\n46 . 47 / 48 0 49 1 50 2 51 3 52 4 53 5 54 6 55 7 56 8 57 9 58 : 59 ; 60 < 61 = 62 > 63 ? 64 @ 65 A 66 B 67 C 68 D 69 E 70 F 71 G 72 H 73 I 74 J 75 K 76 L 77 M 78 N 79 O 80 P 81 Q 82 R 83 S 84 T 85 U 86 V 87 W 88 X 89 Y 90 Z 91 [ 92 \\ 93 ] 94 ^ 95 _ 96 ` 97 a 98 b 99 c 100 d 101 e 102 f 103 g 104 h 105 i 106 j 107 k 108 l 109 m 110 n 111 o 112 p 113 q 114 r 115 s 116 t 117 u 118 v 119 w 120 x 121 y 122 z 123 { 124 | 125 } 126 ~ 127 (delete) Table 3.1 Character values. This table shows code points 32 to 127 as defined by ASCII and Unicode. Code points 0 to 31 are non-printable characters that were used for telecommunications.\n\nCONCEPTS IN PRACTICE\n\n[openstax-py-ch03_p03_para_01 | starter/data/openstax_python_ch03_types.pdf | page 3]\nord() and chr()\n4 . What is the code point for the letter A?\n\na. 1\n\nb. 65\n\nc. 97 3.1 • Strings revisited 69",
+    "final_context_ids": [
+      "openstax-py-ch03_p02_para_01",
+      "openstax-py-ch03_p03_para_00",
+      "openstax-py-ch03_p03_para_01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "built-in Python functions convert between character and Unicode integer code point",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch03_p02_para_01",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 2,
+            "text": "[Unicode] Similarly, the built-in chr() function converts a code point to a character. Ex: chr(33) returns the string \"!\".\n\nUnicode is an extension of ASCII, the American Standard Code for Information Interchange. Originally, ASCII defined only 128 code points, enough to support the English language. Unicode defines over one million code",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 339,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.5824753946065718,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch03_p03_para_00",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 3,
+            "text": "points and supports most of the world's written languages.\n\n32 (space) 33 ! 34 \" 35 # 36 $ 37 % 38 & 39 ' 40 ( 41 ) 42 * 43 + 44 , 45 -\n\n46 . 47 / 48 0 49 1 50 2 51 3 52 4 53 5 54 6 55 7 56 8 57 9 58 : 59 ; 60 < 61 = 62 > 63 ? 64 @ 65 A 66 B 67 C 68 D 69 E 70 F 71 G 72 H 73 I 74 J 75 K 76 L 77 M 78 N 79 O 80 P 81 Q 82 R 83 S 84 T 85 U 86 V 87 W 88 X 89 Y 90 Z 91 [ 92 \\ 93 ] 94 ^ 95 _ 96 ` 97 a 98 b 99 c 100 d 101 e 102 f 103 g 104 h 105 i 106 j 107 k 108 l 109 m 110 n 111 o 112 p 113 q 114 r 115 s 116 t 117 u 118 v 119 w 120 x 121 y 122 z 123 { 124 | 125 } 126 ~ 127 (delete) Table 3.1 Character values. This table shows code points 32 to 127 as defined by ASCII and Unicode. Code points 0 to 31 are non-printable characters that were used for telecommunications.\n\nCONCEPTS IN PRACTICE",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 791,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.3900713908105844,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch03_p03_para_01",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 3,
+            "text": "ord() and chr()\n4 . What is the code point for the letter A?\n\na. 1\n\nb. 65\n\nc. 97 3.1 • Strings revisited 69",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 107,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.38222842117333805,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch03_p02_para_01 | starter/data/openstax_python_ch03_types.pdf | page 2]\n[Unicode] Similarly, the built-in chr() function converts a code point to a character. Ex: chr(33) returns the string \"!\".\n\nUnicode is an extension of ASCII, the American Standard Code for Information Interchange. Originally, ASCII defined only 128 code points, enough to support the English language. Unicode defines over one million code\n\n[openstax-py-ch03_p03_para_00 | starter/data/openstax_python_ch03_types.pdf | page 3]\npoints and supports most of the world's written languages.\n\n32 (space) 33 ! 34 \" 35 # 36 $ 37 % 38 & 39 ' 40 ( 41 ) 42 * 43 + 44 , 45 -\n\n46 . 47 / 48 0 49 1 50 2 51 3 52 4 53 5 54 6 55 7 56 8 57 9 58 : 59 ; 60 < 61 = 62 > 63 ? 64 @ 65 A 66 B 67 C 68 D 69 E 70 F 71 G 72 H 73 I 74 J 75 K 76 L 77 M 78 N 79 O 80 P 81 Q 82 R 83 S 84 T 85 U 86 V 87 W 88 X 89 Y 90 Z 91 [ 92 \\ 93 ] 94 ^ 95 _ 96 ` 97 a 98 b 99 c 100 d 101 e 102 f 103 g 104 h 105 i 106 j 107 k 108 l 109 m 110 n 111 o 112 p 113 q 114 r 115 s 116 t 117 u 118 v 119 w 120 x 121 y 122 z 123 { 124 | 125 } 126 ~ 127 (delete) Table 3.1 Character values. This table shows code points 32 to 127 as defined by ASCII and Unicode. Code points 0 to 31 are non-printable characters that were used for telecommunications.\n\nCONCEPTS IN PRACTICE\n\n[openstax-py-ch03_p03_para_01 | starter/data/openstax_python_ch03_types.pdf | page 3]\nord() and chr()\n4 . What is the code point for the letter A?\n\na. 1\n\nb. 65\n\nc. 97 3.1 • Strings revisited 69",
+        "context_ids": [
+          "openstax-py-ch03_p02_para_01",
+          "openstax-py-ch03_p03_para_00",
+          "openstax-py-ch03_p03_para_01"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 5631.79,
+    "prompt_tokens": 1198,
+    "completion_tokens": 115,
+    "embed_tokens": 12,
+    "service_cost_usd": 0.00024894
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "answerable": true,
+    "question": "In f-string number formatting, what does the format specifier 08.4f produce?",
+    "status": "answered",
+    "answer": "The format specifier 08.4f produces a fixed-point number rounded to 4 decimal places, at least 8 characters wide, with leading zeros. For example, f\"{math.pi:08.4f}\" results in '003.1416' [openstax-py-ch03_p07_para_01].",
+    "citations": [
+      "openstax-py-ch03_p07_para_01"
+    ],
+    "final_context": "[openstax-py-ch03_p07_para_01 | starter/data/openstax_python_ch03_types.pdf | page 7]\nFormat Description Example Result\nd Decimal integer (default integer format). f\"{12345678:d}\" '12345678' ,d Decimal integer, with comma separators. f\"{12345678:,d}\" '12,345,678' 10d Decimal integer, at least 10 characters wide. f\"{12345678:10d}\" ' 12345678' 010d Decimal integer, at least 10 characters wide, with leading zeros. f\"{12345678:010d}\" '0012345678' f Fixed-point (default is 6 decimal places). f\"{math.pi:f}\" '3.141593' .4f Fixed-point, rounded to 4 decimal places. f\"{math.pi:.4f}\" '3.1416' 8.4f Fixed-point, rounded to 4 decimal places, at least 8 characters wide. f\"{math.pi:8.4f}\" ' 3.1416' 08.4f Fixed-point, rounded to 4 decimal places, at least 8 characters wide, with leading zeros. f\"{math.pi:08.4f}\" '003.1416' Table 3.3 Example format specifiers.\n\n[openstax-py-ch03_p08_para_00 | starter/data/openstax_python_ch03_types.pdf | page 8]\nCONCEPTS IN PRACTICE\n\nFormatting numbers\n4 . What f-string formats a date as MM/DD/YYYY?\n\na. f\"{month:02d}/{day:02d}/{year}\"\n\nb. f\"{month:2d}/{day:2d}/{year}\"\n\nc. f\"{month}/{day}/{year}\"\n\n5 . What statement displays the variable money rounded to two decimal places?\n\na. print(f\"{money:2d}\")\n\nb. print(f\"{money:2f}\")\n\nc. print(f\"{money:.2f}\")\n\n6 . What format specifier displays a floating-point number with comma separators and rounded to two decimal places?\n\na. .2,f\n\nb. ,.2f",
+    "final_context_ids": [
+      "openstax-py-ch03_p07_para_01",
+      "openstax-py-ch03_p08_para_00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "f-string number formatting 08.4f",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch03_p07_para_01",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 7,
+            "text": "Format Description Example Result\nd Decimal integer (default integer format). f\"{12345678:d}\" '12345678' ,d Decimal integer, with comma separators. f\"{12345678:,d}\" '12,345,678' 10d Decimal integer, at least 10 characters wide. f\"{12345678:10d}\" ' 12345678' 010d Decimal integer, at least 10 characters wide, with leading zeros. f\"{12345678:010d}\" '0012345678' f Fixed-point (default is 6 decimal places). f\"{math.pi:f}\" '3.141593' .4f Fixed-point, rounded to 4 decimal places. f\"{math.pi:.4f}\" '3.1416' 8.4f Fixed-point, rounded to 4 decimal places, at least 8 characters wide. f\"{math.pi:8.4f}\" ' 3.1416' 08.4f Fixed-point, rounded to 4 decimal places, at least 8 characters wide, with leading zeros. f\"{math.pi:08.4f}\" '003.1416' Table 3.3 Example format specifiers.",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 769,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.6397151682552106,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch03_p08_para_00",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 8,
+            "text": "CONCEPTS IN PRACTICE\n\nFormatting numbers\n4 . What f-string formats a date as MM/DD/YYYY?\n\na. f\"{month:02d}/{day:02d}/{year}\"\n\nb. f\"{month:2d}/{day:2d}/{year}\"\n\nc. f\"{month}/{day}/{year}\"\n\n5 . What statement displays the variable money rounded to two decimal places?\n\na. print(f\"{money:2d}\")\n\nb. print(f\"{money:2f}\")\n\nc. print(f\"{money:.2f}\")\n\n6 . What format specifier displays a floating-point number with comma separators and rounded to two decimal places?\n\na. .2,f\n\nb. ,.2f",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 476,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.6253224435134039,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch03_p07_para_00",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 7,
+            "text": "food = \"potato\" print(\"{temp} {food}\")\na. {temp} {food}\n\nb. hot potato\n\nc. Error\n\n3 . How can the following code be rewritten using an f-string?\n\nprint(x, \"+\", y, \"=\", x + y)\na. print(f\"x + y = {x+y}\")\n\nb. print(f\"{x + y} = {x + y}\")\n\nc. print(f\"{x} + {y} = {x+y}\")\n\nFormatting numbers\nPrograms often need to display numbers in a specific format. Ex: When displaying the time, minutes are formatted as two-digit integers. If the hour is 9 and the minute is 5, then the time is \"9:05\" (not \"9:5\").\n\nIn an f-string, a replacement field may include a format specifier introduced by a colon. A format specifier defines how a value should be formatted for display. Ex: In the string f\"{hour}:{minute:02d}\", the format specifier for minute is 02d.",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 741,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.5912875858833153,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch03_p07_para_01 | starter/data/openstax_python_ch03_types.pdf | page 7]\nFormat Description Example Result\nd Decimal integer (default integer format). f\"{12345678:d}\" '12345678' ,d Decimal integer, with comma separators. f\"{12345678:,d}\" '12,345,678' 10d Decimal integer, at least 10 characters wide. f\"{12345678:10d}\" ' 12345678' 010d Decimal integer, at least 10 characters wide, with leading zeros. f\"{12345678:010d}\" '0012345678' f Fixed-point (default is 6 decimal places). f\"{math.pi:f}\" '3.141593' .4f Fixed-point, rounded to 4 decimal places. f\"{math.pi:.4f}\" '3.1416' 8.4f Fixed-point, rounded to 4 decimal places, at least 8 characters wide. f\"{math.pi:8.4f}\" ' 3.1416' 08.4f Fixed-point, rounded to 4 decimal places, at least 8 characters wide, with leading zeros. f\"{math.pi:08.4f}\" '003.1416' Table 3.3 Example format specifiers.\n\n[openstax-py-ch03_p08_para_00 | starter/data/openstax_python_ch03_types.pdf | page 8]\nCONCEPTS IN PRACTICE\n\nFormatting numbers\n4 . What f-string formats a date as MM/DD/YYYY?\n\na. f\"{month:02d}/{day:02d}/{year}\"\n\nb. f\"{month:2d}/{day:2d}/{year}\"\n\nc. f\"{month}/{day}/{year}\"\n\n5 . What statement displays the variable money rounded to two decimal places?\n\na. print(f\"{money:2d}\")\n\nb. print(f\"{money:2f}\")\n\nc. print(f\"{money:.2f}\")\n\n6 . What format specifier displays a floating-point number with comma separators and rounded to two decimal places?\n\na. .2,f\n\nb. ,.2f",
+        "context_ids": [
+          "openstax-py-ch03_p07_para_01",
+          "openstax-py-ch03_p08_para_00"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 5703.68,
+    "prompt_tokens": 1078,
+    "completion_tokens": 118,
+    "embed_tokens": 9,
+    "service_cost_usd": 0.00023268
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "answerable": true,
+    "question": "What are the three properties every Python object has, and what changes when a variable like rating is reassigned from an int to a str?",
+    "status": "answered",
+    "answer": "Every Python object has three properties: identity, type, and value. An object's identity is a unique integer associated with it, which never changes; its type determines the possible values and operations; and its value represents the current state of the object [openstax-py-ch03_p10_para_02]. When a variable like rating is reassigned from an int to a str, its identity changes because it now refers to a different object in memory, its type changes to 'str', and its value changes to the new string assigned [openstax-py-ch03_p10_para_02].",
+    "citations": [
+      "openstax-py-ch03_p10_para_02"
+    ],
+    "final_context": "[openstax-py-ch03_p10_para_01 | starter/data/openstax_python_ch03_types.pdf | page 10]\nEXPLORING FURTHER\nPython Tutor (https://openstax.org/r/100pythontutor) is a free online tool for visualizing code execution. A user can enter any Python code, click Visualize Execution, and then click the Next button to run the code one line at a time. Here is the rating and score example (https://openstax.org/r/100ratingscore) from the animation above. Python Tutor is also useful for drawing memory diagrams similar to the ones in this book. Before clicking Visualize Execution, change the middle option from \"inline primitives, don't nest objects [default]\" to \"render all objects on the heap (Python/Java)\" as shown in the following screenshot: Figure 3.2\n\nProperties of objects\nEvery object has an identity, a type, and a value:\n\n[openstax-py-ch03_p10_para_02 | starter/data/openstax_python_ch03_types.pdf | page 10]\n[Properties of objects] • An object's identity is a unique integer associated with the object. Generally, this integer refers to the memory location where the object is stored. Once created, an object's identity never changes. The built-in id() function returns the object's identity.\n\n• An object's type determines the possible values and operations of an object. Ex: Integers and floats can be \"divided\" using the / operator, but strings cannot. The built-in type() function returns the object's type.\n\n• An object's value represents the current state of the object. Many objects, such as numbers and strings, cannot be modified once created. Some objects, such as lists (introduced later), are designed to be modified.\n\nCHECKPOINT",
+    "final_context_ids": [
+      "openstax-py-ch03_p10_para_01",
+      "openstax-py-ch03_p10_para_02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "three properties every Python object has",
+        "filter": {
+          "section": "ch03_data_types"
+        },
+        "results": [
+          {
+            "id": "openstax-py-ch03_p10_para_01",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 10,
+            "text": "EXPLORING FURTHER\nPython Tutor (https://openstax.org/r/100pythontutor) is a free online tool for visualizing code execution. A user can enter any Python code, click Visualize Execution, and then click the Next button to run the code one line at a time. Here is the rating and score example (https://openstax.org/r/100ratingscore) from the animation above. Python Tutor is also useful for drawing memory diagrams similar to the ones in this book. Before clicking Visualize Execution, change the middle option from \"inline primitives, don't nest objects [default]\" to \"render all objects on the heap (Python/Java)\" as shown in the following screenshot: Figure 3.2\n\nProperties of objects\nEvery object has an identity, a type, and a value:",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 735,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.4760356976255834,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch03_p10_para_02",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 10,
+            "text": "[Properties of objects] • An object's identity is a unique integer associated with the object. Generally, this integer refers to the memory location where the object is stored. Once created, an object's identity never changes. The built-in id() function returns the object's identity.\n\n• An object's type determines the possible values and operations of an object. Ex: Integers and floats can be \"divided\" using the / operator, but strings cannot. The built-in type() function returns the object's type.\n\n• An object's value represents the current state of the object. Many objects, such as numbers and strings, cannot be modified once created. Some objects, such as lists (introduced later), are designed to be modified.\n\nCHECKPOINT",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 733,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 2
+            },
+            "score": 0.44401918850006333,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch03_p01_para_01",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 1,
+            "text": "Introduction\nAn object is a single unit of data in a Python program. So far, this book has introduced three types of objects: strings, integers, and floats. This chapter takes a closer look at how strings are represented and how integers and floats can be formatted. To better understand what an object actually is, the relationship between variables and objects is emphasized. The chapter also introduces two types of containers: lists and tuples. A container is an object that can hold an arbitrary number of other objects. At the end of this chapter, you will be able to solve more complex problems using fewer variables.\n\n3.1 Strings revisited\n\nLearning objectives\n\nBy the end of this section you should be able to\n• Extract a specific character from a string using an index.",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 779,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.4301447628800269,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch03_p10_para_01 | starter/data/openstax_python_ch03_types.pdf | page 10]\nEXPLORING FURTHER\nPython Tutor (https://openstax.org/r/100pythontutor) is a free online tool for visualizing code execution. A user can enter any Python code, click Visualize Execution, and then click the Next button to run the code one line at a time. Here is the rating and score example (https://openstax.org/r/100ratingscore) from the animation above. Python Tutor is also useful for drawing memory diagrams similar to the ones in this book. Before clicking Visualize Execution, change the middle option from \"inline primitives, don't nest objects [default]\" to \"render all objects on the heap (Python/Java)\" as shown in the following screenshot: Figure 3.2\n\nProperties of objects\nEvery object has an identity, a type, and a value:\n\n[openstax-py-ch03_p10_para_02 | starter/data/openstax_python_ch03_types.pdf | page 10]\n[Properties of objects] • An object's identity is a unique integer associated with the object. Generally, this integer refers to the memory location where the object is stored. Once created, an object's identity never changes. The built-in id() function returns the object's identity.\n\n• An object's type determines the possible values and operations of an object. Ex: Integers and floats can be \"divided\" using the / operator, but strings cannot. The built-in type() function returns the object's type.\n\n• An object's value represents the current state of the object. Many objects, such as numbers and strings, cannot be modified once created. Some objects, such as lists (introduced later), are designed to be modified.\n\nCHECKPOINT",
+        "context_ids": [
+          "openstax-py-ch03_p10_para_01",
+          "openstax-py-ch03_p10_para_02"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 7233.54,
+    "prompt_tokens": 1016,
+    "completion_tokens": 168,
+    "embed_tokens": 6,
+    "service_cost_usd": 0.00025332
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "answerable": true,
+    "question": "How many code points did original ASCII define compared to Unicode?",
+    "status": "answered",
+    "answer": "Original ASCII defined 128 code points, while Unicode defines over one million code points [openstax-py-ch03_p02_para_01].",
+    "citations": [
+      "openstax-py-ch03_p02_para_01"
+    ],
+    "final_context": "[openstax-py-ch03_p02_para_01 | starter/data/openstax_python_ch03_types.pdf | page 2]\n[Unicode] Similarly, the built-in chr() function converts a code point to a character. Ex: chr(33) returns the string \"!\".\n\nUnicode is an extension of ASCII, the American Standard Code for Information Interchange. Originally, ASCII defined only 128 code points, enough to support the English language. Unicode defines over one million code\n\n[openstax-py-ch03_p03_para_00 | starter/data/openstax_python_ch03_types.pdf | page 3]\npoints and supports most of the world's written languages.\n\n32 (space) 33 ! 34 \" 35 # 36 $ 37 % 38 & 39 ' 40 ( 41 ) 42 * 43 + 44 , 45 -\n\n46 . 47 / 48 0 49 1 50 2 51 3 52 4 53 5 54 6 55 7 56 8 57 9 58 : 59 ; 60 < 61 = 62 > 63 ? 64 @ 65 A 66 B 67 C 68 D 69 E 70 F 71 G 72 H 73 I 74 J 75 K 76 L 77 M 78 N 79 O 80 P 81 Q 82 R 83 S 84 T 85 U 86 V 87 W 88 X 89 Y 90 Z 91 [ 92 \\ 93 ] 94 ^ 95 _ 96 ` 97 a 98 b 99 c 100 d 101 e 102 f 103 g 104 h 105 i 106 j 107 k 108 l 109 m 110 n 111 o 112 p 113 q 114 r 115 s 116 t 117 u 118 v 119 w 120 x 121 y 122 z 123 { 124 | 125 } 126 ~ 127 (delete) Table 3.1 Character values. This table shows code points 32 to 127 as defined by ASCII and Unicode. Code points 0 to 31 are non-printable characters that were used for telecommunications.\n\nCONCEPTS IN PRACTICE\n\n[openstax-py-ch03_p03_para_01 | starter/data/openstax_python_ch03_types.pdf | page 3]\nord() and chr()\n4 . What is the code point for the letter A?\n\na. 1\n\nb. 65\n\nc. 97 3.1 • Strings revisited 69",
+    "final_context_ids": [
+      "openstax-py-ch03_p02_para_01",
+      "openstax-py-ch03_p03_para_00",
+      "openstax-py-ch03_p03_para_01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "ASCII code points compared to Unicode",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch03_p02_para_01",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 2,
+            "text": "[Unicode] Similarly, the built-in chr() function converts a code point to a character. Ex: chr(33) returns the string \"!\".\n\nUnicode is an extension of ASCII, the American Standard Code for Information Interchange. Originally, ASCII defined only 128 code points, enough to support the English language. Unicode defines over one million code",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 339,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.5381435231190632,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch03_p03_para_00",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 3,
+            "text": "points and supports most of the world's written languages.\n\n32 (space) 33 ! 34 \" 35 # 36 $ 37 % 38 & 39 ' 40 ( 41 ) 42 * 43 + 44 , 45 -\n\n46 . 47 / 48 0 49 1 50 2 51 3 52 4 53 5 54 6 55 7 56 8 57 9 58 : 59 ; 60 < 61 = 62 > 63 ? 64 @ 65 A 66 B 67 C 68 D 69 E 70 F 71 G 72 H 73 I 74 J 75 K 76 L 77 M 78 N 79 O 80 P 81 Q 82 R 83 S 84 T 85 U 86 V 87 W 88 X 89 Y 90 Z 91 [ 92 \\ 93 ] 94 ^ 95 _ 96 ` 97 a 98 b 99 c 100 d 101 e 102 f 103 g 104 h 105 i 106 j 107 k 108 l 109 m 110 n 111 o 112 p 113 q 114 r 115 s 116 t 117 u 118 v 119 w 120 x 121 y 122 z 123 { 124 | 125 } 126 ~ 127 (delete) Table 3.1 Character values. This table shows code points 32 to 127 as defined by ASCII and Unicode. Code points 0 to 31 are non-printable characters that were used for telecommunications.\n\nCONCEPTS IN PRACTICE",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 791,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.5362310076264976,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch03_p03_para_01",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 3,
+            "text": "ord() and chr()\n4 . What is the code point for the letter A?\n\na. 1\n\nb. 65\n\nc. 97 3.1 • Strings revisited 69",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 107,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.4741142439692415,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch03_p02_para_01 | starter/data/openstax_python_ch03_types.pdf | page 2]\n[Unicode] Similarly, the built-in chr() function converts a code point to a character. Ex: chr(33) returns the string \"!\".\n\nUnicode is an extension of ASCII, the American Standard Code for Information Interchange. Originally, ASCII defined only 128 code points, enough to support the English language. Unicode defines over one million code\n\n[openstax-py-ch03_p03_para_00 | starter/data/openstax_python_ch03_types.pdf | page 3]\npoints and supports most of the world's written languages.\n\n32 (space) 33 ! 34 \" 35 # 36 $ 37 % 38 & 39 ' 40 ( 41 ) 42 * 43 + 44 , 45 -\n\n46 . 47 / 48 0 49 1 50 2 51 3 52 4 53 5 54 6 55 7 56 8 57 9 58 : 59 ; 60 < 61 = 62 > 63 ? 64 @ 65 A 66 B 67 C 68 D 69 E 70 F 71 G 72 H 73 I 74 J 75 K 76 L 77 M 78 N 79 O 80 P 81 Q 82 R 83 S 84 T 85 U 86 V 87 W 88 X 89 Y 90 Z 91 [ 92 \\ 93 ] 94 ^ 95 _ 96 ` 97 a 98 b 99 c 100 d 101 e 102 f 103 g 104 h 105 i 106 j 107 k 108 l 109 m 110 n 111 o 112 p 113 q 114 r 115 s 116 t 117 u 118 v 119 w 120 x 121 y 122 z 123 { 124 | 125 } 126 ~ 127 (delete) Table 3.1 Character values. This table shows code points 32 to 127 as defined by ASCII and Unicode. Code points 0 to 31 are non-printable characters that were used for telecommunications.\n\nCONCEPTS IN PRACTICE\n\n[openstax-py-ch03_p03_para_01 | starter/data/openstax_python_ch03_types.pdf | page 3]\nord() and chr()\n4 . What is the code point for the letter A?\n\na. 1\n\nb. 65\n\nc. 97 3.1 • Strings revisited 69",
+        "context_ids": [
+          "openstax-py-ch03_p02_para_01",
+          "openstax-py-ch03_p03_para_00",
+          "openstax-py-ch03_p03_para_01"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 5260.54,
+    "prompt_tokens": 1184,
+    "completion_tokens": 77,
+    "embed_tokens": 6,
+    "service_cost_usd": 0.00022392
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which escape sequence is used to insert a tab character, and how do you print a literal backslash in a Python string?",
+    "status": "answered",
+    "answer": "The escape sequence used to insert a tab character is \\t [openstax-py-ch03_p04_para_01]. To print a literal backslash in a Python string, you use the escape sequence \\\\ [openstax-py-ch03_p04_para_01].",
+    "citations": [
+      "openstax-py-ch03_p04_para_01"
+    ],
+    "final_context": "[openstax-py-ch03_p04_para_01 | starter/data/openstax_python_ch03_types.pdf | page 4]\n[Escape] \\t A tab character; useful for indenting paragraphs or aligning text on multiple lines. print(\"Escape\\ tsequence!\") Escape sequence! \\' A single quote; an alternative to enclosing the string in double quotes. print('I\\'ll try my best!') I'll try my best \\\" A double quote; an alternative to enclosing the string in single quotes. print(\"I heard you said \\\"Yes\\\"\") I heard you said \"Yes\" \\\\ A backslash character. print(\"This prints a \\\\\") This prints a \\ Table 3.2 Common escape sequences.\n\nCONCEPTS IN PRACTICE\n\nTabs and newlines\n7 . Which of the following is an escape sequence?\n\na. t\n\n[openstax-py-ch03_p04_para_00 | starter/data/openstax_python_ch03_types.pdf | page 4]\n5 . What value does ord(\"0\") return?\n\na. 0\n\nb. 48\n\nc. Error\n\n6 . What does chr(126) return?\n\na. ~\n\nb. \"~\"\n\nc. Error\n\nSpecial characters\nAn escape sequence uses a backslash (\\) to represent a special character within a string.\n\nEscape\nsequence Meaning Example Screen output \\n A newline character that indicates the end of a line of text. print(\"Escape\\nsequence!\") Escape sequence!",
+    "final_context_ids": [
+      "openstax-py-ch03_p04_para_01",
+      "openstax-py-ch03_p04_para_00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "escape sequence tab character backslash Python string",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch03_p04_para_01",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 4,
+            "text": "[Escape] \\t A tab character; useful for indenting paragraphs or aligning text on multiple lines. print(\"Escape\\ tsequence!\") Escape sequence! \\' A single quote; an alternative to enclosing the string in double quotes. print('I\\'ll try my best!') I'll try my best \\\" A double quote; an alternative to enclosing the string in single quotes. print(\"I heard you said \\\"Yes\\\"\") I heard you said \"Yes\" \\\\ A backslash character. print(\"This prints a \\\\\") This prints a \\ Table 3.2 Common escape sequences.\n\nCONCEPTS IN PRACTICE\n\nTabs and newlines\n7 . Which of the following is an escape sequence?\n\na. t",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 595,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.5439710949210683,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch03_p04_para_00",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 4,
+            "text": "5 . What value does ord(\"0\") return?\n\na. 0\n\nb. 48\n\nc. Error\n\n6 . What does chr(126) return?\n\na. ~\n\nb. \"~\"\n\nc. Error\n\nSpecial characters\nAn escape sequence uses a backslash (\\) to represent a special character within a string.\n\nEscape\nsequence Meaning Example Screen output \\n A newline character that indicates the end of a line of text. print(\"Escape\\nsequence!\") Escape sequence!",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 381,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.4262400901484047,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch03_p05_para_00",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 5,
+            "text": "b. /t\n\nc. \\t\n\n8 . Which statement prints a backslash (\\) to the screen?\n\na. print(\\\\)\n\nb. print(\\\"\\\")\n\nc. print(\"\\\\\")\n\n9 . Which statement prints Enter and here on separate lines?\n\na. print(\"Enter here\")\n\nb. print(\"Enter\" + \\n + \"here\")\n\nc. print(\"Enter\" + \"\\n\" + \"here\")\n\nHopper quote\nGrace Hopper (https://openstax.org/r/100gracehopper) (1906–1992) was a famous computer scientist (and rear admiral in the US Navy!) who came up with the idea of machine-independent programming languages.\n\nShe envisioned a programming language based on English and made many contributions that paved the way for modern programming languages, including Python.",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 644,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.3786840144302154,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch03_p04_para_01 | starter/data/openstax_python_ch03_types.pdf | page 4]\n[Escape] \\t A tab character; useful for indenting paragraphs or aligning text on multiple lines. print(\"Escape\\ tsequence!\") Escape sequence! \\' A single quote; an alternative to enclosing the string in double quotes. print('I\\'ll try my best!') I'll try my best \\\" A double quote; an alternative to enclosing the string in single quotes. print(\"I heard you said \\\"Yes\\\"\") I heard you said \"Yes\" \\\\ A backslash character. print(\"This prints a \\\\\") This prints a \\ Table 3.2 Common escape sequences.\n\nCONCEPTS IN PRACTICE\n\nTabs and newlines\n7 . Which of the following is an escape sequence?\n\na. t\n\n[openstax-py-ch03_p04_para_00 | starter/data/openstax_python_ch03_types.pdf | page 4]\n5 . What value does ord(\"0\") return?\n\na. 0\n\nb. 48\n\nc. Error\n\n6 . What does chr(126) return?\n\na. ~\n\nb. \"~\"\n\nc. Error\n\nSpecial characters\nAn escape sequence uses a backslash (\\) to represent a special character within a string.\n\nEscape\nsequence Meaning Example Screen output \\n A newline character that indicates the end of a line of text. print(\"Escape\\nsequence!\") Escape sequence!",
+        "context_ids": [
+          "openstax-py-ch03_p04_para_01",
+          "openstax-py-ch03_p04_para_00"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 5799.85,
+    "prompt_tokens": 941,
+    "completion_tokens": 108,
+    "embed_tokens": 8,
+    "service_cost_usd": 0.00020611
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "answerable": true,
+    "question": "When converting numbers and strings with bool(), which values evaluate to True and which evaluate to False?",
+    "status": "answered",
+    "answer": "In Python, the following values evaluate to False when converted using bool(): an empty string (''), the integer 0, and the float 0.0. All other values, including non-empty strings (like '0') and any non-zero numbers, evaluate to True. This is supported by the context which states that bool('') is False and bool('0') is True [openstax-py-ch04_p03_para_01].",
+    "citations": [
+      "openstax-py-ch04_p03_para_01"
+    ],
+    "final_context": "[openstax-py-ch04_p05_para_00 | starter/data/openstax_python_ch04_branching.pdf | page 5]\nb. False\n\n16 . w = 0 compare_result = (w != 0.4)\n\na. True\n\nb. False\n\n17 . v = 4 compare_result = (v < 4.0)\n\na. True\n\nb. False\n\n18 . y = 2 compare_result = (y > \"ab\")\n\na. True\n\nb. False\n\nc. Error\n\n19 . z = \"cilantro\" compare_result = (z == \"coriander\")\n\na. True\n\nb. False\n\n20 . a = \"dog\" compare_result = (a < \"cat\")\n\na. True\n\nb. False = VS == A common mistake is using = for comparison instead of ==. Ex: is_zero = num=0 will always assign is_zero and num with 0, regardless of num's original value. The = operator performs assignment and will modify the variable. The == operator performs comparison, does not modify the variable, and produces True or False.\n\nEXPLORING FURTHER\n• Unicode Basic Latin Chart (https://openstax.org/r/100unicodelatin) 4.1 • Boolean values 89\n\n[openstax-py-ch04_p03_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 3]\n[Converting numeric types and strings to Booleans] a. True\n\nb. False\n\n9 . bool(\"\")\n\na. True\n\nb. False\n\n10 . bool(\"0\")\n\na. True\n\nb. False\n\n11 . Given input False, what is bool(input())?\n\na. True\n\nb. False 4.1 • Boolean values 87",
+    "final_context_ids": [
+      "openstax-py-ch04_p05_para_00",
+      "openstax-py-ch04_p03_para_01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "bool() values evaluate True False",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch04_p05_para_00",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 5,
+            "text": "b. False\n\n16 . w = 0 compare_result = (w != 0.4)\n\na. True\n\nb. False\n\n17 . v = 4 compare_result = (v < 4.0)\n\na. True\n\nb. False\n\n18 . y = 2 compare_result = (y > \"ab\")\n\na. True\n\nb. False\n\nc. Error\n\n19 . z = \"cilantro\" compare_result = (z == \"coriander\")\n\na. True\n\nb. False\n\n20 . a = \"dog\" compare_result = (a < \"cat\")\n\na. True\n\nb. False = VS == A common mistake is using = for comparison instead of ==. Ex: is_zero = num=0 will always assign is_zero and num with 0, regardless of num's original value. The = operator performs assignment and will modify the variable. The == operator performs comparison, does not modify the variable, and produces True or False.\n\nEXPLORING FURTHER\n• Unicode Basic Latin Chart (https://openstax.org/r/100unicodelatin) 4.1 • Boolean values 89",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 771,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.5223420231031105,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch04_p03_para_01",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 3,
+            "text": "[Converting numeric types and strings to Booleans] a. True\n\nb. False\n\n9 . bool(\"\")\n\na. True\n\nb. False\n\n10 . bool(\"0\")\n\na. True\n\nb. False\n\n11 . Given input False, what is bool(input())?\n\na. True\n\nb. False 4.1 • Boolean values 87",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 227,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.5208505341807084,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch04_p03_para_00",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 3,
+            "text": "print(type(is_dessert)) What is the output?\n\na. <class 'bool'>\n\nb. <class 'int'>\n\nc. Error Type conversion with bool() Deciding whether a value is true or false is helpful when writing programs/statements based on decisions.\n\nConverting data types to Booleans can seem unintuitive at first. Ex: Is \"ice cream\" True? But the conversion is actually simple. bool() converts a value to a Boolean value, True or False.\n\n• True: any non-zero number, any non-empty string\n\n• False: 0, empty string\n\nCHECKPOINT\nConverting integers, floats, and strings using bool() Converting integers, floats, and strings using bool(); ch 4, video 2 (https://www.openstax.org/r/convertingusing-bool)\n\nCONCEPTS IN PRACTICE\n\nConverting numeric types and strings to Booleans\n7 . bool(0.000)\n\na. True\n\nb. False\n\n8 . bool(-1)",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 796,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.5144029145136161,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch04_p05_para_00 | starter/data/openstax_python_ch04_branching.pdf | page 5]\nb. False\n\n16 . w = 0 compare_result = (w != 0.4)\n\na. True\n\nb. False\n\n17 . v = 4 compare_result = (v < 4.0)\n\na. True\n\nb. False\n\n18 . y = 2 compare_result = (y > \"ab\")\n\na. True\n\nb. False\n\nc. Error\n\n19 . z = \"cilantro\" compare_result = (z == \"coriander\")\n\na. True\n\nb. False\n\n20 . a = \"dog\" compare_result = (a < \"cat\")\n\na. True\n\nb. False = VS == A common mistake is using = for comparison instead of ==. Ex: is_zero = num=0 will always assign is_zero and num with 0, regardless of num's original value. The = operator performs assignment and will modify the variable. The == operator performs comparison, does not modify the variable, and produces True or False.\n\nEXPLORING FURTHER\n• Unicode Basic Latin Chart (https://openstax.org/r/100unicodelatin) 4.1 • Boolean values 89\n\n[openstax-py-ch04_p03_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 3]\n[Converting numeric types and strings to Booleans] a. True\n\nb. False\n\n9 . bool(\"\")\n\na. True\n\nb. False\n\n10 . bool(\"0\")\n\na. True\n\nb. False\n\n11 . Given input False, what is bool(input())?\n\na. True\n\nb. False 4.1 • Boolean values 87",
+        "context_ids": [
+          "openstax-py-ch04_p05_para_00",
+          "openstax-py-ch04_p03_para_01"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 5953.19,
+    "prompt_tokens": 998,
+    "completion_tokens": 138,
+    "embed_tokens": 6,
+    "service_cost_usd": 0.00023262
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "answerable": true,
+    "question": "What mistake occurs when using = instead of == in a comparison, and how do the two operators differ?",
+    "status": "answered",
+    "answer": "The mistake that occurs when using = instead of == in a comparison is that = performs assignment, modifying the variable, while == performs comparison without modifying the variable and produces a Boolean result (True or False). For example, using is_zero = num=0 will assign both is_zero and num to 0, regardless of num's original value. This distinction is crucial for correct logical operations in programming [openstax-py-ch04_p05_para_00].",
+    "citations": [
+      "openstax-py-ch04_p05_para_00"
+    ],
+    "final_context": "[openstax-py-ch04_p04_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 4]\n[Comparison operators] • greater than or equal to: >=\n\n• less than or equal to: <=\n\nCHECKPOINT\nExample: Rolling a d20 in a tabletop game Example: Rolling a d20 in a tabletop game; ch 4, video 3 (https://www.openstax.org/r/rolling-d20)\n\nCONCEPTS IN PRACTICE\n\nComparing values\nFor each new variable, what is the value of compare_result?\n\n15 . x = 14 compare_result = (x <= 13)\n\na. True\n\n[openstax-py-ch04_p05_para_00 | starter/data/openstax_python_ch04_branching.pdf | page 5]\nb. False\n\n16 . w = 0 compare_result = (w != 0.4)\n\na. True\n\nb. False\n\n17 . v = 4 compare_result = (v < 4.0)\n\na. True\n\nb. False\n\n18 . y = 2 compare_result = (y > \"ab\")\n\na. True\n\nb. False\n\nc. Error\n\n19 . z = \"cilantro\" compare_result = (z == \"coriander\")\n\na. True\n\nb. False\n\n20 . a = \"dog\" compare_result = (a < \"cat\")\n\na. True\n\nb. False = VS == A common mistake is using = for comparison instead of ==. Ex: is_zero = num=0 will always assign is_zero and num with 0, regardless of num's original value. The = operator performs assignment and will modify the variable. The == operator performs comparison, does not modify the variable, and produces True or False.\n\nEXPLORING FURTHER\n• Unicode Basic Latin Chart (https://openstax.org/r/100unicodelatin) 4.1 • Boolean values 89",
+    "final_context_ids": [
+      "openstax-py-ch04_p04_para_01",
+      "openstax-py-ch04_p05_para_00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "difference between = and ==",
+        "filter": {
+          "section": "ch04_branching"
+        },
+        "results": [
+          {
+            "id": "openstax-py-ch04_p04_para_01",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 4,
+            "text": "[Comparison operators] • greater than or equal to: >=\n\n• less than or equal to: <=\n\nCHECKPOINT\nExample: Rolling a d20 in a tabletop game Example: Rolling a d20 in a tabletop game; ch 4, video 3 (https://www.openstax.org/r/rolling-d20)\n\nCONCEPTS IN PRACTICE\n\nComparing values\nFor each new variable, what is the value of compare_result?\n\n15 . x = 14 compare_result = (x <= 13)\n\na. True",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 383,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.4906147378350328,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch04_p05_para_00",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 5,
+            "text": "b. False\n\n16 . w = 0 compare_result = (w != 0.4)\n\na. True\n\nb. False\n\n17 . v = 4 compare_result = (v < 4.0)\n\na. True\n\nb. False\n\n18 . y = 2 compare_result = (y > \"ab\")\n\na. True\n\nb. False\n\nc. Error\n\n19 . z = \"cilantro\" compare_result = (z == \"coriander\")\n\na. True\n\nb. False\n\n20 . a = \"dog\" compare_result = (a < \"cat\")\n\na. True\n\nb. False = VS == A common mistake is using = for comparison instead of ==. Ex: is_zero = num=0 will always assign is_zero and num with 0, regardless of num's original value. The = operator performs assignment and will modify the variable. The == operator performs comparison, does not modify the variable, and produces True or False.\n\nEXPLORING FURTHER\n• Unicode Basic Latin Chart (https://openstax.org/r/100unicodelatin) 4.1 • Boolean values 89",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 771,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.4853920850693958,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch04_p04_para_00",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 4,
+            "text": "CONCEPTS IN PRACTICE\n\nConverting Booleans to numeric types and strings\nGiven is_on = True, what is the value of each expression?\n\n12 . float(is_on)\n\na. 0.0\n\nb. 1.0\n\n13 . str(is_on)\n\na. \"is_on\"\n\nb. \"True\"\n\n14 . int(is_on)\n\na. 0\n\nb. 1\n\nComparison operators\nProgrammers often have to answer questions like \"Is the current user the admin?\" A programmer may want to compare a string variable, user, to the string, \"admin\". Comparison operators are used to compare values, and the result is either true or false. Ex: is_admin = (user == \"admin\"). user is compared with \"admin\" using the == operator, which tests for equality. The Boolean variable, is_admin, is assigned with the Boolean result. The 6 comparison operators:\n\n• equal to: ==\n\n• not equal to: !=\n\n• greater than: >\n\n• less than: <",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 787,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.4032092798122905,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch04_p04_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 4]\n[Comparison operators] • greater than or equal to: >=\n\n• less than or equal to: <=\n\nCHECKPOINT\nExample: Rolling a d20 in a tabletop game Example: Rolling a d20 in a tabletop game; ch 4, video 3 (https://www.openstax.org/r/rolling-d20)\n\nCONCEPTS IN PRACTICE\n\nComparing values\nFor each new variable, what is the value of compare_result?\n\n15 . x = 14 compare_result = (x <= 13)\n\na. True\n\n[openstax-py-ch04_p05_para_00 | starter/data/openstax_python_ch04_branching.pdf | page 5]\nb. False\n\n16 . w = 0 compare_result = (w != 0.4)\n\na. True\n\nb. False\n\n17 . v = 4 compare_result = (v < 4.0)\n\na. True\n\nb. False\n\n18 . y = 2 compare_result = (y > \"ab\")\n\na. True\n\nb. False\n\nc. Error\n\n19 . z = \"cilantro\" compare_result = (z == \"coriander\")\n\na. True\n\nb. False\n\n20 . a = \"dog\" compare_result = (a < \"cat\")\n\na. True\n\nb. False = VS == A common mistake is using = for comparison instead of ==. Ex: is_zero = num=0 will always assign is_zero and num with 0, regardless of num's original value. The = operator performs assignment and will modify the variable. The == operator performs comparison, does not modify the variable, and produces True or False.\n\nEXPLORING FURTHER\n• Unicode Basic Latin Chart (https://openstax.org/r/100unicodelatin) 4.1 • Boolean values 89",
+        "context_ids": [
+          "openstax-py-ch04_p04_para_01",
+          "openstax-py-ch04_p05_para_00"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 5826.36,
+    "prompt_tokens": 1036,
+    "completion_tokens": 139,
+    "embed_tokens": 5,
+    "service_cost_usd": 0.0002389
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "answerable": true,
+    "question": "What indentation guideline does PEP 8 recommend for an if statement body, and what happens if the body is empty?",
+    "status": "answered",
+    "answer": "PEP 8 recommends that the body of an if statement must be grouped together and have one level of indentation, specifically four spaces per indentation level. If the body is empty, the Python interpreter will produce an error [openstax-py-ch04_p06_para_02].",
+    "citations": [
+      "openstax-py-ch04_p06_para_02"
+    ],
+    "final_context": "[openstax-py-ch04_p06_para_02 | starter/data/openstax_python_ch04_branching.pdf | page 6]\n[By the end of this section you should be able to] A condition is an expression that evaluates to true or false. An if statement is a decision-making structure that contains a condition and a body of statements. If the condition is true, the body is executed. If the condition is false, the body is not executed. The if statement's body must be grouped together and have one level of indentation. The PEP 8 style guide recommends four spaces per indentation level. The Python interpreter will produce an error if the body is empty.\n\nTRY IT\n\nTRY IT\n\n[openstax-py-ch04_p08_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 8]\n[num = num + 50] c. Error if-else statement An if statement defines actions to be performed when a condition is true. What if an action needs to be performed only when the condition is false? Ex: If the restaurant is less than a mile away, we'll walk. Else, we'll drive. An else statement is used with an if statement and contains a body of statements that is executed when the if statement's condition is false. When an if-else statement is executed, one and only one of the branches is taken. That is, the body of the if or the body of the else is executed. Note: The else statement is at the same level of indentation as the if statement, and the body is indented.\n\nif-else statement template: 1 # Statements before 2 3 if condition: 4 # Body 5 else: 6 # Body 7 8 # Statements after\n\n[openstax-py-ch04_p09_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 9]\n4.2 • If-else statements 93",
+    "final_context_ids": [
+      "openstax-py-ch04_p06_para_02",
+      "openstax-py-ch04_p08_para_01",
+      "openstax-py-ch04_p09_para_01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "PEP 8 indentation guideline if statement body",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch04_p06_para_02",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 6,
+            "text": "[By the end of this section you should be able to] A condition is an expression that evaluates to true or false. An if statement is a decision-making structure that contains a condition and a body of statements. If the condition is true, the body is executed. If the condition is false, the body is not executed. The if statement's body must be grouped together and have one level of indentation. The PEP 8 style guide recommends four spaces per indentation level. The Python interpreter will produce an error if the body is empty.\n\nTRY IT\n\nTRY IT",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 547,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 2
+            },
+            "score": 0.5567495078593172,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch04_p08_para_01",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 8,
+            "text": "[num = num + 50] c. Error if-else statement An if statement defines actions to be performed when a condition is true. What if an action needs to be performed only when the condition is false? Ex: If the restaurant is less than a mile away, we'll walk. Else, we'll drive. An else statement is used with an if statement and contains a body of statements that is executed when the if statement's condition is false. When an if-else statement is executed, one and only one of the branches is taken. That is, the body of the if or the body of the else is executed. Note: The else statement is at the same level of indentation as the if statement, and the body is indented.\n\nif-else statement template: 1 # Statements before 2 3 if condition: 4 # Body 5 else: 6 # Body 7 8 # Statements after",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 785,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.462834177482803,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch04_p09_para_01",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 9,
+            "text": "4.2 • If-else statements 93",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 27,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.42589597765243814,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch04_p06_para_02 | starter/data/openstax_python_ch04_branching.pdf | page 6]\n[By the end of this section you should be able to] A condition is an expression that evaluates to true or false. An if statement is a decision-making structure that contains a condition and a body of statements. If the condition is true, the body is executed. If the condition is false, the body is not executed. The if statement's body must be grouped together and have one level of indentation. The PEP 8 style guide recommends four spaces per indentation level. The Python interpreter will produce an error if the body is empty.\n\nTRY IT\n\nTRY IT\n\n[openstax-py-ch04_p08_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 8]\n[num = num + 50] c. Error if-else statement An if statement defines actions to be performed when a condition is true. What if an action needs to be performed only when the condition is false? Ex: If the restaurant is less than a mile away, we'll walk. Else, we'll drive. An else statement is used with an if statement and contains a body of statements that is executed when the if statement's condition is false. When an if-else statement is executed, one and only one of the branches is taken. That is, the body of the if or the body of the else is executed. Note: The else statement is at the same level of indentation as the if statement, and the body is indented.\n\nif-else statement template: 1 # Statements before 2 3 if condition: 4 # Body 5 else: 6 # Body 7 8 # Statements after\n\n[openstax-py-ch04_p09_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 9]\n4.2 • If-else statements 93",
+        "context_ids": [
+          "openstax-py-ch04_p06_para_02",
+          "openstax-py-ch04_p08_para_01",
+          "openstax-py-ch04_p09_para_01"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 5825.06,
+    "prompt_tokens": 1055,
+    "completion_tokens": 107,
+    "embed_tokens": 9,
+    "service_cost_usd": 0.00022263
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "answerable": true,
+    "question": "In an if-else structure, how many branches can run during one execution and how should the else keyword be aligned?",
+    "status": "answered",
+    "answer": "In an if-else structure, one and only one of the branches can run during one execution. The else keyword should be aligned at the same level of indentation as the if statement, with its body indented [openstax-py-ch04_p08_para_01].",
+    "citations": [
+      "openstax-py-ch04_p08_para_01"
+    ],
+    "final_context": "[openstax-py-ch04_p08_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 8]\n[num = num + 50] c. Error if-else statement An if statement defines actions to be performed when a condition is true. What if an action needs to be performed only when the condition is false? Ex: If the restaurant is less than a mile away, we'll walk. Else, we'll drive. An else statement is used with an if statement and contains a body of statements that is executed when the if statement's condition is false. When an if-else statement is executed, one and only one of the branches is taken. That is, the body of the if or the body of the else is executed. Note: The else statement is at the same level of indentation as the if statement, and the body is indented.\n\nif-else statement template: 1 # Statements before 2 3 if condition: 4 # Body 5 else: 6 # Body 7 8 # Statements after\n\n[openstax-py-ch04_p09_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 9]\n4.2 • If-else statements 93\n\n[openstax-py-ch04_p06_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 6]\nBy the end of this section you should be able to\n• Identify which operations are performed when a program with if and if-else statements is run.\n\n• Identify the components of an if and if-else statement and the necessary formatting.\n\n• Create an if-else statement to perform an operation when a condition is true and another operation otherwise. if statement If the weather is rainy, grab an umbrella! People make decisions based on conditions like if the weather is rainy, and programs perform operations based on conditions like a variable's value. Ex: A program adds two numbers. If the result is negative, the program prints an error.",
+    "final_context_ids": [
+      "openstax-py-ch04_p08_para_01",
+      "openstax-py-ch04_p09_para_01",
+      "openstax-py-ch04_p06_para_01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "if-else structure branches execution else keyword alignment",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch04_p08_para_01",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 8,
+            "text": "[num = num + 50] c. Error if-else statement An if statement defines actions to be performed when a condition is true. What if an action needs to be performed only when the condition is false? Ex: If the restaurant is less than a mile away, we'll walk. Else, we'll drive. An else statement is used with an if statement and contains a body of statements that is executed when the if statement's condition is false. When an if-else statement is executed, one and only one of the branches is taken. That is, the body of the if or the body of the else is executed. Note: The else statement is at the same level of indentation as the if statement, and the body is indented.\n\nif-else statement template: 1 # Statements before 2 3 if condition: 4 # Body 5 else: 6 # Body 7 8 # Statements after",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 785,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.5960812375645945,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch04_p09_para_01",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 9,
+            "text": "4.2 • If-else statements 93",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 27,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.5641480811689416,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch04_p06_para_01",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 6,
+            "text": "By the end of this section you should be able to\n• Identify which operations are performed when a program with if and if-else statements is run.\n\n• Identify the components of an if and if-else statement and the necessary formatting.\n\n• Create an if-else statement to perform an operation when a condition is true and another operation otherwise. if statement If the weather is rainy, grab an umbrella! People make decisions based on conditions like if the weather is rainy, and programs perform operations based on conditions like a variable's value. Ex: A program adds two numbers. If the result is negative, the program prints an error.",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 638,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.4905478303022402,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch04_p08_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 8]\n[num = num + 50] c. Error if-else statement An if statement defines actions to be performed when a condition is true. What if an action needs to be performed only when the condition is false? Ex: If the restaurant is less than a mile away, we'll walk. Else, we'll drive. An else statement is used with an if statement and contains a body of statements that is executed when the if statement's condition is false. When an if-else statement is executed, one and only one of the branches is taken. That is, the body of the if or the body of the else is executed. Note: The else statement is at the same level of indentation as the if statement, and the body is indented.\n\nif-else statement template: 1 # Statements before 2 3 if condition: 4 # Body 5 else: 6 # Body 7 8 # Statements after\n\n[openstax-py-ch04_p09_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 9]\n4.2 • If-else statements 93\n\n[openstax-py-ch04_p06_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 6]\nBy the end of this section you should be able to\n• Identify which operations are performed when a program with if and if-else statements is run.\n\n• Identify the components of an if and if-else statement and the necessary formatting.\n\n• Create an if-else statement to perform an operation when a condition is true and another operation otherwise. if statement If the weather is rainy, grab an umbrella! People make decisions based on conditions like if the weather is rainy, and programs perform operations based on conditions like a variable's value. Ex: A program adds two numbers. If the result is negative, the program prints an error.",
+        "context_ids": [
+          "openstax-py-ch04_p08_para_01",
+          "openstax-py-ch04_p09_para_01",
+          "openstax-py-ch04_p06_para_01"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 6019.23,
+    "prompt_tokens": 1068,
+    "completion_tokens": 106,
+    "embed_tokens": 9,
+    "service_cost_usd": 0.00022398
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "answerable": true,
+    "question": "What are Python's three logical operators, and when does the and operator return True?",
+    "status": "answered",
+    "answer": "Python's three logical operators are and, or, and not. The and operator returns True if both conditions it evaluates are true, as shown in the truth table: True and True results in True, while any other combination results in False [openstax-py-ch04_p10_para_01].",
+    "citations": [
+      "openstax-py-ch04_p10_para_01"
+    ],
+    "final_context": "[openstax-py-ch04_p10_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 10]\n[By the end of this section you should be able to] Logical operator: and Decisions are often based on multiple conditions. Ex: A program printing if a business is open may check that hour >= 9 and hour < 17. A logical operator takes condition operand(s) and produces True or False.\n\nPython has three logical operators: and, or, and not. The and operator takes two condition operands and returns True if both conditions are true. p q p and q\n\nTrue True True\n\nTrue False False\n\nFalse True False\n\nFalse False False\nTable 4.1 Truth table: p and q.\n\nCHECKPOINT\nExample: Museum entry Example: Museum entry; ch 4, video 6 (https://www.openstax.org/r/museum-entry)\n\n[openstax-py-ch04_p05_para_00 | starter/data/openstax_python_ch04_branching.pdf | page 5]\nb. False\n\n16 . w = 0 compare_result = (w != 0.4)\n\na. True\n\nb. False\n\n17 . v = 4 compare_result = (v < 4.0)\n\na. True\n\nb. False\n\n18 . y = 2 compare_result = (y > \"ab\")\n\na. True\n\nb. False\n\nc. Error\n\n19 . z = \"cilantro\" compare_result = (z == \"coriander\")\n\na. True\n\nb. False\n\n20 . a = \"dog\" compare_result = (a < \"cat\")\n\na. True\n\nb. False = VS == A common mistake is using = for comparison instead of ==. Ex: is_zero = num=0 will always assign is_zero and num with 0, regardless of num's original value. The = operator performs assignment and will modify the variable. The == operator performs comparison, does not modify the variable, and produces True or False.\n\nEXPLORING FURTHER\n• Unicode Basic Latin Chart (https://openstax.org/r/100unicodelatin) 4.1 • Boolean values 89",
+    "final_context_ids": [
+      "openstax-py-ch04_p10_para_01",
+      "openstax-py-ch04_p05_para_00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Python logical operators and when does the and operator return True",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch04_p10_para_01",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 10,
+            "text": "[By the end of this section you should be able to] Logical operator: and Decisions are often based on multiple conditions. Ex: A program printing if a business is open may check that hour >= 9 and hour < 17. A logical operator takes condition operand(s) and produces True or False.\n\nPython has three logical operators: and, or, and not. The and operator takes two condition operands and returns True if both conditions are true. p q p and q\n\nTrue True True\n\nTrue False False\n\nFalse True False\n\nFalse False False\nTable 4.1 Truth table: p and q.\n\nCHECKPOINT\nExample: Museum entry Example: Museum entry; ch 4, video 6 (https://www.openstax.org/r/museum-entry)",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 656,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.6454333686072146,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch04_p05_para_00",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 5,
+            "text": "b. False\n\n16 . w = 0 compare_result = (w != 0.4)\n\na. True\n\nb. False\n\n17 . v = 4 compare_result = (v < 4.0)\n\na. True\n\nb. False\n\n18 . y = 2 compare_result = (y > \"ab\")\n\na. True\n\nb. False\n\nc. Error\n\n19 . z = \"cilantro\" compare_result = (z == \"coriander\")\n\na. True\n\nb. False\n\n20 . a = \"dog\" compare_result = (a < \"cat\")\n\na. True\n\nb. False = VS == A common mistake is using = for comparison instead of ==. Ex: is_zero = num=0 will always assign is_zero and num with 0, regardless of num's original value. The = operator performs assignment and will modify the variable. The == operator performs comparison, does not modify the variable, and produces True or False.\n\nEXPLORING FURTHER\n• Unicode Basic Latin Chart (https://openstax.org/r/100unicodelatin) 4.1 • Boolean values 89",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 771,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.47700103729912124,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch04_p04_para_00",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 4,
+            "text": "CONCEPTS IN PRACTICE\n\nConverting Booleans to numeric types and strings\nGiven is_on = True, what is the value of each expression?\n\n12 . float(is_on)\n\na. 0.0\n\nb. 1.0\n\n13 . str(is_on)\n\na. \"is_on\"\n\nb. \"True\"\n\n14 . int(is_on)\n\na. 0\n\nb. 1\n\nComparison operators\nProgrammers often have to answer questions like \"Is the current user the admin?\" A programmer may want to compare a string variable, user, to the string, \"admin\". Comparison operators are used to compare values, and the result is either true or false. Ex: is_admin = (user == \"admin\"). user is compared with \"admin\" using the == operator, which tests for equality. The Boolean variable, is_admin, is assigned with the Boolean result. The 6 comparison operators:\n\n• equal to: ==\n\n• not equal to: !=\n\n• greater than: >\n\n• less than: <",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 787,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.4593346681306008,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch04_p10_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 10]\n[By the end of this section you should be able to] Logical operator: and Decisions are often based on multiple conditions. Ex: A program printing if a business is open may check that hour >= 9 and hour < 17. A logical operator takes condition operand(s) and produces True or False.\n\nPython has three logical operators: and, or, and not. The and operator takes two condition operands and returns True if both conditions are true. p q p and q\n\nTrue True True\n\nTrue False False\n\nFalse True False\n\nFalse False False\nTable 4.1 Truth table: p and q.\n\nCHECKPOINT\nExample: Museum entry Example: Museum entry; ch 4, video 6 (https://www.openstax.org/r/museum-entry)\n\n[openstax-py-ch04_p05_para_00 | starter/data/openstax_python_ch04_branching.pdf | page 5]\nb. False\n\n16 . w = 0 compare_result = (w != 0.4)\n\na. True\n\nb. False\n\n17 . v = 4 compare_result = (v < 4.0)\n\na. True\n\nb. False\n\n18 . y = 2 compare_result = (y > \"ab\")\n\na. True\n\nb. False\n\nc. Error\n\n19 . z = \"cilantro\" compare_result = (z == \"coriander\")\n\na. True\n\nb. False\n\n20 . a = \"dog\" compare_result = (a < \"cat\")\n\na. True\n\nb. False = VS == A common mistake is using = for comparison instead of ==. Ex: is_zero = num=0 will always assign is_zero and num with 0, regardless of num's original value. The = operator performs assignment and will modify the variable. The == operator performs comparison, does not modify the variable, and produces True or False.\n\nEXPLORING FURTHER\n• Unicode Basic Latin Chart (https://openstax.org/r/100unicodelatin) 4.1 • Boolean values 89",
+        "context_ids": [
+          "openstax-py-ch04_p10_para_01",
+          "openstax-py-ch04_p05_para_00"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 6158.32,
+    "prompt_tokens": 1080,
+    "completion_tokens": 113,
+    "embed_tokens": 11,
+    "service_cost_usd": 0.00023002
+  },
+  {
+    "query_id": "q16",
+    "split": "dev",
+    "answerable": true,
+    "question": "When using a counter variable in a while loop, what is the step size and how does a positive versus negative step size affect counting direction?",
+    "status": "answered",
+    "answer": "The step size in a while loop refers to the change in the counter's value in each iteration, which can be any positive or negative value. A positive step size causes the counter to count in ascending order, while a negative step size results in counting in descending order [openstax-py-ch05_p03_para_00].",
+    "citations": [
+      "openstax-py-ch05_p03_para_00"
+    ],
+    "final_context": "[openstax-py-ch05_p03_para_00 | starter/data/openstax_python_ch05_loops.pdf | page 3]\ndetermine the number of iterations executed. Ex: A programmer may want to print all even numbers between 1 and 20. The task can be done by using a counter initialized with 1. In each iteration, the counter's value is increased by one, and a condition can check whether the counter's value is an even number or not. The change in the counter's value in each iteration is called the step size. The step size can be any positive or negative value. If the step size is a positive number, the counter counts in ascending order, and if the step size is a negative number, the counter counts in descending order.\n\nEXAMPLE 5.1\n\n[openstax-py-ch05_p02_para_00 | starter/data/openstax_python_ch05_loops.pdf | page 2]\nloop expression is evaluated again.\n\n• If true, the loop body will execute at least one more time (also called looping or iterating one more time).\n\n• If false, the loop's execution will terminate and the next statement after the loop body will execute.\n\nCHECKPOINT\n\nWhile loop\n\nWhile loop; ch 5, video 1 (https://www.openstax.org/r/while-loop)\n\nCONCEPTS IN PRACTICE\n\nWhile loop example\nFibonacci is a series of numbers in which each number is the sum of the two preceding numbers. The Fibonacci sequence starts with two ones: 1, 1, 2, 3, . . . . Consider the following code that prints all Fibonacci numbers less than 20, and answer the following questions.",
+    "final_context_ids": [
+      "openstax-py-ch05_p03_para_00",
+      "openstax-py-ch05_p02_para_00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "counter variable while loop step size positive negative counting direction",
+        "filter": {
+          "section": "ch05_loops"
+        },
+        "results": [
+          {
+            "id": "openstax-py-ch05_p03_para_00",
+            "source_id": "openstax-py-ch05",
+            "source": "starter/data/openstax_python_ch05_loops.pdf",
+            "page": 3,
+            "text": "determine the number of iterations executed. Ex: A programmer may want to print all even numbers between 1 and 20. The task can be done by using a counter initialized with 1. In each iteration, the counter's value is increased by one, and a condition can check whether the counter's value is an even number or not. The change in the counter's value in each iteration is called the step size. The step size can be any positive or negative value. If the step size is a positive number, the counter counts in ascending order, and if the step size is a negative number, the counter counts in descending order.\n\nEXAMPLE 5.1",
+            "metadata": {
+              "section": "ch05_loops",
+              "chapter": "Chapter 5: Loops",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 618,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.6147047474111039,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch05_p02_para_00",
+            "source_id": "openstax-py-ch05",
+            "source": "starter/data/openstax_python_ch05_loops.pdf",
+            "page": 2,
+            "text": "loop expression is evaluated again.\n\n• If true, the loop body will execute at least one more time (also called looping or iterating one more time).\n\n• If false, the loop's execution will terminate and the next statement after the loop body will execute.\n\nCHECKPOINT\n\nWhile loop\n\nWhile loop; ch 5, video 1 (https://www.openstax.org/r/while-loop)\n\nCONCEPTS IN PRACTICE\n\nWhile loop example\nFibonacci is a series of numbers in which each number is the sum of the two preceding numbers. The Fibonacci sequence starts with two ones: 1, 1, 2, 3, . . . . Consider the following code that prints all Fibonacci numbers less than 20, and answer the following questions.",
+            "metadata": {
+              "section": "ch05_loops",
+              "chapter": "Chapter 5: Loops",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 658,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.44682418339333135,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch05_p03_para_01",
+            "source_id": "openstax-py-ch05",
+            "source": "starter/data/openstax_python_ch05_loops.pdf",
+            "page": 3,
+            "text": "A program printing all odd numbers between 1 and 10\n# Initialization counter = 1 # While loop condition while counter <= 10: if counter % 2 == 1: print(counter) # Counting up and increasing counter's value by 1 in each iteration counter += 1\n\nCHECKPOINT\n\nCounting with while loop\nCounting with while loop; ch 5, video 2 (https://www.openstax.org/r/counting-with-while-loop)\n\nCONCEPTS IN PRACTICE\nwhile loop counting examples Given the code, answer the following questions.\n\nn = 4 while n > 0: print(n) n = n - 1 print(\"value of n after the loop is\", n)\n\n4 . How many times does the loop execute?\n\na. 3\n\nb. 4\n\nc. 5\n\n5 . Which line is printed as the last line of output?\n\n5.1 • While loop 117",
+            "metadata": {
+              "section": "ch05_loops",
+              "chapter": "Chapter 5: Loops",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 690,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.41675704975357153,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch05_p03_para_00 | starter/data/openstax_python_ch05_loops.pdf | page 3]\ndetermine the number of iterations executed. Ex: A programmer may want to print all even numbers between 1 and 20. The task can be done by using a counter initialized with 1. In each iteration, the counter's value is increased by one, and a condition can check whether the counter's value is an even number or not. The change in the counter's value in each iteration is called the step size. The step size can be any positive or negative value. If the step size is a positive number, the counter counts in ascending order, and if the step size is a negative number, the counter counts in descending order.\n\nEXAMPLE 5.1\n\n[openstax-py-ch05_p02_para_00 | starter/data/openstax_python_ch05_loops.pdf | page 2]\nloop expression is evaluated again.\n\n• If true, the loop body will execute at least one more time (also called looping or iterating one more time).\n\n• If false, the loop's execution will terminate and the next statement after the loop body will execute.\n\nCHECKPOINT\n\nWhile loop\n\nWhile loop; ch 5, video 1 (https://www.openstax.org/r/while-loop)\n\nCONCEPTS IN PRACTICE\n\nWhile loop example\nFibonacci is a series of numbers in which each number is the sum of the two preceding numbers. The Fibonacci sequence starts with two ones: 1, 1, 2, 3, . . . . Consider the following code that prints all Fibonacci numbers less than 20, and answer the following questions.",
+        "context_ids": [
+          "openstax-py-ch05_p03_para_00",
+          "openstax-py-ch05_p02_para_00"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 5970.75,
+    "prompt_tokens": 1001,
+    "completion_tokens": 118,
+    "embed_tokens": 10,
+    "service_cost_usd": 0.00022115
+  },
+  {
+    "query_id": "q17",
+    "split": "dev",
+    "answerable": true,
+    "question": "In Python's range() function, are the start and end values inclusive or exclusive, and how many arguments can range() accept?",
+    "status": "answered",
+    "answer": "In Python's range() function, the start value is inclusive while the end value is exclusive. The range() function can accept up to three arguments: start, end, and step [openstax-py-ch05_p06_para_00].",
+    "citations": [
+      "openstax-py-ch05_p06_para_00"
+    ],
+    "final_context": "[openstax-py-ch05_p06_para_01 | starter/data/openstax_python_ch05_loops.pdf | page 6]\n[range(end)] • Step size: 1 range(0, 3) 0, 1, 2 range(2, 6) 2, 3, 4, 5 range(-13, -9) -13, -12, -11, -10 range(start, end, step)\n\n• Generates a sequence beginning at start until end.\n\n• Step size: step range(0, 4, 1) 0, 1, 2, 3 range(1, 7, 2) 1, 3, 5 range(3, -2, -1) 3, 2, 1, 0, -1 range(10, 0, -4) 10, 6, 2 Table 5.1 Using the range() function.\n\n[openstax-py-ch05_p06_para_00 | starter/data/openstax_python_ch05_loops.pdf | page 6]\na. A string*\n\nb. A*s*t*r*i*n*g*\n\nc. A* *s*t*r*i*n*g* Range() function in for loop A for loop can be used for iteration and counting. The range() function is a common approach for implementing counting in a for loop. A range() function generates a sequence of integers between the two numbers given a step size. This integer sequence is inclusive of the start and exclusive of the end of the sequence. The range() function can take up to three input values. Examples are provided in the table below.\n\nRange function Description Example Output\n\nrange(end)\n• Generates a sequence beginning at 0 until end.\n\n• Step size: 1 range(4) 0, 1, 2, 3 range(start, end)\n\n• Generates a sequence beginning at start until end.",
+    "final_context_ids": [
+      "openstax-py-ch05_p06_para_01",
+      "openstax-py-ch05_p06_para_00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Python range function start end values inclusive exclusive arguments",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch05_p06_para_01",
+            "source_id": "openstax-py-ch05",
+            "source": "starter/data/openstax_python_ch05_loops.pdf",
+            "page": 6,
+            "text": "[range(end)] • Step size: 1 range(0, 3) 0, 1, 2 range(2, 6) 2, 3, 4, 5 range(-13, -9) -13, -12, -11, -10 range(start, end, step)\n\n• Generates a sequence beginning at start until end.\n\n• Step size: step range(0, 4, 1) 0, 1, 2, 3 range(1, 7, 2) 1, 3, 5 range(3, -2, -1) 3, 2, 1, 0, -1 range(10, 0, -4) 10, 6, 2 Table 5.1 Using the range() function.",
+            "metadata": {
+              "section": "ch05_loops",
+              "chapter": "Chapter 5: Loops",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 346,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.4890315800328064,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch05_p06_para_00",
+            "source_id": "openstax-py-ch05",
+            "source": "starter/data/openstax_python_ch05_loops.pdf",
+            "page": 6,
+            "text": "a. A string*\n\nb. A*s*t*r*i*n*g*\n\nc. A* *s*t*r*i*n*g* Range() function in for loop A for loop can be used for iteration and counting. The range() function is a common approach for implementing counting in a for loop. A range() function generates a sequence of integers between the two numbers given a step size. This integer sequence is inclusive of the start and exclusive of the end of the sequence. The range() function can take up to three input values. Examples are provided in the table below.\n\nRange function Description Example Output\n\nrange(end)\n• Generates a sequence beginning at 0 until end.\n\n• Step size: 1 range(4) 0, 1, 2, 3 range(start, end)\n\n• Generates a sequence beginning at start until end.",
+            "metadata": {
+              "section": "ch05_loops",
+              "chapter": "Chapter 5: Loops",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 710,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.3755745861462324,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch05_p07_para_00",
+            "source_id": "openstax-py-ch05",
+            "source": "starter/data/openstax_python_ch05_loops.pdf",
+            "page": 7,
+            "text": "EXAMPLE 5.2\nTwo programs printing all integer multiples of 5 less than 50 (Notice the compactness of the for construction compared to the while) # For loop condition using # range() function to print # all multiples of 5 less than 50 for i in range(0, 50, 5): print(i) # While loop implementation of printing # multiples of 5 less than 50 # Initialization i = 0 # Limiting the range to be less than 50 while i < 50: print(i) i+=5 Table 5.2\n\nCONCEPTS IN PRACTICE\n\nFor loop using a range() function\n4 . What are the arguments to the range() function for the increasing sequence of every 3rd integer from 10 to 22 (inclusive of both ends)?\n\na. range(10, 23, 3)\n\nb. range(10, 22, 3)\n\nc. range(22, 10, -3)",
+            "metadata": {
+              "section": "ch05_loops",
+              "chapter": "Chapter 5: Loops",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 700,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.3636757356979756,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch05_p06_para_01 | starter/data/openstax_python_ch05_loops.pdf | page 6]\n[range(end)] • Step size: 1 range(0, 3) 0, 1, 2 range(2, 6) 2, 3, 4, 5 range(-13, -9) -13, -12, -11, -10 range(start, end, step)\n\n• Generates a sequence beginning at start until end.\n\n• Step size: step range(0, 4, 1) 0, 1, 2, 3 range(1, 7, 2) 1, 3, 5 range(3, -2, -1) 3, 2, 1, 0, -1 range(10, 0, -4) 10, 6, 2 Table 5.1 Using the range() function.\n\n[openstax-py-ch05_p06_para_00 | starter/data/openstax_python_ch05_loops.pdf | page 6]\na. A string*\n\nb. A*s*t*r*i*n*g*\n\nc. A* *s*t*r*i*n*g* Range() function in for loop A for loop can be used for iteration and counting. The range() function is a common approach for implementing counting in a for loop. A range() function generates a sequence of integers between the two numbers given a step size. This integer sequence is inclusive of the start and exclusive of the end of the sequence. The range() function can take up to three input values. Examples are provided in the table below.\n\nRange function Description Example Output\n\nrange(end)\n• Generates a sequence beginning at 0 until end.\n\n• Step size: 1 range(4) 0, 1, 2, 3 range(start, end)\n\n• Generates a sequence beginning at start until end.",
+        "context_ids": [
+          "openstax-py-ch05_p06_para_01",
+          "openstax-py-ch05_p06_para_00"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 5488.02,
+    "prompt_tokens": 1048,
+    "completion_tokens": 100,
+    "embed_tokens": 9,
+    "service_cost_usd": 0.00021738
+  },
+  {
+    "query_id": "q18",
+    "split": "dev",
+    "answerable": true,
+    "question": "In a nested loop, which loop governs how many times the inner loop completes a full run?",
+    "status": "answered",
+    "answer": "In a nested loop, the outer loop governs how many times the inner loop completes a full run. For example, in a nested for loop where the outer loop iterates over hours and the inner loop iterates over minutes, the outer loop determines the number of complete iterations of the inner loop [openstax-py-ch05_p09_para_00].",
+    "citations": [
+      "openstax-py-ch05_p09_para_00"
+    ],
+    "final_context": "[openstax-py-ch05_p02_para_00 | starter/data/openstax_python_ch05_loops.pdf | page 2]\nloop expression is evaluated again.\n\n• If true, the loop body will execute at least one more time (also called looping or iterating one more time).\n\n• If false, the loop's execution will terminate and the next statement after the loop body will execute.\n\nCHECKPOINT\n\nWhile loop\n\nWhile loop; ch 5, video 1 (https://www.openstax.org/r/while-loop)\n\nCONCEPTS IN PRACTICE\n\nWhile loop example\nFibonacci is a series of numbers in which each number is the sum of the two preceding numbers. The Fibonacci sequence starts with two ones: 1, 1, 2, 3, . . . . Consider the following code that prints all Fibonacci numbers less than 20, and answer the following questions.\n\n[openstax-py-ch05_p09_para_00 | starter/data/openstax_python_ch05_loops.pdf | page 9]\nCHECKPOINT\n\nNested while loops\nNested while loops; ch 5, video 5 (https://www.openstax.org/r/nested-while-loops)\n\nEXAMPLE 5.3\n\nAvailable appointments\nConsider a doctor's office schedule. Each appointment is 30 minutes long. A program to print available appointments can use a nested for loop where the outer loop iterates over the hours, and the inner loop iterates over the minutes. This example prints time in hours and minutes in the range between 8:00am and 10:00am. In this example, the outer loop iterates over the time's hour portion between 8 and 9, and the inner loop iterates over the time's minute portion between 0 and 59.",
+    "final_context_ids": [
+      "openstax-py-ch05_p02_para_00",
+      "openstax-py-ch05_p09_para_00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "nested loop inner loop governing",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch05_p02_para_00",
+            "source_id": "openstax-py-ch05",
+            "source": "starter/data/openstax_python_ch05_loops.pdf",
+            "page": 2,
+            "text": "loop expression is evaluated again.\n\n• If true, the loop body will execute at least one more time (also called looping or iterating one more time).\n\n• If false, the loop's execution will terminate and the next statement after the loop body will execute.\n\nCHECKPOINT\n\nWhile loop\n\nWhile loop; ch 5, video 1 (https://www.openstax.org/r/while-loop)\n\nCONCEPTS IN PRACTICE\n\nWhile loop example\nFibonacci is a series of numbers in which each number is the sum of the two preceding numbers. The Fibonacci sequence starts with two ones: 1, 1, 2, 3, . . . . Consider the following code that prints all Fibonacci numbers less than 20, and answer the following questions.",
+            "metadata": {
+              "section": "ch05_loops",
+              "chapter": "Chapter 5: Loops",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 658,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.44613451499532825,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch05_p09_para_00",
+            "source_id": "openstax-py-ch05",
+            "source": "starter/data/openstax_python_ch05_loops.pdf",
+            "page": 9,
+            "text": "CHECKPOINT\n\nNested while loops\nNested while loops; ch 5, video 5 (https://www.openstax.org/r/nested-while-loops)\n\nEXAMPLE 5.3\n\nAvailable appointments\nConsider a doctor's office schedule. Each appointment is 30 minutes long. A program to print available appointments can use a nested for loop where the outer loop iterates over the hours, and the inner loop iterates over the minutes. This example prints time in hours and minutes in the range between 8:00am and 10:00am. In this example, the outer loop iterates over the time's hour portion between 8 and 9, and the inner loop iterates over the time's minute portion between 0 and 59.",
+            "metadata": {
+              "section": "ch05_loops",
+              "chapter": "Chapter 5: Loops",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 634,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.42724397026552835,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch05_p01_para_00",
+            "source_id": "openstax-py-ch05",
+            "source": "starter/data/openstax_python_ch05_loops.pdf",
+            "page": 1,
+            "text": "Figure 5.1 credit: modification of work \"Quantum Computing\", by Kevin Dooley/Flickr, CC BY 2.0\n\nChapter Outline\n\n5.1 While loop\n\n5.2 For loop\n\n5.3 Nested loops\n\n5.4 Break and continue\n\n5.5 Loop else\n\n5.6 Chapter summary\n\nIntroduction\nA loop is a code block that runs a set of statements while a given condition is true. A loop is often used for performing a repeating task. Ex: The software on a phone repeatedly checks to see if the phone is idle. Once the time set by a user is reached, the phone is locked. Loops can also be used for iterating over lists like student names in a roster, and printing the names one at a time.",
+            "metadata": {
+              "section": "ch05_loops",
+              "chapter": "Chapter 5: Loops",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 627,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.4209547593868992,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch05_p02_para_00 | starter/data/openstax_python_ch05_loops.pdf | page 2]\nloop expression is evaluated again.\n\n• If true, the loop body will execute at least one more time (also called looping or iterating one more time).\n\n• If false, the loop's execution will terminate and the next statement after the loop body will execute.\n\nCHECKPOINT\n\nWhile loop\n\nWhile loop; ch 5, video 1 (https://www.openstax.org/r/while-loop)\n\nCONCEPTS IN PRACTICE\n\nWhile loop example\nFibonacci is a series of numbers in which each number is the sum of the two preceding numbers. The Fibonacci sequence starts with two ones: 1, 1, 2, 3, . . . . Consider the following code that prints all Fibonacci numbers less than 20, and answer the following questions.\n\n[openstax-py-ch05_p09_para_00 | starter/data/openstax_python_ch05_loops.pdf | page 9]\nCHECKPOINT\n\nNested while loops\nNested while loops; ch 5, video 5 (https://www.openstax.org/r/nested-while-loops)\n\nEXAMPLE 5.3\n\nAvailable appointments\nConsider a doctor's office schedule. Each appointment is 30 minutes long. A program to print available appointments can use a nested for loop where the outer loop iterates over the hours, and the inner loop iterates over the minutes. This example prints time in hours and minutes in the range between 8:00am and 10:00am. In this example, the outer loop iterates over the time's hour portion between 8 and 9, and the inner loop iterates over the time's minute portion between 0 and 59.",
+        "context_ids": [
+          "openstax-py-ch05_p02_para_00",
+          "openstax-py-ch05_p09_para_00"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 5441.33,
+    "prompt_tokens": 996,
+    "completion_tokens": 118,
+    "embed_tokens": 5,
+    "service_cost_usd": 0.0002203
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "answerable": false,
+    "question": "How do Python's match and case statements perform structural pattern matching, and how can an if guard be added to a case pattern?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "final_context": "[openstax-py-ch04_p06_para_02 | starter/data/openstax_python_ch04_branching.pdf | page 6]\n[By the end of this section you should be able to] A condition is an expression that evaluates to true or false. An if statement is a decision-making structure that contains a condition and a body of statements. If the condition is true, the body is executed. If the condition is false, the body is not executed. The if statement's body must be grouped together and have one level of indentation. The PEP 8 style guide recommends four spaces per indentation level. The Python interpreter will produce an error if the body is empty.\n\nTRY IT\n\nTRY IT\n\n[openstax-py-ch04_p08_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 8]\n[num = num + 50] c. Error if-else statement An if statement defines actions to be performed when a condition is true. What if an action needs to be performed only when the condition is false? Ex: If the restaurant is less than a mile away, we'll walk. Else, we'll drive. An else statement is used with an if statement and contains a body of statements that is executed when the if statement's condition is false. When an if-else statement is executed, one and only one of the branches is taken. That is, the body of the if or the body of the else is executed. Note: The else statement is at the same level of indentation as the if statement, and the body is indented.\n\nif-else statement template: 1 # Statements before 2 3 if condition: 4 # Body 5 else: 6 # Body 7 8 # Statements after\n\n[openstax-py-ch04_p09_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 9]\n4.2 • If-else statements 93",
+    "final_context_ids": [
+      "openstax-py-ch04_p06_para_02",
+      "openstax-py-ch04_p08_para_01",
+      "openstax-py-ch04_p09_para_01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Python match case statements structural pattern matching if guard",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch04_p06_para_02",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 6,
+            "text": "[By the end of this section you should be able to] A condition is an expression that evaluates to true or false. An if statement is a decision-making structure that contains a condition and a body of statements. If the condition is true, the body is executed. If the condition is false, the body is not executed. The if statement's body must be grouped together and have one level of indentation. The PEP 8 style guide recommends four spaces per indentation level. The Python interpreter will produce an error if the body is empty.\n\nTRY IT\n\nTRY IT",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 547,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 2
+            },
+            "score": 0.37065621878049504,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch04_p08_para_01",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 8,
+            "text": "[num = num + 50] c. Error if-else statement An if statement defines actions to be performed when a condition is true. What if an action needs to be performed only when the condition is false? Ex: If the restaurant is less than a mile away, we'll walk. Else, we'll drive. An else statement is used with an if statement and contains a body of statements that is executed when the if statement's condition is false. When an if-else statement is executed, one and only one of the branches is taken. That is, the body of the if or the body of the else is executed. Note: The else statement is at the same level of indentation as the if statement, and the body is indented.\n\nif-else statement template: 1 # Statements before 2 3 if condition: 4 # Body 5 else: 6 # Body 7 8 # Statements after",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 785,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.3433799385143207,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch04_p09_para_01",
+            "source_id": "openstax-py-ch04",
+            "source": "starter/data/openstax_python_ch04_branching.pdf",
+            "page": 9,
+            "text": "4.2 • If-else statements 93",
+            "metadata": {
+              "section": "ch04_branching",
+              "chapter": "Chapter 4: Decisions",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 27,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.3298485343541988,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch04_p06_para_02 | starter/data/openstax_python_ch04_branching.pdf | page 6]\n[By the end of this section you should be able to] A condition is an expression that evaluates to true or false. An if statement is a decision-making structure that contains a condition and a body of statements. If the condition is true, the body is executed. If the condition is false, the body is not executed. The if statement's body must be grouped together and have one level of indentation. The PEP 8 style guide recommends four spaces per indentation level. The Python interpreter will produce an error if the body is empty.\n\nTRY IT\n\nTRY IT\n\n[openstax-py-ch04_p08_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 8]\n[num = num + 50] c. Error if-else statement An if statement defines actions to be performed when a condition is true. What if an action needs to be performed only when the condition is false? Ex: If the restaurant is less than a mile away, we'll walk. Else, we'll drive. An else statement is used with an if statement and contains a body of statements that is executed when the if statement's condition is false. When an if-else statement is executed, one and only one of the branches is taken. That is, the body of the if or the body of the else is executed. Note: The else statement is at the same level of indentation as the if statement, and the body is indented.\n\nif-else statement template: 1 # Statements before 2 3 if condition: 4 # Body 5 else: 6 # Body 7 8 # Statements after\n\n[openstax-py-ch04_p09_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 9]\n4.2 • If-else statements 93",
+        "context_ids": [
+          "openstax-py-ch04_p06_para_02",
+          "openstax-py-ch04_p08_para_01",
+          "openstax-py-ch04_p09_para_01"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 4865.44,
+    "prompt_tokens": 1059,
+    "completion_tokens": 49,
+    "embed_tokens": 9,
+    "service_cost_usd": 0.00018843
+  },
+  {
+    "query_id": "u02",
+    "split": "dev",
+    "answerable": false,
+    "question": "What is the average time complexity of dictionary key lookup in Python, and how does CPython resolve hash table collisions?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "final_context": "[openstax-py-ch01_p12_para_01 | starter/data/openstax_python_ch01_intro.pdf | page 12]\n[Variable naming rules] Python has reserved words, known as keywords, which have special functions and cannot be used as names for variables (or other objects).\n\nFalse await else import pass\n\nNone break except in raise\n\nTrue class finally is return\nand continue for lambda try as def from nonlocal while assert del global not with asynch elif if or yield Table 1.2 Keywords\n\nCONCEPTS IN PRACTICE\n\nValid variable names\n5 . Which can be used as a variable name?\n\na. median\n\nb. class\n\nc. import\n\n6 . Why is the name, 2nd_input, not a valid variable name?\n\na. contains an underscore\n\nb. starts with a digit\n\nc. is a keyword\n\n7 . Which would be a good name for a variable storing a zip code?\n\na. z\n\nb. var_2 1.3 • Variables 15\n\n[openstax-py-ch03_p10_para_01 | starter/data/openstax_python_ch03_types.pdf | page 10]\nEXPLORING FURTHER\nPython Tutor (https://openstax.org/r/100pythontutor) is a free online tool for visualizing code execution. A user can enter any Python code, click Visualize Execution, and then click the Next button to run the code one line at a time. Here is the rating and score example (https://openstax.org/r/100ratingscore) from the animation above. Python Tutor is also useful for drawing memory diagrams similar to the ones in this book. Before clicking Visualize Execution, change the middle option from \"inline primitives, don't nest objects [default]\" to \"render all objects on the heap (Python/Java)\" as shown in the following screenshot: Figure 3.2\n\nProperties of objects\nEvery object has an identity, a type, and a value:",
+    "final_context_ids": [
+      "openstax-py-ch01_p12_para_01",
+      "openstax-py-ch03_p10_para_01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "average time complexity of dictionary key lookup in Python, CPython hash table collisions resolution",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch01_p12_para_01",
+            "source_id": "openstax-py-ch01",
+            "source": "starter/data/openstax_python_ch01_intro.pdf",
+            "page": 12,
+            "text": "[Variable naming rules] Python has reserved words, known as keywords, which have special functions and cannot be used as names for variables (or other objects).\n\nFalse await else import pass\n\nNone break except in raise\n\nTrue class finally is return\nand continue for lambda try as def from nonlocal while assert del global not with asynch elif if or yield Table 1.2 Keywords\n\nCONCEPTS IN PRACTICE\n\nValid variable names\n5 . Which can be used as a variable name?\n\na. median\n\nb. class\n\nc. import\n\n6 . Why is the name, 2nd_input, not a valid variable name?\n\na. contains an underscore\n\nb. starts with a digit\n\nc. is a keyword\n\n7 . Which would be a good name for a variable storing a zip code?\n\na. z\n\nb. var_2 1.3 • Variables 15",
+            "metadata": {
+              "section": "ch01_statements_variables",
+              "chapter": "Chapter 1: Statements",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 721,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.2189651241761784,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch03_p10_para_01",
+            "source_id": "openstax-py-ch03",
+            "source": "starter/data/openstax_python_ch03_types.pdf",
+            "page": 10,
+            "text": "EXPLORING FURTHER\nPython Tutor (https://openstax.org/r/100pythontutor) is a free online tool for visualizing code execution. A user can enter any Python code, click Visualize Execution, and then click the Next button to run the code one line at a time. Here is the rating and score example (https://openstax.org/r/100ratingscore) from the animation above. Python Tutor is also useful for drawing memory diagrams similar to the ones in this book. Before clicking Visualize Execution, change the middle option from \"inline primitives, don't nest objects [default]\" to \"render all objects on the heap (Python/Java)\" as shown in the following screenshot: Figure 3.2\n\nProperties of objects\nEvery object has an identity, a type, and a value:",
+            "metadata": {
+              "section": "ch03_data_types",
+              "chapter": "Chapter 3: Objects",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 735,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.2115574529213527,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch01_p06_para_01",
+            "source_id": "openstax-py-ch01",
+            "source": "starter/data/openstax_python_ch01_intro.pdf",
+            "page": 6,
+            "text": "[The Python language] One reason why Python is popular is because many libraries exist for doing real work. A library is a collection of code that can be used in other programs. Python comes with an extensive Standard Library (https://openstax.org/r/100pythlibrary) for solving everyday computing problems like extracting data from files and creating summary reports. In addition, the community develops many other libraries for Python. Ex: Pandas (https://openstax.org/r/100pandas) is a widely used library for data analysis.",
+            "metadata": {
+              "section": "ch01_statements_variables",
+              "chapter": "Chapter 1: Statements",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 526,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.20989654148175696,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch01_p12_para_01 | starter/data/openstax_python_ch01_intro.pdf | page 12]\n[Variable naming rules] Python has reserved words, known as keywords, which have special functions and cannot be used as names for variables (or other objects).\n\nFalse await else import pass\n\nNone break except in raise\n\nTrue class finally is return\nand continue for lambda try as def from nonlocal while assert del global not with asynch elif if or yield Table 1.2 Keywords\n\nCONCEPTS IN PRACTICE\n\nValid variable names\n5 . Which can be used as a variable name?\n\na. median\n\nb. class\n\nc. import\n\n6 . Why is the name, 2nd_input, not a valid variable name?\n\na. contains an underscore\n\nb. starts with a digit\n\nc. is a keyword\n\n7 . Which would be a good name for a variable storing a zip code?\n\na. z\n\nb. var_2 1.3 • Variables 15\n\n[openstax-py-ch03_p10_para_01 | starter/data/openstax_python_ch03_types.pdf | page 10]\nEXPLORING FURTHER\nPython Tutor (https://openstax.org/r/100pythontutor) is a free online tool for visualizing code execution. A user can enter any Python code, click Visualize Execution, and then click the Next button to run the code one line at a time. Here is the rating and score example (https://openstax.org/r/100ratingscore) from the animation above. Python Tutor is also useful for drawing memory diagrams similar to the ones in this book. Before clicking Visualize Execution, change the middle option from \"inline primitives, don't nest objects [default]\" to \"render all objects on the heap (Python/Java)\" as shown in the following screenshot: Figure 3.2\n\nProperties of objects\nEvery object has an identity, a type, and a value:",
+        "context_ids": [
+          "openstax-py-ch01_p12_para_01",
+          "openstax-py-ch03_p10_para_01"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 4726.4,
+    "prompt_tokens": 1056,
+    "completion_tokens": 56,
+    "embed_tokens": 16,
+    "service_cost_usd": 0.00019232
+  },
+  {
+    "query_id": "u03",
+    "split": "dev",
+    "answerable": false,
+    "question": "In Python loops, how do async def and await keywords schedule tasks on an asyncio event loop to iterate asynchronously?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "final_context": "[openstax-py-ch05_p02_para_00 | starter/data/openstax_python_ch05_loops.pdf | page 2]\nloop expression is evaluated again.\n\n• If true, the loop body will execute at least one more time (also called looping or iterating one more time).\n\n• If false, the loop's execution will terminate and the next statement after the loop body will execute.\n\nCHECKPOINT\n\nWhile loop\n\nWhile loop; ch 5, video 1 (https://www.openstax.org/r/while-loop)\n\nCONCEPTS IN PRACTICE\n\nWhile loop example\nFibonacci is a series of numbers in which each number is the sum of the two preceding numbers. The Fibonacci sequence starts with two ones: 1, 1, 2, 3, . . . . Consider the following code that prints all Fibonacci numbers less than 20, and answer the following questions.\n\n[openstax-py-ch05_p01_para_01 | starter/data/openstax_python_ch05_loops.pdf | page 1]\n[Introduction] In this chapter, two types of loops, for loop and while loop, are introduced. This chapter also introduces break and continue statements for controlling a loop's execution.\n\n5.1 While loop\n\nLearning objectives\n\nBy the end of this section you should be able to\n• Explain the loop construct in Python.\n\n• Use a while loop to implement repeating tasks.\n\nWhile loop\nA while loop is a code construct that runs a set of statements, known as the loop body, while a given condition, known as the loop expression, is true. At each iteration, once the loop statement is executed, the\n\nLoops\n\n5",
+    "final_context_ids": [
+      "openstax-py-ch05_p02_para_00",
+      "openstax-py-ch05_p01_para_01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "async def await asyncio event loop",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-py-ch05_p02_para_00",
+            "source_id": "openstax-py-ch05",
+            "source": "starter/data/openstax_python_ch05_loops.pdf",
+            "page": 2,
+            "text": "loop expression is evaluated again.\n\n• If true, the loop body will execute at least one more time (also called looping or iterating one more time).\n\n• If false, the loop's execution will terminate and the next statement after the loop body will execute.\n\nCHECKPOINT\n\nWhile loop\n\nWhile loop; ch 5, video 1 (https://www.openstax.org/r/while-loop)\n\nCONCEPTS IN PRACTICE\n\nWhile loop example\nFibonacci is a series of numbers in which each number is the sum of the two preceding numbers. The Fibonacci sequence starts with two ones: 1, 1, 2, 3, . . . . Consider the following code that prints all Fibonacci numbers less than 20, and answer the following questions.",
+            "metadata": {
+              "section": "ch05_loops",
+              "chapter": "Chapter 5: Loops",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 658,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.3182899131514706,
+            "rank": 1,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch05_p01_para_01",
+            "source_id": "openstax-py-ch05",
+            "source": "starter/data/openstax_python_ch05_loops.pdf",
+            "page": 1,
+            "text": "[Introduction] In this chapter, two types of loops, for loop and while loop, are introduced. This chapter also introduces break and continue statements for controlling a loop's execution.\n\n5.1 While loop\n\nLearning objectives\n\nBy the end of this section you should be able to\n• Explain the loop construct in Python.\n\n• Use a while loop to implement repeating tasks.\n\nWhile loop\nA while loop is a code construct that runs a set of statements, known as the loop body, while a given condition, known as the loop expression, is true. At each iteration, once the loop statement is executed, the\n\nLoops\n\n5",
+            "metadata": {
+              "section": "ch05_loops",
+              "chapter": "Chapter 5: Loops",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 598,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 1
+            },
+            "score": 0.31123662380605244,
+            "rank": 2,
+            "strategy": "dense_day6"
+          },
+          {
+            "id": "openstax-py-ch05_p01_para_00",
+            "source_id": "openstax-py-ch05",
+            "source": "starter/data/openstax_python_ch05_loops.pdf",
+            "page": 1,
+            "text": "Figure 5.1 credit: modification of work \"Quantum Computing\", by Kevin Dooley/Flickr, CC BY 2.0\n\nChapter Outline\n\n5.1 While loop\n\n5.2 For loop\n\n5.3 Nested loops\n\n5.4 Break and continue\n\n5.5 Loop else\n\n5.6 Chapter summary\n\nIntroduction\nA loop is a code block that runs a set of statements while a given condition is true. A loop is often used for performing a repeating task. Ex: The software on a phone repeatedly checks to see if the phone is idle. Once the time set by a user is reached, the phone is locked. Loops can also be used for iterating over lists like student names in a roster, and printing the names one at a time.",
+            "metadata": {
+              "section": "ch05_loops",
+              "chapter": "Chapter 5: Loops",
+              "year": 2024,
+              "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "char_count": 627,
+              "chunk_strategy": "by_paragraph",
+              "chunk_index": 0
+            },
+            "score": 0.28781353966176143,
+            "rank": 3,
+            "strategy": "dense_day6"
+          }
+        ],
+        "context": "[openstax-py-ch05_p02_para_00 | starter/data/openstax_python_ch05_loops.pdf | page 2]\nloop expression is evaluated again.\n\n• If true, the loop body will execute at least one more time (also called looping or iterating one more time).\n\n• If false, the loop's execution will terminate and the next statement after the loop body will execute.\n\nCHECKPOINT\n\nWhile loop\n\nWhile loop; ch 5, video 1 (https://www.openstax.org/r/while-loop)\n\nCONCEPTS IN PRACTICE\n\nWhile loop example\nFibonacci is a series of numbers in which each number is the sum of the two preceding numbers. The Fibonacci sequence starts with two ones: 1, 1, 2, 3, . . . . Consider the following code that prints all Fibonacci numbers less than 20, and answer the following questions.\n\n[openstax-py-ch05_p01_para_01 | starter/data/openstax_python_ch05_loops.pdf | page 1]\n[Introduction] In this chapter, two types of loops, for loop and while loop, are introduced. This chapter also introduces break and continue statements for controlling a loop's execution.\n\n5.1 While loop\n\nLearning objectives\n\nBy the end of this section you should be able to\n• Explain the loop construct in Python.\n\n• Use a while loop to implement repeating tasks.\n\nWhile loop\nA while loop is a code construct that runs a set of statements, known as the loop body, while a given condition, known as the loop expression, is true. At each iteration, once the loop statement is executed, the\n\nLoops\n\n5",
+        "context_ids": [
+          "openstax-py-ch05_p02_para_00",
+          "openstax-py-ch05_p01_para_01"
+        ],
+        "tool_name": "DenseDay6Retriever"
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "num_searches": 1,
+    "model_calls": 2,
+    "elapsed_ms": 4638.77,
+    "prompt_tokens": 976,
+    "completion_tokens": 46,
+    "embed_tokens": 6,
+    "service_cost_usd": 0.00017412
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "u01",
+    "split": "dev",
+    "question": "How do Python's match and case statements perform structural pattern matching, and how can an if guard be added to a case pattern?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The 4-chapter OpenStax excerpt only covers Chapters 1, 3, 4, and 5 (statements, objects, if-else branching, loops) and never covers structural pattern matching (match/case).",
+    "verification_keywords": [
+      "match",
+      "pattern matching",
+      "case ",
+      "guard"
+    ]
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "question": "What is the average time complexity of dictionary key lookup in Python, and how does CPython resolve hash table collisions?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Dictionaries (Chapter 10) and hash table implementation / collision resolution / Big-O complexity are not included in this 4-chapter corpus.",
+    "verification_keywords": [
+      "hash table",
+      "collision",
+      "dictionary",
+      "O(1)",
+      "complexity"
+    ]
+  },
+  {
+    "id": "u03",
+    "split": "dev",
+    "question": "In Python loops, how do async def and await keywords schedule tasks on an asyncio event loop to iterate asynchronously?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chapter 5 only covers synchronous while loops, for loops, and nested loops; asyncio, async def, and await do not appear anywhere in the corpus.",
+    "verification_keywords": [
+      "asyncio",
+      "async def",
+      "await",
+      "event loop"
+    ]
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "How does the yield keyword turn a Python function into a generator, and what exception is raised when a for loop finishes exhausting it?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Functions (Chapter 6), generators, yield, and StopIteration are outside Chapters 1, 3, 4, and 5 in this corpus.",
+    "verification_keywords": [
+      "yield",
+      "generator",
+      "StopIteration"
+    ]
+  },
+  {
+    "id": "u05",
+    "split": "test",
+    "question": "How does Python's C3 linearization algorithm compute the Method Resolution Order (MRO) when a class uses multiple inheritance?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Classes and inheritance (Chapters 11 and 13) are not in the 4-chapter corpus; C3 linearization and MRO never appear in any chunk.",
+    "verification_keywords": [
+      "C3",
+      "MRO",
+      "Method Resolution Order",
+      "multiple inheritance"
+    ]
+  }
+]

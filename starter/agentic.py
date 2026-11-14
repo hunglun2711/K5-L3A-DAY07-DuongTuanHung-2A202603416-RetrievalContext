@@ -73,3 +73,18 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
         else:
             raise ValueError('action phải là search hoặc answer')
     return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events}
+
+
+def build_real_agent_components():
+    """Construct real OpenRouter Controller and Day 6 Qdrant Retriever from src/."""
+    import sys
+    from pathlib import Path
+
+    src_dir = Path(__file__).resolve().parents[1] / 'src'
+    if str(src_dir) not in sys.path:
+        sys.path.insert(0, str(src_dir))
+    from agent_system import StarterLLMController
+    from retrievers import DenseDay6Retriever
+
+    return StarterLLMController(), DenseDay6Retriever()
+

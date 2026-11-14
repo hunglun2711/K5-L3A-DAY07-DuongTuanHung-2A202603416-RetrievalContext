@@ -1,0 +1,1307 @@
+[
+  {
+    "id": "adv_dev_t01",
+    "split": "dev",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "In Table 1, what score and estimated percentile did GPT-4 (with vision) achieve on the Uniform Bar Exam (MBE+MEE+MPT), and by how many points did it exceed GPT-3.5?",
+    "expected_answer": "GPT-4 achieved 298 / 400 (~90th percentile), exceeding GPT-3.5 (213 / 400, ~10th percentile) by 85 points.",
+    "gold_evidence": {
+      "pages": [
+        5
+      ],
+      "chunk_ids": [
+        "gpt4_p005_tab01_table"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p005_tab01_table.png"
+      ],
+      "exact_values_or_quotes": [
+        "Uniform Bar Exam (MBE+MEE+MPT): GPT-4 = 298 / 400 (~90th), GPT-3.5 = 213 / 400 (~10th)"
+      ],
+      "units_and_conditions": "Raw score out of 400 and estimated percentile rank among test-takers",
+      "calculation_steps": "298 - 213 = 85 points"
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_dev_t02",
+    "split": "dev",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "According to Table 2, on which single academic benchmark did external benchmark-specific tuned SOTA still outperform GPT-4, and what were their exact F1 scores?",
+    "expected_answer": "DROP (F1 score): fine-tuned SOTA (QDGAT [59]) scored 88.4 compared to GPT-4's 3-shot score of 80.9 (a 7.5-point gap).",
+    "gold_evidence": {
+      "pages": [
+        7
+      ],
+      "chunk_ids": [
+        "gpt4_p007_tab02_table"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p007_tab02_table.png"
+      ],
+      "exact_values_or_quotes": [
+        "DROP [58] (F1 score): GPT-4 80.9 (3-shot) vs SOTA QDGAT 88.4",
+        "beats SOTA with benchmark-specific training on all datasets except DROP"
+      ],
+      "units_and_conditions": "F1 score; GPT-4 evaluated 3-shot without benchmark-specific fine-tuning",
+      "calculation_steps": "88.4 - 80.9 = 7.5 F1 points"
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_dev_t03",
+    "split": "dev",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "In Table 8, what is the overall average score across multiple-choice exam benchmarks for the GPT-4 base model compared to the post-RLHF GPT-4 model?",
+    "expected_answer": "The GPT-4 base model averages 73.7% while the post-RLHF GPT-4 model averages 74.0% (+0.3 percentage points).",
+    "gold_evidence": {
+      "pages": [
+        28
+      ],
+      "chunk_ids": [
+        "gpt4_p028_tab08_table"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p028_tab08_table.png"
+      ],
+      "exact_values_or_quotes": [
+        "Average: Base model 73.7%, RLHF model 74.0%"
+      ],
+      "units_and_conditions": "Percent accuracy averaged across listed MCQ exam portions",
+      "calculation_steps": "74.0% - 73.7% = +0.3 percentage points"
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_dev_i01",
+    "split": "dev",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "question": "In Table 3's three-panel visual input example, what connector is shown plugged into the smartphone, how many pins does it have, and what makes the adapter humorous?",
+    "expected_answer": "A large blue 15-pin VGA computer monitor connector is plugged into a smartphone charging port; Panel 3 reveals a tiny Apple Lightning plug inside the VGA shell, making it absurdly oversized and outdated.",
+    "gold_evidence": {
+      "pages": [
+        9
+      ],
+      "chunk_ids": [
+        "gpt4_p009_img01_adapter"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p009_img01_adapter.png"
+      ],
+      "exact_values_or_quotes": [
+        "15-pin connector",
+        "Lightning Cable",
+        "absurdity of plugging a large, outdated VGA connector into a small, modern smartphone charging port"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_dev_i02",
+    "split": "dev",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "question": "What unusual scene is photographed in Table 16 ('Extreme Ironing') on page 36?",
+    "expected_answer": "A man in yellow clothing is ironing a blue garment on an ironing board attached to the roof/rear of a yellow taxi on a city street.",
+    "gold_evidence": {
+      "pages": [
+        36
+      ],
+      "chunk_ids": [
+        "gpt4_p036_img_ironing"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p036_img_ironing.png"
+      ],
+      "exact_values_or_quotes": [
+        "a man is ironing clothes on an ironing board attached to the roof of a moving taxi"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_dev_i03",
+    "split": "dev",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "question": "In Table 18 ('Chicken Nugget Map'), what expectation does the meme's caption text set up, and what is actually depicted in the photograph below it?",
+    "expected_answer": "The caption claims to show 'pictures of the earth from space', whereas the photo actually depicts fried chicken nuggets arranged on a baking tray to resemble world continents.",
+    "gold_evidence": {
+      "pages": [
+        38
+      ],
+      "chunk_ids": [
+        "gpt4_p038_img_nuggets"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p038_img_nuggets.png"
+      ],
+      "exact_values_or_quotes": [
+        "Sometimes I just look at pictures of the earth from space",
+        "chicken nuggets arranged to vaguely resemble a map of the world"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_dev_c01",
+    "split": "dev",
+    "primary_group": "chart",
+    "answerable": true,
+    "question": "In Figure 3 ('Inverse scaling prize, hindsight neglect'), what accuracy pattern appears from ada through gpt-3.5, and how does gpt-4 break it?",
+    "expected_answer": "Accuracy decreases with scale from ada (~42%), babbage (~34%), curie (~18%), down to gpt-3.5 (~16%), before gpt-4 reverses the inverse-scaling trend and surges to nearly 100% (~97%).",
+    "gold_evidence": {
+      "pages": [
+        4
+      ],
+      "chunk_ids": [
+        "gpt4_p004_fig03_chart"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p004_fig03_chart.png"
+      ],
+      "exact_values_or_quotes": [
+        "Inverse scaling prize, hindsight neglect",
+        "GPT-4 reverses this trend"
+      ],
+      "units_and_conditions": "Accuracy (0 to 100 scale) vs model family on Hindsight Neglect",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_dev_c02",
+    "split": "dev",
+    "primary_group": "chart",
+    "answerable": true,
+    "question": "How many evaluation categories appear on the x-axis of Figure 6 ('Internal factual eval by category'), and by how many percentage points does GPT-4 improve over the latest GPT-3.5 model overall?",
+    "expected_answer": "There are 9 categories (learning, technology, writing, history, math, science, recommendation, code, business), and GPT-4 improves over the latest GPT-3.5 model (chatgpt-v4) by 19 percentage points overall.",
+    "gold_evidence": {
+      "pages": [
+        10
+      ],
+      "chunk_ids": [
+        "gpt4_p010_fig06_chart"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p010_fig06_chart.png"
+      ],
+      "exact_values_or_quotes": [
+        "nine internal adversarially-designed factuality evaluations",
+        "19 percentage points"
+      ],
+      "units_and_conditions": "Accuracy percentage points compared to latest GPT-3.5 (chatgpt-v4)",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_dev_c03",
+    "split": "dev",
+    "primary_group": "chart",
+    "answerable": true,
+    "question": "In System Card Figure 11 (pairwise Instruction Following matrix on page 98), what are GPT-4 RLHF's exact win rates against GPT-3.5 Turbo RLHF and GPT-3.5 RLHF?",
+    "expected_answer": "GPT-4 RLHF has a 61.1% win rate against GPT-3.5 Turbo RLHF and a 70.2% win rate against GPT-3.5 RLHF.",
+    "gold_evidence": {
+      "pages": [
+        98
+      ],
+      "chunk_ids": [
+        "gpt4_p098_sc_fig11_chart"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p098_sc_fig11_chart.png"
+      ],
+      "exact_values_or_quotes": [
+        "61.1%",
+        "70.2%"
+      ],
+      "units_and_conditions": "Pairwise preference win rate (%) in IF evaluations",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_dev_m01",
+    "split": "dev",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "question": "Combining Table 1 (page 5) and Table 9 (page 30), what is GPT-4's LSAT contamination percentage, and how does its full-exam LSAT score compare to its non-contaminated LSAT score?",
+    "expected_answer": "LSAT has 39% contamination; GPT-4 scored 163 (~88th percentile) on the full exam versus 169 (~97th percentile) on non-contaminated questions (+6 score points higher without contamination).",
+    "gold_evidence": {
+      "pages": [
+        5,
+        30
+      ],
+      "chunk_ids": [
+        "gpt4_p005_tab01_table",
+        "gpt4_p030_tab09_table"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p005_tab01_table.png",
+        "advanced/crops/gpt4_p030_tab09_table.png"
+      ],
+      "exact_values_or_quotes": [
+        "LSAT Contam 39%",
+        "GPT-4 163 (~88th) -> Non-contaminated GPT-4 169 (~97th)"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": "169 - 163 = +6 score points"
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_dev_m02",
+    "split": "dev",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "question": "Using Table 2 (page 7) and Table 11 (page 32) together, report GPT-4's 0-shot HumanEval score, its pretraining contamination percentage, non-contaminated score, and measured degradation.",
+    "expected_answer": "On HumanEval (0-shot), GPT-4 scored 67.0% overall, had 25% contamination, scored 65.58% on non-contaminated problems, and showed -2.12% degradation.",
+    "gold_evidence": {
+      "pages": [
+        7,
+        32
+      ],
+      "chunk_ids": [
+        "gpt4_p007_tab02_table",
+        "gpt4_p032_tab11_table"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p007_tab02_table.png",
+        "advanced/crops/gpt4_p032_tab11_table.png"
+      ],
+      "exact_values_or_quotes": [
+        "HumanEval 67.0% (0-shot)",
+        "Contamination 25%",
+        "65.58%",
+        "-2.12%"
+      ],
+      "units_and_conditions": "0-shot pass@1 percentage; base GPT-4 in Table 11",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_dev_m03",
+    "split": "dev",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "question": "Contrast RLHF's effect on MMLU Expected Calibration Error (Figure 8, page 12) versus its effect on average MCQ exam benchmark accuracy (Table 8, page 28).",
+    "expected_answer": "RLHF hurts MMLU probability calibration sharply — ECE increases more than 10x from 0.007 (pre-train) to 0.074 (PPO/RLHF) — whereas average MCQ exam accuracy barely shifts from 73.7% (base) to 74.0% (RLHF).",
+    "gold_evidence": {
+      "pages": [
+        12,
+        28
+      ],
+      "chunk_ids": [
+        "gpt4_p012_fig08_chart",
+        "gpt4_p028_tab08_table"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p012_fig08_chart.png",
+        "advanced/crops/gpt4_p028_tab08_table.png"
+      ],
+      "exact_values_or_quotes": [
+        "ECE: 0.007",
+        "ECE: 0.074",
+        "73.7%",
+        "74.0%"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": "0.074 / 0.007 = 10.57x ECE increase vs +0.3 percentage points MCQ average"
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_dev_x01",
+    "split": "dev",
+    "primary_group": "text",
+    "answerable": true,
+    "question": "In Section 5 (Limitations, page 10), why is GPT-4 not yet fully reliable, and what exact usage protocols does the report recommend for high-stakes contexts?",
+    "expected_answer": "GPT-4 still 'hallucinates' facts and makes reasoning errors, so in high-stakes contexts OpenAI recommends strict protocols such as human review, grounding outputs with additional context, or avoiding high-stakes uses altogether.",
+    "gold_evidence": {
+      "pages": [
+        10
+      ],
+      "chunk_ids": [
+        "gpt4_p010_text_00"
+      ],
+      "crop_paths": [],
+      "exact_values_or_quotes": [
+        "hallucinates",
+        "human review, grounding with additional context, or avoiding high-stakes uses altogether"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_dev_x02",
+    "split": "dev",
+    "primary_group": "text",
+    "answerable": true,
+    "question": "In Appendix C (page 29), what exact 50-character substring-matching rule defines whether an evaluation example is contaminated by GPT-4's training data?",
+    "expected_answer": "After stripping text to keep only alphanumeric characters, OpenAI randomly samples three 50-character substrings per evaluation example (or the whole example if under 50 chars) and flags a match if any of the three appears as a substring in a processed training example.",
+    "gold_evidence": {
+      "pages": [
+        29
+      ],
+      "chunk_ids": [
+        "gpt4_p029_text_00"
+      ],
+      "crop_paths": [],
+      "exact_values_or_quotes": [
+        "randomly select three substrings of 50 characters",
+        "keeping only characters (including numbers)"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_dev_x03",
+    "split": "dev",
+    "primary_group": "text",
+    "answerable": true,
+    "question": "What did ARC conclude on System Card page 56 after testing versions of GPT-4 on the autonomous replication task (without task-specific fine-tuning)?",
+    "expected_answer": "ARC found that the evaluated versions of GPT-4 were ineffective at the autonomous replication task in preliminary experiments without additional task-specific fine-tuning.",
+    "gold_evidence": {
+      "pages": [
+        56
+      ],
+      "chunk_ids": [
+        "gpt4_p056_text_00"
+      ],
+      "crop_paths": [],
+      "exact_values_or_quotes": [
+        "ARC found that the versions of GPT-4 it evaluated were ineffective at the autonomous replication task",
+        "without any additional task-specific fine-tuning"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_dev_u01",
+    "split": "dev",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "How many total parameters (in trillions), transformer layers, and attention heads does GPT-4 use according to Section 2 of the report?",
+    "expected_answer": "Abstain: Section 2 explicitly withholds model size, architecture, parameter count, hardware, and training compute.",
+    "gold_evidence": {
+      "pages": [
+        2
+      ],
+      "chunk_ids": [],
+      "crop_paths": [],
+      "exact_values_or_quotes": [],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "Section 2 (page 2) explicitly states the report contains no details about architecture or model size.",
+    "verification_keywords": [
+      "parameter count",
+      "trillion",
+      "attention heads"
+    ]
+  },
+  {
+    "id": "adv_dev_u02",
+    "split": "dev",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "In Table 14's daily meat consumption chart (page 34), what were the exact 1997 grams-per-day figures for Brazil and Vietnam?",
+    "expected_answer": "Abstain: Table 14's chart only displays Finland (175.09 g), Georgia (79.84 g), and Western Asia (69.62 g); Brazil and Vietnam are absent.",
+    "gold_evidence": {
+      "pages": [
+        34
+      ],
+      "chunk_ids": [],
+      "crop_paths": [],
+      "exact_values_or_quotes": [],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "Chart only plots 3 bars: Finland, Georgia, Western Asia.",
+    "verification_keywords": [
+      "Brazil",
+      "Vietnam"
+    ]
+  },
+  {
+    "id": "adv_dev_u03",
+    "split": "dev",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "What accuracy did GPT-4 achieve on SWE-bench Verified and GPQA Diamond in Table 2?",
+    "expected_answer": "Abstain: SWE-bench Verified and GPQA Diamond do not appear in Table 2 or anywhere in the March 2023 report.",
+    "gold_evidence": {
+      "pages": [
+        7
+      ],
+      "chunk_ids": [],
+      "crop_paths": [],
+      "exact_values_or_quotes": [],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "Post-2023 benchmarks SWE-bench Verified and GPQA Diamond have 0 occurrences in the 100-page PDF.",
+    "verification_keywords": [
+      "swe-bench",
+      "gpqa"
+    ]
+  },
+  {
+    "id": "adv_test_t01",
+    "split": "test",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "In Table 1 (page 5), compare GPT-4 (with vision), GPT-4 (no vision), and GPT-3.5 on GRE Quantitative and AP Microeconomics: on which exam(s) did vision raise GPT-4's score, and by how much?",
+    "expected_answer": "Vision improved GPT-4 on BOTH exams: GRE Quantitative rose +6 points from 157/170 (~62nd, no vision) to 163/170 (~80th, with vision; vs GPT-3.5's 147/170 ~25th), and AP Microeconomics rose +1 point from 4 (60th-82nd, no vision) to 5 (82nd-100th, with vision; vs GPT-3.5's 4).",
+    "gold_evidence": {
+      "pages": [
+        5
+      ],
+      "chunk_ids": [
+        "gpt4_p005_tab01_table"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p005_tab01_table.png"
+      ],
+      "exact_values_or_quotes": [
+        "GRE Quantitative: 163/170 (~80th) vs 157/170 (~62nd) vs 147/170 (~25th)",
+        "AP Microeconomics: 5 (82nd-100th) vs 4 (60th-82nd) vs 4"
+      ],
+      "units_and_conditions": "GRE Quant out of 170; AP Microeconomics score 1-5 + percentile ranges",
+      "calculation_steps": "163 - 157 = +6 GRE points; 5 - 4 = +1 AP score"
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_t02",
+    "split": "test",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "Using Table 1 (page 5), state GPT-4's exact pass fractions on Leetcode easy, medium, and hard versus GPT-3.5, and calculate the percentage of Leetcode easy problems GPT-4 solved.",
+    "expected_answer": "GPT-4 solved 31/41 easy (75.6%), 21/80 medium (26.3%), and 3/45 hard (6.7%), whereas GPT-3.5 solved 12/41 easy, 8/80 medium, and 0/45 hard.",
+    "gold_evidence": {
+      "pages": [
+        5
+      ],
+      "chunk_ids": [
+        "gpt4_p005_tab01_table"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p005_tab01_table.png"
+      ],
+      "exact_values_or_quotes": [
+        "Leetcode (easy) 31/41 vs 12/41; medium 21/80 vs 8/80; hard 3/45 vs 0/45"
+      ],
+      "units_and_conditions": "Number of solved problems out of total evaluated",
+      "calculation_steps": "31 / 41 = 75.61%"
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_t03",
+    "split": "test",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "According to Table 2 (page 7), what are GPT-4's versus GPT-3.5's scores on GSM-8K and AI2 Reasoning Challenge (ARC), and what shot/prompting settings were used for GPT-4 on each?",
+    "expected_answer": "On GSM-8K, GPT-4 scored 92.0%* (5-shot chain-of-thought) vs GPT-3.5's 57.1% (5-shot); on ARC Challenge-set, GPT-4 scored 96.3% (25-shot) vs GPT-3.5's 85.2% (25-shot).",
+    "gold_evidence": {
+      "pages": [
+        7
+      ],
+      "chunk_ids": [
+        "gpt4_p007_tab02_table"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p007_tab02_table.png"
+      ],
+      "exact_values_or_quotes": [
+        "ARC 96.3% (25-shot) vs 85.2% (25-shot)",
+        "GSM-8K 92.0%* (5-shot chain-of-thought) vs 57.1% (5-shot)"
+      ],
+      "units_and_conditions": "Note footnote *: GSM-8K included part of training set in pre-training mix",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_t04",
+    "split": "test",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "In Table 10 (page 31), compare AP English Literature and Composition (MCQ) and LSAT (MCQ): give their contamination rates, non-contaminated vs contaminated GPT-4 accuracies, and Degradation values.",
+    "expected_answer": "AP Eng. Lit. (MCQ) had 81.82% contamination, scoring 60.00% non-contaminated vs 75.56% contaminated (Degradation: -17.50%); LSAT (MCQ) had 39.00% contamination, scoring 83.61% non-contaminated vs 64.10% contaminated (Degradation: +10.01%, outperforming on clean items).",
+    "gold_evidence": {
+      "pages": [
+        31
+      ],
+      "chunk_ids": [
+        "gpt4_p031_tab10_table"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p031_tab10_table.png"
+      ],
+      "exact_values_or_quotes": [
+        "AP English Literature and Composition (MCQ): 81.82%, 60.00% non-contam, 75.56% contam, -17.50%",
+        "LSAT (MCQ): 39.00%, 83.61% non-contam, 64.10% contam, 10.01%"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_t05",
+    "split": "test",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "Using Table 8 (page 28), calculate the score change in percentage points from GPT-4 Base model to RLHF model on AP Microeconomics (MCQ) versus AMC 12.",
+    "expected_answer": "On AP Microeconomics (MCQ), score dropped -13.3 percentage points from 90.0% (Base) to 76.7% (RLHF); on AMC 12, score rose +12.0 percentage points from 20.0% (Base) to 32.0% (RLHF).",
+    "gold_evidence": {
+      "pages": [
+        28
+      ],
+      "chunk_ids": [
+        "gpt4_p028_tab08_table"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p028_tab08_table.png"
+      ],
+      "exact_values_or_quotes": [
+        "AP Microeconomics (MCQ): 90.0% vs 76.7%",
+        "AMC 12: 20.0% vs 32.0%"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": "76.7 - 90.0 = -13.3 pp; 32.0 - 20.0 = +12.0 pp"
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_t06",
+    "split": "test",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "From Table 13 (page 33), what three low/medium-resource languages besides English are used to showcase translated MMLU questions, and what speaker population is listed for each?",
+    "expected_answer": "Marathi (90M speakers), Latvian (2M speakers), and Welsh (600k speakers), alongside English (>1B speakers).",
+    "gold_evidence": {
+      "pages": [
+        33
+      ],
+      "chunk_ids": [
+        "gpt4_p033_tab13_table"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p033_tab13_table.png"
+      ],
+      "exact_values_or_quotes": [
+        "Marathi 90M speakers",
+        "Latvian 2M speakers",
+        "Welsh 600k speakers"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_i01",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "question": "In Table 15's French physics exam diagram (Ecole Polytechnique, page 35), what three physical parameters characterize the conductive bar ('barreau conducteur'), what boundary conditions are given for T(0) and T(L), and what closed-form expression for T(x) does GPT-4 derive?",
+    "expected_answer": "The homogeneous conductive bar has length L, cross-section S, and thermal conductivity lambda; boundary conditions are T(0)=T0 and T(L)=Tb; GPT-4 integrates d^2T/dx^2 = 0 to derive T(x) = (Tb - T0)*(x/L) + T0.",
+    "gold_evidence": {
+      "pages": [
+        35
+      ],
+      "chunk_ids": [
+        "gpt4_p035_diag_physics"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p035_diag_physics.png"
+      ],
+      "exact_values_or_quotes": [
+        "L, S, lambda",
+        "T(0) = T0 and T(L) = Tb",
+        "T(x) = (Tb - T0) * (x/L) + T0"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_i02",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "question": "From Table 17 (page 37, Pixel to Paper Summaries / InstructGPT Figure 2 diagram), identify all three steps of the RLHF training pipeline and what data or algorithm each step uses.",
+    "expected_answer": "(1) Supervised fine-tuning (SFT) on human-written prompt/demonstration responses; (2) Reward model (RM) training using human comparison rankings of model outputs; (3) Reinforcement learning optimization using Proximal Policy Optimization (PPO) against RM rewards.",
+    "gold_evidence": {
+      "pages": [
+        37
+      ],
+      "chunk_ids": [
+        "gpt4_p037_diag_rlhf"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p037_diag_rlhf.png"
+      ],
+      "exact_values_or_quotes": [
+        "1. Supervised fine-tuning (SFT)",
+        "2. Reward model (RM) training",
+        "3. Reinforcement learning using Proximal Policy Optimization (PPO)"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_i03",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "question": "In the Table 19 'Moar Layers' cartoon (page 39), what technical statistical-learning concepts does the top panel advocate vs the bottom neural-networks panel, and what unusual labels appear on BOTH axes of the green easel plot?",
+    "expected_answer": "The Statistical Learning panel warns about high kernel VC-dimension and suggests experts, structural risk minimization, loss reworking, unbiasedness, and soft margins; the jester-hat Neural Networks panel simply yells 'STACK MORE LAYERS' ('But unironically'), and BOTH the Y-axis and X-axis on its green upward plot are labeled 'LAYERS'.",
+    "gold_evidence": {
+      "pages": [
+        39
+      ],
+      "chunk_ids": [
+        "gpt4_p039_img_comic"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p039_img_comic.png"
+      ],
+      "exact_values_or_quotes": [
+        "VC-Dimension",
+        "structural risk",
+        "soft margin",
+        "STACK MORE LAYERS",
+        "LAYERS on both axes"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_i04",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "question": "Inspecting Panels 2 and 3 of the Table 3 visual collage (page 9), what brand/product series is printed on the retail blister package, and what is hidden at the tip inside the VGA connector in Panel 3?",
+    "expected_answer": "Panel 2 shows Japanese retail packaging branded 'ELECOM' ('P-APLTDCN series' / 'Cable Mania' / 'For Lightning Cable'); Panel 3 shows the close-up underside of the blue VGA plug revealing an Apple Lightning connector.",
+    "gold_evidence": {
+      "pages": [
+        9
+      ],
+      "chunk_ids": [
+        "gpt4_p009_img01_adapter"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p009_img01_adapter.png"
+      ],
+      "exact_values_or_quotes": [
+        "ELECOM P-APLTDCN series",
+        "Cable Mania",
+        "small Lightning connector"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_i05",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "question": "In Figure 1 ('Schema d'un bolometre') of Table 15 (page 35), what radiation and electric components appear at the absorber above the bar, and what element terminates the bottom of the conductive bar?",
+    "expected_answer": "Above the bar, incoming radiation ('rayonnement incident', 'puissance Pr') hits the 'absorbeur' containing thermometer resistance R(T) and thermal capacity Cth at temperature T with polarization current I ('courant de polarisation'); the bottom of the conductive bar terminates on a fixed-temperature 'thermostat Tb'.",
+    "gold_evidence": {
+      "pages": [
+        35
+      ],
+      "chunk_ids": [
+        "gpt4_p035_diag_physics"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p035_diag_physics.png"
+      ],
+      "exact_values_or_quotes": [
+        "rayonnement incident",
+        "puissance Pr",
+        "absorbeur",
+        "R(T)",
+        "Cth",
+        "courant de polarisation I",
+        "thermostat Tb"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_c01",
+    "split": "test",
+    "primary_group": "chart",
+    "answerable": true,
+    "question": "From Table 14's horizontal bar chart ('Daily meat consumption per person, 1997', page 34), what are Finland's and Georgia's exact daily values (with units), and by how many grams per person per day does Finland exceed Western Asia?",
+    "expected_answer": "Finland is 175.09 g per person per day, Georgia is 79.84 g, and Western Asia is 69.62 g; Finland exceeds Western Asia by 105.47 g per person per day.",
+    "gold_evidence": {
+      "pages": [
+        34
+      ],
+      "chunk_ids": [
+        "gpt4_p034_chart_meat"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p034_chart_meat.png"
+      ],
+      "exact_values_or_quotes": [
+        "Finland 175.09 g",
+        "Georgia 79.84 g",
+        "Western Asia 69.62 g"
+      ],
+      "units_and_conditions": "grams per person per day in 1997 (UN FAO)",
+      "calculation_steps": "175.09 - 69.62 = 105.47 g"
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_c02",
+    "split": "test",
+    "primary_group": "chart",
+    "answerable": true,
+    "question": "In Figure 5 (page 8, MMLU 3-shot accuracy across languages), identify the top three highest-scoring non-English languages and the bottom two lowest-scoring languages plotted, with exact percentages.",
+    "expected_answer": "Top three non-English: Italian (84.1%), Afrikaans (84.1%), and Spanish (84.0%). Bottom two: Marathi (66.7%) and Telugu (62.0%).",
+    "gold_evidence": {
+      "pages": [
+        8
+      ],
+      "chunk_ids": [
+        "gpt4_p008_text_00",
+        "gpt4_p008_fig05_chart"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p008_fig05_chart.png"
+      ],
+      "exact_values_or_quotes": [
+        "Italian 84.1%",
+        "Afrikaans 84.1%",
+        "Spanish 84.0%",
+        "Marathi 66.7%",
+        "Telugu 62.0%"
+      ],
+      "units_and_conditions": "3-shot MMLU accuracy (%) on full PDF Page 8 Figure 5 chart",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_c03",
+    "split": "test",
+    "primary_group": "chart",
+    "answerable": true,
+    "question": "In Figure 9 (page 14) / System Card Figure 7 (page 63), compare the approximate incorrect behavior rates of text-davinci-003, gpt-3.5-turbo, and gpt-4 on Sensitive Prompts versus Disallowed Prompts.",
+    "expected_answer": "On Sensitive Prompts, incorrect behavior drops from ~47% (text-davinci-003) and ~41% (gpt-3.5-turbo) down to ~24% (gpt-4); on Disallowed Prompts, it drops from ~22% (text-davinci-003) and ~4.5% (gpt-3.5-turbo) down to <1% (~0.7-0.8%) for gpt-4 (lower is better).",
+    "gold_evidence": {
+      "pages": [
+        14,
+        63
+      ],
+      "chunk_ids": [
+        "gpt4_p014_fig09_chart",
+        "gpt4_p063_sc_fig07_chart"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p014_fig09_chart.png"
+      ],
+      "exact_values_or_quotes": [
+        "Sensitive: ~47% vs ~41% vs ~24%",
+        "Disallowed: ~22% vs ~4.5% vs <1%"
+      ],
+      "units_and_conditions": "Incorrect behavior rate (%), lower is better",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_c04",
+    "split": "test",
+    "primary_group": "chart",
+    "answerable": true,
+    "question": "In System Card Figure 11 (page 98 IF heatmap matrix), what is GPT-3.5 Turbo RLHF's win rate against GPT-4 RLHF versus against GPT-3.5 RLHF, and verify whether complementary pairs sum to 100%.",
+    "expected_answer": "GPT-3.5 Turbo RLHF wins 38.9% against GPT-4 RLHF (which wins 61.1%; 38.9+61.1=100%) and wins 63.0% against GPT-3.5 RLHF (37.0%; 63.0+37.0=100%). All complementary off-diagonal cells sum to 100.0%.",
+    "gold_evidence": {
+      "pages": [
+        98
+      ],
+      "chunk_ids": [
+        "gpt4_p098_sc_fig11_chart"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p098_sc_fig11_chart.png"
+      ],
+      "exact_values_or_quotes": [
+        "GPT-3.5 Turbo RLHF vs GPT-4 RLHF: 38.9% / 61.1%",
+        "vs GPT-3.5 RLHF: 63.0% / 37.0%"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": "38.9 + 61.1 = 100.0%; 63.0 + 37.0 = 100.0%"
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_c05",
+    "split": "test",
+    "primary_group": "chart",
+    "answerable": true,
+    "question": "From Figure 7 / System Card Figure 8 (TruthfulQA mc1 accuracy on page 11 / 65), trace GPT-4's accuracy across 0-shot base, 5-shot base, and RLHF relative to gpt-3.5-turbo RLHF and Anthropic-LM RLHF.",
+    "expected_answer": "gpt-4-base improves from ~29% (0-shot) to ~39% (5-shot), and GPT-4 RLHF surges to ~59-60%, clearly outperforming gpt-3.5-turbo RLHF (~47%) and Anthropic-LM RLHF (~32%).",
+    "gold_evidence": {
+      "pages": [
+        11,
+        65
+      ],
+      "chunk_ids": [
+        "gpt4_p011_fig07_chart",
+        "gpt4_p065_sc_fig08_chart"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p011_fig07_chart.png"
+      ],
+      "exact_values_or_quotes": [
+        "gpt-4-base 0-shot ~29%, 5-shot ~39%, gpt-4 RLHF ~59-60% vs gpt-3.5-turbo ~47%, Anthropic-LM RLHF ~32%"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_m01",
+    "split": "test",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "question": "Combine Figure 7 (page 11 TruthfulQA) and Figure 8 (page 12 Calibration curves): what dual effect does RLHF post-training produce across truthfulness vs probability calibration?",
+    "expected_answer": "RLHF exhibits a trade-off: it boosts adversarial truthfulness on TruthfulQA mc1 from ~29%/39% (base) to ~59-60% (RLHF), while hurting MMLU calibration by increasing ECE >10x from 0.007 (pre-train) to 0.074 (PPO/RLHF).",
+    "gold_evidence": {
+      "pages": [
+        11,
+        12
+      ],
+      "chunk_ids": [
+        "gpt4_p011_fig07_chart",
+        "gpt4_p012_fig08_chart"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p011_fig07_chart.png",
+        "advanced/crops/gpt4_p012_fig08_chart.png"
+      ],
+      "exact_values_or_quotes": [
+        "TruthfulQA mc1: ~29%->~60%",
+        "ECE: 0.007 -> 0.074"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_m02",
+    "split": "test",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "question": "Synthesize Table 6 & 7 (page 13) with System Card page 62 / Figure 9 (page 14): how did Latest GPT-4 alter behavior relative to Early GPT-4 on both the disallowed bomb prompt and allowed cigarette prompt, and by what percentage did GPT-4 cut disallowed responses vs GPT-3.5?",
+    "expected_answer": "On the disallowed bomb prompt, Early GPT-4 leaked bomb considerations whereas Latest GPT-4 strictly refuses; on the allowed cheap-cigarettes prompt, Early GPT-4 over-refused whereas Latest GPT-4 provides 4 lawful options with a health warning. Overall GPT-4 decreased responses to disallowed requests by 82% compared to GPT-3.5 (with <1% disallowed incorrect rate in Figure 9).",
+    "gold_evidence": {
+      "pages": [
+        13,
+        14,
+        62
+      ],
+      "chunk_ids": [
+        "gpt4_p013_tab06_tab07",
+        "gpt4_p014_fig09_chart",
+        "gpt4_p062_text_01"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p013_tab06_tab07.png",
+        "advanced/crops/gpt4_p014_fig09_chart.png"
+      ],
+      "exact_values_or_quotes": [
+        "Early vs Latest GPT-4 Table 6 & 7",
+        "decreased the models tendency to respond to requests for disallowed content by 82% compared to GPT-3.5"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_m03",
+    "split": "test",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "question": "Compare Codeforces Rating and AMC 10 across Table 1 (page 5) and Table 9 (page 30): report their contamination percentages and compare GPT-4 (with vision) and GPT-4 (no vision) full vs non-contaminated results.",
+    "expected_answer": "Codeforces Rating has 0% contamination so GPT-4 scores 392 (below 5th) across all full and non-contaminated columns (vision & no-vision). AMC 10 has 4% contamination: GPT-4 (with vision) scores 30/150 (6th-12th) full vs 31/150 (7th-12th) non-contaminated, while GPT-4 (no vision) scores 36/150 (10th-19th) full vs 38/150 (14th-21st) non-contaminated.",
+    "gold_evidence": {
+      "pages": [
+        5,
+        30
+      ],
+      "chunk_ids": [
+        "gpt4_p005_tab01_table",
+        "gpt4_p030_tab09_table"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p005_tab01_table.png",
+        "advanced/crops/gpt4_p030_tab09_table.png"
+      ],
+      "exact_values_or_quotes": [
+        "Codeforces 0%: 392 (below 5th)",
+        "AMC 10 4%: no-vis 36->38, GPT-4 30->31"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_m04",
+    "split": "test",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "question": "Connect System Card page 64 prose with System Card Figure 11 (page 98) and Table 17 (page 37): verify if page 64's preference rates over GPT-3.5 RLHF and GPT-3.5 Turbo RLHF match Figure 11, and list the three InstructGPT RLHF stages used.",
+    "expected_answer": "Yes — page 64 explicitly cites 70.2% preference over GPT-3.5 RLHF and 61.1% over GPT-3.5 Turbo RLHF, matching Row 1 of Figure 11 exactly. OpenAI reused the 3 InstructGPT RLHF stages: (1) SFT, (2) Reward Model (RM) training, and (3) PPO reinforcement learning.",
+    "gold_evidence": {
+      "pages": [
+        37,
+        62,
+        64,
+        98
+      ],
+      "chunk_ids": [
+        "gpt4_p064_text_00",
+        "gpt4_p098_sc_fig11_chart",
+        "gpt4_p037_diag_rlhf"
+      ],
+      "crop_paths": [
+        "advanced/crops/gpt4_p098_sc_fig11_chart.png",
+        "advanced/crops/gpt4_p037_diag_rlhf.png"
+      ],
+      "exact_values_or_quotes": [
+        "70.2%",
+        "61.1%",
+        "SFT, RM, PPO"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_x01",
+    "split": "test",
+    "primary_group": "text",
+    "answerable": true,
+    "question": "In System Card Section 3 (pages 62 and 64), how often did GPT-4 generate toxic content on RealToxicityPrompts compared to GPT-3.5, and by how much did it improve policy-compliant responses to sensitive requests?",
+    "expected_answer": "On RealToxicityPrompts, GPT-4 produced toxic generations 0.73% of the time versus 6.48% for GPT-3.5; furthermore, GPT-4 responded to sensitive requests in accordance with OpenAI's policies 29% more often (while cutting disallowed responses by 82%).",
+    "gold_evidence": {
+      "pages": [
+        62,
+        64
+      ],
+      "chunk_ids": [
+        "gpt4_p062_text_04",
+        "gpt4_p064_text_00"
+      ],
+      "crop_paths": [],
+      "exact_values_or_quotes": [
+        "0.73% vs 6.48%",
+        "29% more often",
+        "82%"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_x02",
+    "split": "test",
+    "primary_group": "text",
+    "answerable": true,
+    "question": "What does 'RBRM' stand for in System Card page 61-63, why did OpenAI introduce it beyond human RLHF rankings, and what three Yes/No questions does the Figure 6 RBRM prompt ask?",
+    "expected_answer": "RBRM stands for Rule-Based Reward Models; OpenAI introduced them to overcome underspecified/over-refusal brittleness in human RLHF rankings. Figure 6 asks three Yes/No questions: [Is it a refusal?], [Providing reasons?], and [Contains harmful content].",
+    "gold_evidence": {
+      "pages": [
+        61,
+        62,
+        63
+      ],
+      "chunk_ids": [
+        "gpt4_p062_text_00",
+        "gpt4_p062_text_01",
+        "gpt4_p063_text_00"
+      ],
+      "crop_paths": [],
+      "exact_values_or_quotes": [
+        "rule-based reward models (RBRMs)",
+        "[Is it a refusal?]",
+        "[Providing reasons?]",
+        "[Contains harmful content]"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_x03",
+    "split": "test",
+    "primary_group": "text",
+    "answerable": true,
+    "question": "What reasons does Section 2 ('Scope and Limitations of this Technical Report', page 2) give for omitting GPT-4's architecture, hardware, training compute, and dataset construction details?",
+    "expected_answer": "OpenAI cites both the competitive landscape and the safety implications of large-scale models like GPT-4 as the reasons for withholding architecture (including model size), hardware, training compute, dataset construction, and training method details.",
+    "gold_evidence": {
+      "pages": [
+        2
+      ],
+      "chunk_ids": [
+        "gpt4_p002_text_01"
+      ],
+      "crop_paths": [],
+      "exact_values_or_quotes": [
+        "Given both the competitive landscape and the safety implications of large-scale models like GPT-4"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_x04",
+    "split": "test",
+    "primary_group": "text",
+    "answerable": true,
+    "question": "In System Card Appendix D.3 (Prompt 3, page 85), contrast how GPT-4 (early) versus GPT-4 (launch) responded to a prompt asking how to evade detection while laundering money.",
+    "expected_answer": "GPT-4 (early) outlined a detailed 5-step technical workflow (shell companies, fake accounts/VPNs, inflated fake sales, covert transfers/crypto, false invoices), whereas GPT-4 (launch) refused completely ('My apologies, but I cannot provide you with assistance on illegal activities such as money laundering').",
+    "gold_evidence": {
+      "pages": [
+        85
+      ],
+      "chunk_ids": [
+        "gpt4_p085_text_00",
+        "gpt4_p085_text_01",
+        "gpt4_p085_text_02"
+      ],
+      "crop_paths": [],
+      "exact_values_or_quotes": [
+        "5-step technical workflow",
+        "My apologies, but I cannot provide you with assistance on illegal activities such as money laundering"
+      ],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "",
+    "verification_keywords": []
+  },
+  {
+    "id": "adv_test_u01",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "How many NVIDIA A100 GPUs, training days, and total floating-point operations (FLOPs) were required to pre-train GPT-4?",
+    "expected_answer": "Abstain: Section 2 explicitly withholds hardware, GPU count, training duration, and exact training compute FLOPs.",
+    "gold_evidence": {
+      "pages": [
+        2
+      ],
+      "chunk_ids": [],
+      "crop_paths": [],
+      "exact_values_or_quotes": [],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "Section 2 omits hardware and training compute; only normalized Compute (up to 1) appears in Figures 1-2.",
+    "verification_keywords": [
+      "a100",
+      "flops",
+      "gpus"
+    ]
+  },
+  {
+    "id": "adv_test_u02",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "In Table 1 or Table 9, what scores did GPT-4 obtain on the Putnam Mathematical Competition, USAMO, and International Mathematical Olympiad (IMO)?",
+    "expected_answer": "Abstain: Putnam, USAMO, and IMO are not among the exams in Table 1 or Table 9 (only AMC 10 and AMC 12 are listed).",
+    "gold_evidence": {
+      "pages": [
+        5,
+        30
+      ],
+      "chunk_ids": [],
+      "crop_paths": [],
+      "exact_values_or_quotes": [],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "Zero occurrences of Putnam, USAMO, or IMO in the 100-page report.",
+    "verification_keywords": [
+      "putnam",
+      "usamo",
+      "imo"
+    ]
+  },
+  {
+    "id": "adv_test_u03",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "According to Figure 11 (page 98 IF evaluations), what was GPT-4 RLHF's pairwise win rate against Anthropic's Claude 2 and Google's PaLM-2?",
+    "expected_answer": "Abstain: Figure 11 only compares GPT-4 RLHF, GPT-3.5 Turbo RLHF, and GPT-3.5 RLHF; neither Claude 2 nor PaLM-2 appears.",
+    "gold_evidence": {
+      "pages": [
+        98
+      ],
+      "chunk_ids": [],
+      "crop_paths": [],
+      "exact_values_or_quotes": [],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "Figure 11 only has 3 models: GPT-4 RLHF, GPT-3.5 Turbo RLHF, GPT-3.5 RLHF.",
+    "verification_keywords": [
+      "claude 2",
+      "palm-2"
+    ]
+  },
+  {
+    "id": "adv_test_u04",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "According to Table 14 (page 34), what were Finland's and Georgia's daily meat consumption figures in 2020 compared to 1997?",
+    "expected_answer": "Abstain: Table 14's chart exclusively reports 1997 data ('Daily meat consumption per person, 1997') and provides no 2020 values.",
+    "gold_evidence": {
+      "pages": [
+        34
+      ],
+      "chunk_ids": [],
+      "crop_paths": [],
+      "exact_values_or_quotes": [],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "Only 1997 UN FAO values are shown in Table 14.",
+    "verification_keywords": [
+      "2020"
+    ]
+  },
+  {
+    "id": "adv_test_u05",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "In Table 15's Ecole Polytechnique physics exam diagram (page 35), what numerical value in W/(m*K) is given for thermal conductivity lambda and length L in meters?",
+    "expected_answer": "Abstain: The Ecole Polytechnique problem and diagram specify symbolic parameters (L, S, lambda, T0, Tb) only, with no numerical SI values.",
+    "gold_evidence": {
+      "pages": [
+        35
+      ],
+      "chunk_ids": [],
+      "crop_paths": [],
+      "exact_values_or_quotes": [],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "Symbolic exam derivation I.1.a has no numeric values for L or lambda.",
+    "verification_keywords": [
+      "W/(m",
+      "watts per meter"
+    ]
+  },
+  {
+    "id": "adv_test_u06",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "What score did GPT-4 achieve on MT-Bench and BFCL (Berkeley Function Calling Leaderboard) in the System Card?",
+    "expected_answer": "Abstain: Neither MT-Bench nor BFCL appears anywhere in this March 2023 GPT-4 Technical Report.",
+    "gold_evidence": {
+      "pages": [],
+      "chunk_ids": [],
+      "crop_paths": [],
+      "exact_values_or_quotes": [],
+      "units_and_conditions": "",
+      "calculation_steps": ""
+    },
+    "absence_reason": "0 matches for bfcl and mt-bench across all 100 pages.",
+    "verification_keywords": [
+      "bfcl",
+      "mt-bench"
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "split": "test",
+  "pipeline": "multimodal_hybrid_agent",
+  "chat_model": "inclusionai/ling-3.2-flash:free",
+  "total_cases": 30,
+  "total_passed": 28,
+  "pass_rate_pct": 93.33,
+  "meets_90pct_threshold": true,
+  "provider_errors": 0,
+  "median_latency_ms": 44432.69,
+  "total_cost_usd": 0.0,
+  "total_llm_calls": 30,
+  "total_tool_calls": 148,
+  "per_group": {
+    "table": {
+      "passed": 6,
+      "total": 6,
+      "ratio": "6/6",
+      "pct": 100.0
+    },
+    "image_diagram": {
+      "passed": 5,
+      "total": 5,
+      "ratio": "5/5",
+      "pct": 100.0
+    },
+    "chart": {
+      "passed": 5,
+      "total": 5,
+      "ratio": "5/5",
+      "pct": 100.0
+    },
+    "multi_hop": {
+      "passed": 3,
+      "total": 4,
+      "ratio": "3/4",
+      "pct": 75.0
+    },
+    "text": {
+      "passed": 3,
+      "total": 4,
+      "ratio": "3/4",
+      "pct": 75.0
+    },
+    "unanswerable": {
+      "passed": 6,
+      "total": 6,
+      "ratio": "6/6",
+      "pct": 100.0
+    }
+  },
+  "failed_cases": [
+    {
+      "id": "adv_test_m02",
+      "primary_group": "multi_hop",
+      "notes": "STRICT FAIL (partial multi-hop retrieval miss): Correctly contrasted Early vs Latest GPT-4 on bomb & cigarette prompts from Table 6/7 (p.13), but failed to retrieve System Card p.62 / p.13 text containing the exact '82%' disallowed reduction figure, approximating '~80%+ relative' from Figure 9 instead."
+    },
+    {
+      "id": "adv_test_x02",
+      "primary_group": "text",
+      "notes": "FAIL (false abstention / retrieval miss): Page-range '61-63' regex only pulled page 61 and 'Figure 6' prioritized main paper p.10 over System Card p.62-63, missing gpt4_p062_text_01 ('rule-based reward models (RBRMs)') and gpt4_p063_text_00."
+    }
+  ]
+}

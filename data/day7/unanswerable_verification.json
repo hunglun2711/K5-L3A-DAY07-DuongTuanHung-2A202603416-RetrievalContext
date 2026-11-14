@@ -1,0 +1,80 @@
+[
+  {
+    "id": "u01",
+    "split": "dev",
+    "question": "How do Python's match and case statements perform structural pattern matching, and how can an if guard be added to a case pattern?",
+    "total_chunks_checked": 95,
+    "keyword_matches": {
+      "match": [
+        "openstax-py-ch01_p13_para_01"
+      ],
+      "pattern matching": [],
+      "case ": [
+        "openstax-py-ch01_p12_para_00"
+      ],
+      "guard": []
+    },
+    "confirmed_absent": true,
+    "note": "Full-corpus regex scan across all 95 chunks (41 valid pages); occasional substring hits of generic words like 'match' do not discuss the target concept."
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "question": "What is the average time complexity of dictionary key lookup in Python, and how does CPython resolve hash table collisions?",
+    "total_chunks_checked": 95,
+    "keyword_matches": {
+      "hash table": [],
+      "collision": [],
+      "dictionary": [],
+      "O(1)": [],
+      "complexity": []
+    },
+    "confirmed_absent": true,
+    "note": "Full-corpus regex scan across all 95 chunks (41 valid pages); occasional substring hits of generic words like 'match' do not discuss the target concept."
+  },
+  {
+    "id": "u03",
+    "split": "dev",
+    "question": "In Python loops, how do async def and await keywords schedule tasks on an asyncio event loop to iterate asynchronously?",
+    "total_chunks_checked": 95,
+    "keyword_matches": {
+      "asyncio": [],
+      "async def": [],
+      "await": [
+        "openstax-py-ch01_p12_para_01"
+      ],
+      "event loop": []
+    },
+    "confirmed_absent": true,
+    "note": "Full-corpus regex scan across all 95 chunks (41 valid pages); occasional substring hits of generic words like 'match' do not discuss the target concept."
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "How does the yield keyword turn a Python function into a generator, and what exception is raised when a for loop finishes exhausting it?",
+    "total_chunks_checked": 95,
+    "keyword_matches": {
+      "yield": [
+        "openstax-py-ch01_p12_para_01"
+      ],
+      "generator": [],
+      "StopIteration": []
+    },
+    "confirmed_absent": true,
+    "note": "Full-corpus regex scan across all 95 chunks (41 valid pages); occasional substring hits of generic words like 'match' do not discuss the target concept."
+  },
+  {
+    "id": "u05",
+    "split": "test",
+    "question": "How does Python's C3 linearization algorithm compute the Method Resolution Order (MRO) when a class uses multiple inheritance?",
+    "total_chunks_checked": 95,
+    "keyword_matches": {
+      "C3": [],
+      "MRO": [],
+      "Method Resolution Order": [],
+      "multiple inheritance": []
+    },
+    "confirmed_absent": true,
+    "note": "Full-corpus regex scan across all 95 chunks (41 valid pages); occasional substring hits of generic words like 'match' do not discuss the target concept."
+  }
+]

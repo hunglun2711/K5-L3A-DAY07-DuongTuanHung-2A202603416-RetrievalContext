@@ -1,0 +1,673 @@
+[
+  {
+    "config": "improve2_hybrid_llm_rerank_adj2200",
+    "query_id": "q19",
+    "split": "test",
+    "type": "paraphrase",
+    "multi_evidence": false,
+    "question": "What distinguishes a Python library from the Standard Library, and what example library is mentioned for data analysis?",
+    "applied_filter": {
+      "section": "ch01_statements_variables"
+    },
+    "filter_source": "query_rule_inferred",
+    "top_k": 3,
+    "budget_chars": 2200,
+    "include_next_adjacent": true,
+    "results": [
+      {
+        "id": "openstax-py-ch01_p06_para_01",
+        "source_id": "openstax-py-ch01",
+        "source": "starter/data/openstax_python_ch01_intro.pdf",
+        "page": 6,
+        "text": "[The Python language] One reason why Python is popular is because many libraries exist for doing real work. A library is a collection of code that can be used in other programs. Python comes with an extensive Standard Library (https://openstax.org/r/100pythlibrary) for solving everyday computing problems like extracting data from files and creating summary reports. In addition, the community develops many other libraries for Python. Ex: Pandas (https://openstax.org/r/100pandas) is a widely used library for data analysis.",
+        "metadata": {
+          "section": "ch01_statements_variables",
+          "chapter": "Chapter 1: Statements",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 526,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 1
+        },
+        "score": 1.0,
+        "rank": 1,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 1,
+          "dense_score": 0.678704,
+          "bm25_rank": 1,
+          "bm25_score": 37.092139
+        },
+        "pre_rerank_rank": 1,
+        "pre_rerank_score": 0.03278688524590164,
+        "hit": true
+      },
+      {
+        "id": "openstax-py-ch01_p05_para_02",
+        "source_id": "openstax-py-ch01",
+        "source": "starter/data/openstax_python_ch01_intro.pdf",
+        "page": 5,
+        "text": "[Computers and programs] b. a mobile app for managing and sharing playlists of songs\n\nc. a website that shows the top artists for the past five years\n\n3 . Which of the following devices is an example of a computer?\n\na. wired headphones that plug into a smartphone\n\nb. remote control that pauses or skips the current song\n\nc. wi-fi speaker that streams music from Amazon\n\n4 . Reading this book requires a strong background in mathematics.\n\na. true\n\nb. false\n\nEXPLORING FURTHER\nLater chapters of this book show how to write analysis programs using real data. Example libraries that",
+        "metadata": {
+          "section": "ch01_statements_variables",
+          "chapter": "Chapter 1: Statements",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 579,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 2
+        },
+        "score": 0.5,
+        "rank": 2,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 8,
+          "dense_score": 0.317521,
+          "bm25_rank": 2,
+          "bm25_score": 12.263154
+        },
+        "pre_rerank_rank": 2,
+        "pre_rerank_score": 0.030834914611005692,
+        "hit": false
+      },
+      {
+        "id": "openstax-py-ch01_p06_para_02",
+        "source_id": "openstax-py-ch01",
+        "source": "starter/data/openstax_python_ch01_intro.pdf",
+        "page": 6,
+        "text": "[The Python language] Another reason why Python is popular is because the syntax is concise and straightforward. The syntax of a language defines how code must be structured. Syntax rules define the keywords, symbols, and formatting used in programs. Compared to other programming languages, Python is more concise and straightforward.\n\nEXAMPLE 1.1\n\nHello world in Python and Java\nBy tradition, Hello World (https://openstax.org/r/100helloworld) is the first program to write when learning a new language. This program simply displays the message \"Hello, World!\" to the user. The hello world program is only one line in Python: print(\"Hello, World!\") In contrast, the hello world program is five lines in Java (a different language).",
+        "metadata": {
+          "section": "ch01_statements_variables",
+          "chapter": "Chapter 1: Statements",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 733,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 2
+        },
+        "score": 0.333333,
+        "rank": 3,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 4,
+          "dense_score": 0.376133,
+          "bm25_rank": 9,
+          "bm25_score": 4.515419
+        },
+        "pre_rerank_rank": 4,
+        "pre_rerank_score": 0.030117753623188408,
+        "hit": false
+      }
+    ],
+    "context": "[openstax-py-ch01_p06_para_01 | starter/data/openstax_python_ch01_intro.pdf | page 6]\n[The Python language] One reason why Python is popular is because many libraries exist for doing real work. A library is a collection of code that can be used in other programs. Python comes with an extensive Standard Library (https://openstax.org/r/100pythlibrary) for solving everyday computing problems like extracting data from files and creating summary reports. In addition, the community develops many other libraries for Python. Ex: Pandas (https://openstax.org/r/100pandas) is a widely used library for data analysis.\n\n[openstax-py-ch01_p06_para_02 | starter/data/openstax_python_ch01_intro.pdf | page 6]\n[The Python language] Another reason why Python is popular is because the syntax is concise and straightforward. The syntax of a language defines how code must be structured. Syntax rules define the keywords, symbols, and formatting used in programs. Compared to other programming languages, Python is more concise and straightforward.\n\nEXAMPLE 1.1\n\nHello world in Python and Java\nBy tradition, Hello World (https://openstax.org/r/100helloworld) is the first program to write when learning a new language. This program simply displays the message \"Hello, World!\" to the user. The hello world program is only one line in Python: print(\"Hello, World!\") In contrast, the hello world program is five lines in Java (a different language).\n\n[openstax-py-ch01_p05_para_02 | starter/data/openstax_python_ch01_intro.pdf | page 5]\n[Computers and programs] b. a mobile app for managing and sharing playlists of songs\n\nc. a website that shows the top artists for the past five years\n\n3 . Which of the following devices is an example of a computer?\n\na. wired headphones that plug into a smartphone\n\nb. remote control that pauses or skips the current song\n\nc. wi-fi speaker that streams music from Amazon\n\n4 . Reading this book requires a strong background in mathematics.\n\na. true\n\nb. false\n\nEXPLORING FURTHER\nLater chapters of this book show how to write analysis programs using real data. Example libraries that",
+    "context_ids": [
+      "openstax-py-ch01_p06_para_01",
+      "openstax-py-ch01_p06_para_02",
+      "openstax-py-ch01_p05_para_02"
+    ],
+    "context_chars": 2100,
+    "elapsed_ms": 1747.906,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "improve2_hybrid_llm_rerank_adj2200",
+    "query_id": "q20",
+    "split": "test",
+    "type": "direct",
+    "multi_evidence": false,
+    "question": "What is a container object in Python, and how are character indexes numbered from left to right in a string?",
+    "applied_filter": {
+      "section": "ch03_data_types"
+    },
+    "filter_source": "query_rule_inferred",
+    "top_k": 3,
+    "budget_chars": 2200,
+    "include_next_adjacent": true,
+    "results": [
+      {
+        "id": "openstax-py-ch03_p01_para_02",
+        "source_id": "openstax-py-ch03",
+        "source": "starter/data/openstax_python_ch03_types.pdf",
+        "page": 1,
+        "text": "[By the end of this section you should be able to] • Use escape sequences to represent special characters.\n\nIndexes\nA string is a sequence of zero or more characters. Each character has an index that refers to the character's position. Indexes are numbered from left to right, starting at 0. Indexes are also numbered from right to left,\n\nObjects\n\n3",
+        "metadata": {
+          "section": "ch03_data_types",
+          "chapter": "Chapter 3: Objects",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 349,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 2
+        },
+        "score": 1.0,
+        "rank": 1,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 3,
+          "dense_score": 0.448723,
+          "bm25_rank": 1,
+          "bm25_score": 36.208647
+        },
+        "pre_rerank_rank": 2,
+        "pre_rerank_score": 0.032266458495966696,
+        "hit": false
+      },
+      {
+        "id": "openstax-py-ch03_p01_para_01",
+        "source_id": "openstax-py-ch03",
+        "source": "starter/data/openstax_python_ch03_types.pdf",
+        "page": 1,
+        "text": "Introduction\nAn object is a single unit of data in a Python program. So far, this book has introduced three types of objects: strings, integers, and floats. This chapter takes a closer look at how strings are represented and how integers and floats can be formatted. To better understand what an object actually is, the relationship between variables and objects is emphasized. The chapter also introduces two types of containers: lists and tuples. A container is an object that can hold an arbitrary number of other objects. At the end of this chapter, you will be able to solve more complex problems using fewer variables.\n\n3.1 Strings revisited\n\nLearning objectives\n\nBy the end of this section you should be able to\n• Extract a specific character from a string using an index.",
+        "metadata": {
+          "section": "ch03_data_types",
+          "chapter": "Chapter 3: Objects",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 779,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.5,
+        "rank": 2,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 1,
+          "dense_score": 0.572889,
+          "bm25_rank": 3,
+          "bm25_score": 19.277725
+        },
+        "pre_rerank_rank": 1,
+        "pre_rerank_score": 0.032266458495966696,
+        "hit": true
+      },
+      {
+        "id": "openstax-py-ch03_p09_para_01",
+        "source_id": "openstax-py-ch03",
+        "source": "starter/data/openstax_python_ch03_types.pdf",
+        "page": 9,
+        "text": "By the end of this section you should be able to\n• Distinguish between variables, objects, and references.\n\n• Draw memory diagrams with integers, floats, and strings.\n\nReferences to objects\nIn Python, every variable refers to an object. The assignment statement message = \"Hello\" makes the variable message refer to the object \"Hello\". Multiple variables may refer to the same object. Ex: greeting = message makes greeting refer to the same object as message. A memory diagram shows the relationship between variables and objects.\n\nCHECKPOINT\n\nExample memory diagram\nExample memory diagram; ch 3, video 3 (https://www.openstax.org/r/memory-diagram)\n\nCONCEPTS IN PRACTICE\n\nVariables and objects\n1 . How many assignment statements are in the above animation?\n\na. 2\n\nb. 3",
+        "metadata": {
+          "section": "ch03_data_types",
+          "chapter": "Chapter 3: Objects",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 768,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.333333,
+        "rank": 3,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 6,
+          "dense_score": 0.334354,
+          "bm25_rank": 4,
+          "bm25_score": 10.800665
+        },
+        "pre_rerank_rank": 4,
+        "pre_rerank_score": 0.030776515151515152,
+        "hit": false
+      }
+    ],
+    "context": "[openstax-py-ch03_p01_para_02 | starter/data/openstax_python_ch03_types.pdf | page 1]\n[By the end of this section you should be able to] • Use escape sequences to represent special characters.\n\nIndexes\nA string is a sequence of zero or more characters. Each character has an index that refers to the character's position. Indexes are numbered from left to right, starting at 0. Indexes are also numbered from right to left,\n\nObjects\n\n3\n\n[openstax-py-ch03_p01_para_01 | starter/data/openstax_python_ch03_types.pdf | page 1]\nIntroduction\nAn object is a single unit of data in a Python program. So far, this book has introduced three types of objects: strings, integers, and floats. This chapter takes a closer look at how strings are represented and how integers and floats can be formatted. To better understand what an object actually is, the relationship between variables and objects is emphasized. The chapter also introduces two types of containers: lists and tuples. A container is an object that can hold an arbitrary number of other objects. At the end of this chapter, you will be able to solve more complex problems using fewer variables.\n\n3.1 Strings revisited\n\nLearning objectives\n\nBy the end of this section you should be able to\n• Extract a specific character from a string using an index.\n\n[openstax-py-ch03_p09_para_01 | starter/data/openstax_python_ch03_types.pdf | page 9]\nBy the end of this section you should be able to\n• Distinguish between variables, objects, and references.\n\n• Draw memory diagrams with integers, floats, and strings.\n\nReferences to objects\nIn Python, every variable refers to an object. The assignment statement message = \"Hello\" makes the variable message refer to the object \"Hello\". Multiple variables may refer to the same object. Ex: greeting = message makes greeting refer to the same object as message. A memory diagram shows the relationship between variables and objects.\n\nCHECKPOINT\n\nExample memory diagram\nExample memory diagram; ch 3, video 3 (https://www.openstax.org/r/memory-diagram)\n\nCONCEPTS IN PRACTICE\n\nVariables and objects\n1 . How many assignment statements are in the above animation?\n\na. 2\n\nb. 3",
+    "context_ids": [
+      "openstax-py-ch03_p01_para_02",
+      "openstax-py-ch03_p01_para_01",
+      "openstax-py-ch03_p09_para_01"
+    ],
+    "context_chars": 2158,
+    "elapsed_ms": 1541.267,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "improve2_hybrid_llm_rerank_adj2200",
+    "query_id": "q21",
+    "split": "test",
+    "type": "conditional_exception",
+    "multi_evidence": false,
+    "question": "What binary values does the bool data type represent, and is capitalization required for Python's Boolean keywords?",
+    "applied_filter": {
+      "section": "ch04_branching"
+    },
+    "filter_source": "query_rule_inferred",
+    "top_k": 3,
+    "budget_chars": 2200,
+    "include_next_adjacent": true,
+    "results": [
+      {
+        "id": "openstax-py-ch04_p02_para_00",
+        "source_id": "openstax-py-ch04",
+        "source": "starter/data/openstax_python_ch04_branching.pdf",
+        "page": 2,
+        "text": "bool data type People often ask binary questions such as yes/no or true/false questions. Ex: Do you like pineapple on pizza?\n\nEx: True or false: I like pineapple on pizza. The response is a Boolean value, meaning the value is either true or false. The bool data type, standing for Boolean, represents a binary value of either true or false. true and false are keywords, and capitalization is required.\n\nCHECKPOINT\nExample: Crosswalk sign Example: Crosswalk sign; ch 4, video 1 (https://www.openstax.org/r/crosswalk-sign)\n\nCONCEPTS IN PRACTICE\n\nUsing Boolean variables\nConsider the following code: is_fruit = \"True\" is_vegetable = 0 is_dessert = False\n\n1 . What is the data type of is_fruit?\n\na. Boolean\n\nb. integer\n\nc. string\n\n2 . What is the data type of is_vegetable?\n\na. Boolean\n\nb. integer",
+        "metadata": {
+          "section": "ch04_branching",
+          "chapter": "Chapter 4: Decisions",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 793,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 0
+        },
+        "score": 1.0,
+        "rank": 1,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 1,
+          "dense_score": 0.546177,
+          "bm25_rank": 1,
+          "bm25_score": 34.203044
+        },
+        "pre_rerank_rank": 1,
+        "pre_rerank_score": 0.03278688524590164,
+        "hit": true
+      },
+      {
+        "id": "openstax-py-ch04_p03_para_01",
+        "source_id": "openstax-py-ch04",
+        "source": "starter/data/openstax_python_ch04_branching.pdf",
+        "page": 3,
+        "text": "[Converting numeric types and strings to Booleans] a. True\n\nb. False\n\n9 . bool(\"\")\n\na. True\n\nb. False\n\n10 . bool(\"0\")\n\na. True\n\nb. False\n\n11 . Given input False, what is bool(input())?\n\na. True\n\nb. False 4.1 • Boolean values 87",
+        "metadata": {
+          "section": "ch04_branching",
+          "chapter": "Chapter 4: Decisions",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 227,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.5,
+        "rank": 2,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 2,
+          "dense_score": 0.485353,
+          "bm25_rank": 4,
+          "bm25_score": 13.168349
+        },
+        "pre_rerank_rank": 2,
+        "pre_rerank_score": 0.031754032258064516,
+        "hit": false
+      },
+      {
+        "id": "openstax-py-ch04_p03_para_00",
+        "source_id": "openstax-py-ch04",
+        "source": "starter/data/openstax_python_ch04_branching.pdf",
+        "page": 3,
+        "text": "print(type(is_dessert)) What is the output?\n\na. <class 'bool'>\n\nb. <class 'int'>\n\nc. Error Type conversion with bool() Deciding whether a value is true or false is helpful when writing programs/statements based on decisions.\n\nConverting data types to Booleans can seem unintuitive at first. Ex: Is \"ice cream\" True? But the conversion is actually simple. bool() converts a value to a Boolean value, True or False.\n\n• True: any non-zero number, any non-empty string\n\n• False: 0, empty string\n\nCHECKPOINT\nConverting integers, floats, and strings using bool() Converting integers, floats, and strings using bool(); ch 4, video 2 (https://www.openstax.org/r/convertingusing-bool)\n\nCONCEPTS IN PRACTICE\n\nConverting numeric types and strings to Booleans\n7 . bool(0.000)\n\na. True\n\nb. False\n\n8 . bool(-1)",
+        "metadata": {
+          "section": "ch04_branching",
+          "chapter": "Chapter 4: Decisions",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 796,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.333333,
+        "rank": 3,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 5,
+          "dense_score": 0.447755,
+          "bm25_rank": 3,
+          "bm25_score": 15.458201
+        },
+        "pre_rerank_rank": 3,
+        "pre_rerank_score": 0.03125763125763126,
+        "hit": false
+      }
+    ],
+    "context": "[openstax-py-ch04_p02_para_00 | starter/data/openstax_python_ch04_branching.pdf | page 2]\nbool data type People often ask binary questions such as yes/no or true/false questions. Ex: Do you like pineapple on pizza?\n\nEx: True or false: I like pineapple on pizza. The response is a Boolean value, meaning the value is either true or false. The bool data type, standing for Boolean, represents a binary value of either true or false. true and false are keywords, and capitalization is required.\n\nCHECKPOINT\nExample: Crosswalk sign Example: Crosswalk sign; ch 4, video 1 (https://www.openstax.org/r/crosswalk-sign)\n\nCONCEPTS IN PRACTICE\n\nUsing Boolean variables\nConsider the following code: is_fruit = \"True\" is_vegetable = 0 is_dessert = False\n\n1 . What is the data type of is_fruit?\n\na. Boolean\n\nb. integer\n\nc. string\n\n2 . What is the data type of is_vegetable?\n\na. Boolean\n\nb. integer\n\n[openstax-py-ch04_p02_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 2]\n[Using Boolean variables] c. string\n\n3 . What is the data type of is_dessert?\n\na. Boolean\n\nb. integer\n\nc. string\n\n4 . How many values can a Boolean variable represent?\n\na. 2\n\nb. 4\n\nc. 8\n\n5 . Which is a valid value for a Boolean variable?\n\na. true\n\nb. True\n\nc. 1\n\n6 . Suppose the following is added to the code above: is_dessert = 0\n\n[openstax-py-ch04_p03_para_01 | starter/data/openstax_python_ch04_branching.pdf | page 3]\n[Converting numeric types and strings to Booleans] a. True\n\nb. False\n\n9 . bool(\"\")\n\na. True\n\nb. False\n\n10 . bool(\"0\")\n\na. True\n\nb. False\n\n11 . Given input False, what is bool(input())?\n\na. True\n\nb. False 4.1 • Boolean values 87",
+    "context_ids": [
+      "openstax-py-ch04_p02_para_00",
+      "openstax-py-ch04_p02_para_01",
+      "openstax-py-ch04_p03_para_01"
+    ],
+    "context_chars": 1625,
+    "elapsed_ms": 1626.472,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "improve2_hybrid_llm_rerank_adj2200",
+    "query_id": "q22",
+    "split": "test",
+    "type": "direct",
+    "multi_evidence": false,
+    "question": "In a while loop, what happens immediately after the loop expression evaluates to True versus False?",
+    "applied_filter": {
+      "section": "ch05_loops"
+    },
+    "filter_source": "query_rule_inferred",
+    "top_k": 3,
+    "budget_chars": 2200,
+    "include_next_adjacent": true,
+    "results": [
+      {
+        "id": "openstax-py-ch05_p02_para_00",
+        "source_id": "openstax-py-ch05",
+        "source": "starter/data/openstax_python_ch05_loops.pdf",
+        "page": 2,
+        "text": "loop expression is evaluated again.\n\n• If true, the loop body will execute at least one more time (also called looping or iterating one more time).\n\n• If false, the loop's execution will terminate and the next statement after the loop body will execute.\n\nCHECKPOINT\n\nWhile loop\n\nWhile loop; ch 5, video 1 (https://www.openstax.org/r/while-loop)\n\nCONCEPTS IN PRACTICE\n\nWhile loop example\nFibonacci is a series of numbers in which each number is the sum of the two preceding numbers. The Fibonacci sequence starts with two ones: 1, 1, 2, 3, . . . . Consider the following code that prints all Fibonacci numbers less than 20, and answer the following questions.",
+        "metadata": {
+          "section": "ch05_loops",
+          "chapter": "Chapter 5: Loops",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 658,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 0
+        },
+        "score": 1.0,
+        "rank": 1,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 1,
+          "dense_score": 0.630831,
+          "bm25_rank": 2,
+          "bm25_score": 19.994635
+        },
+        "pre_rerank_rank": 1,
+        "pre_rerank_score": 0.03252247488101534,
+        "hit": true
+      },
+      {
+        "id": "openstax-py-ch05_p04_para_00",
+        "source_id": "openstax-py-ch05",
+        "source": "starter/data/openstax_python_ch05_loops.pdf",
+        "page": 4,
+        "text": "a. value of n after the loop is -1.\n\nb. value of n after the loop is 0.\n\nc. value of n after the loop is 1.\n\n6 . What happens if the code is changed as follows?\n\nn = 4 while n > 0: print(n) # Modified line n = n + 1 print(\"value of n after the loop is\", n)\n\na. The code will not run.\n\nb. The code will run for one additional iteration.\n\nc. The code will never terminate.\n\nReading inputs in a while loop\nWrite a program that takes user inputs in a while loop until the user enters \"begin\". Test the code with the given input values to check that the loop does not terminate until the input is \"begin\". Once the input \"begin\" is received, print \"The while loop condition has been met.\".\n\nEnter different input words to see when the while loop condition is met.",
+        "metadata": {
+          "section": "ch05_loops",
+          "chapter": "Chapter 5: Loops",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 758,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.5,
+        "rank": 2,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 2,
+          "dense_score": 0.466504,
+          "bm25_rank": 1,
+          "bm25_score": 20.07187
+        },
+        "pre_rerank_rank": 2,
+        "pre_rerank_score": 0.03252247488101534,
+        "hit": false
+      },
+      {
+        "id": "openstax-py-ch05_p02_para_01",
+        "source_id": "openstax-py-ch05",
+        "source": "starter/data/openstax_python_ch05_loops.pdf",
+        "page": 2,
+        "text": "[While loop example] # Initializing the first two Fibonacci numbers f = 1 g = 1 print (f, end = ' ') # Running the loop while the last Fibonacci number is less than 20 while g < 20: print(g, end = ' ') # Calculating the next Fibonacci number and updating the last two sequence numbers temp = f f = g g = temp + g\n\n1 . How many times does the loop execute?\n\na. 5\n\nb. 6\n\nc. 7\n\n2 . What is the variable g's value when the while loop condition evaluates to False?\n\na. 13\n\nb. 20\n\nc. 21\n\n3 . What are the printed values in the output?\n\na. 1 1 2 3 5 8 13\n\nb. 1 2 3 5 8 13\n\nc. 1 1 2 3 5 8 13 21\n\nCounting with a while loop\nA while loop can be used to count up or down. A counter variable can be used in the loop expression to",
+        "metadata": {
+          "section": "ch05_loops",
+          "chapter": "Chapter 5: Loops",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 717,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.333333,
+        "rank": 3,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 4,
+          "dense_score": 0.439404,
+          "bm25_rank": 3,
+          "bm25_score": 19.611315
+        },
+        "pre_rerank_rank": 3,
+        "pre_rerank_score": 0.03149801587301587,
+        "hit": false
+      }
+    ],
+    "context": "[openstax-py-ch05_p02_para_00 | starter/data/openstax_python_ch05_loops.pdf | page 2]\nloop expression is evaluated again.\n\n• If true, the loop body will execute at least one more time (also called looping or iterating one more time).\n\n• If false, the loop's execution will terminate and the next statement after the loop body will execute.\n\nCHECKPOINT\n\nWhile loop\n\nWhile loop; ch 5, video 1 (https://www.openstax.org/r/while-loop)\n\nCONCEPTS IN PRACTICE\n\nWhile loop example\nFibonacci is a series of numbers in which each number is the sum of the two preceding numbers. The Fibonacci sequence starts with two ones: 1, 1, 2, 3, . . . . Consider the following code that prints all Fibonacci numbers less than 20, and answer the following questions.\n\n[openstax-py-ch05_p02_para_01 | starter/data/openstax_python_ch05_loops.pdf | page 2]\n[While loop example] # Initializing the first two Fibonacci numbers f = 1 g = 1 print (f, end = ' ') # Running the loop while the last Fibonacci number is less than 20 while g < 20: print(g, end = ' ') # Calculating the next Fibonacci number and updating the last two sequence numbers temp = f f = g g = temp + g\n\n1 . How many times does the loop execute?\n\na. 5\n\nb. 6\n\nc. 7\n\n2 . What is the variable g's value when the while loop condition evaluates to False?\n\na. 13\n\nb. 20\n\nc. 21\n\n3 . What are the printed values in the output?\n\na. 1 1 2 3 5 8 13\n\nb. 1 2 3 5 8 13\n\nc. 1 1 2 3 5 8 13 21\n\nCounting with a while loop\nA while loop can be used to count up or down. A counter variable can be used in the loop expression to",
+    "context_ids": [
+      "openstax-py-ch05_p02_para_00",
+      "openstax-py-ch05_p02_para_01"
+    ],
+    "context_chars": 1549,
+    "elapsed_ms": 1332.94,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "improve2_hybrid_llm_rerank_adj2200",
+    "query_id": "q23",
+    "split": "test",
+    "type": "metadata_filter",
+    "multi_evidence": false,
+    "question": "Which built-in functions return information about an object rather than a variable, and why does reassigning a variable not change an object's identity?",
+    "applied_filter": {
+      "section": "ch03_data_types"
+    },
+    "filter_source": "user_provided",
+    "top_k": 3,
+    "budget_chars": 2200,
+    "include_next_adjacent": true,
+    "results": [
+      {
+        "id": "openstax-py-ch03_p10_para_02",
+        "source_id": "openstax-py-ch03",
+        "source": "starter/data/openstax_python_ch03_types.pdf",
+        "page": 10,
+        "text": "[Properties of objects] • An object's identity is a unique integer associated with the object. Generally, this integer refers to the memory location where the object is stored. Once created, an object's identity never changes. The built-in id() function returns the object's identity.\n\n• An object's type determines the possible values and operations of an object. Ex: Integers and floats can be \"divided\" using the / operator, but strings cannot. The built-in type() function returns the object's type.\n\n• An object's value represents the current state of the object. Many objects, such as numbers and strings, cannot be modified once created. Some objects, such as lists (introduced later), are designed to be modified.\n\nCHECKPOINT",
+        "metadata": {
+          "section": "ch03_data_types",
+          "chapter": "Chapter 3: Objects",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 733,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 2
+        },
+        "score": 1.0,
+        "rank": 1,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 1,
+          "dense_score": 0.582572,
+          "bm25_rank": 2,
+          "bm25_score": 26.174008
+        },
+        "pre_rerank_rank": 1,
+        "pre_rerank_score": 0.03252247488101534,
+        "hit": false
+      },
+      {
+        "id": "openstax-py-ch03_p11_para_00",
+        "source_id": "openstax-py-ch03",
+        "source": "starter/data/openstax_python_ch03_types.pdf",
+        "page": 11,
+        "text": "CONCEPTS IN PRACTICE\n\nid() and type()\n4 . Which value might be returned by id(rating)?\n\na. 9793344\n\nb. <class 'float'>\n\nc. 10.0\n\n5 . Which value might be returned by type(rating)?\n\na. 10.0\n\nb. \"float\"\n\nc. <class 'float'>\n\n6 . What expression returns the value of an object?\n\na. value(rating)\n\nb. rating\n\nc. \"rating\"\n\nEXPLORING FURTHER\nAs shown in a memory diagram, variables and objects are two separate ideas. Calling a function like id() or type() returns information about an object, not a variable. In fact, a variable doesn't have an identity or a type, as shown in this example: >>> rating = 10 # Integer object somewhere in memory.\n\n>>> type(rating) <class 'int'> >>> id(rating) 9793344 >>> rating = \"ten\" # String object somewhere else in memory.",
+        "metadata": {
+          "section": "ch03_data_types",
+          "chapter": "Chapter 3: Objects",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 754,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.5,
+        "rank": 2,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 4,
+          "dense_score": 0.444184,
+          "bm25_rank": 1,
+          "bm25_score": 29.698666
+        },
+        "pre_rerank_rank": 2,
+        "pre_rerank_score": 0.032018442622950824,
+        "hit": true
+      },
+      {
+        "id": "openstax-py-ch03_p11_para_01",
+        "source_id": "openstax-py-ch03",
+        "source": "starter/data/openstax_python_ch03_types.pdf",
+        "page": 11,
+        "text": "[EXPLORING FURTHER] >>> type(rating) <class 'str'> >>> id(rating) 140690967388272 One might incorrectly think that the rating variable's type or identity changes. However, the only thing that changes is which object the rating variable refers to.\n\nThree variables\n\n1. Draw a memory diagram for the following code: a = 1 b = 2\n\nTRY IT\n\n3.3 • Variables revisited 77",
+        "metadata": {
+          "section": "ch03_data_types",
+          "chapter": "Chapter 3: Objects",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 363,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.333333,
+        "rank": 3,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 5,
+          "dense_score": 0.42013,
+          "bm25_rank": 4,
+          "bm25_score": 17.63595
+        },
+        "pre_rerank_rank": 4,
+        "pre_rerank_score": 0.031009615384615385,
+        "hit": false
+      }
+    ],
+    "context": "[openstax-py-ch03_p10_para_02 | starter/data/openstax_python_ch03_types.pdf | page 10]\n[Properties of objects] • An object's identity is a unique integer associated with the object. Generally, this integer refers to the memory location where the object is stored. Once created, an object's identity never changes. The built-in id() function returns the object's identity.\n\n• An object's type determines the possible values and operations of an object. Ex: Integers and floats can be \"divided\" using the / operator, but strings cannot. The built-in type() function returns the object's type.\n\n• An object's value represents the current state of the object. Many objects, such as numbers and strings, cannot be modified once created. Some objects, such as lists (introduced later), are designed to be modified.\n\nCHECKPOINT\n\n[openstax-py-ch03_p10_para_03 | starter/data/openstax_python_ch03_types.pdf | page 10]\nIdentity, type, and value\nIdentity, type, and value; ch 3, video 4 (https://www.openstax.org/r/identity-type-value)\n\n[openstax-py-ch03_p11_para_00 | starter/data/openstax_python_ch03_types.pdf | page 11]\nCONCEPTS IN PRACTICE\n\nid() and type()\n4 . Which value might be returned by id(rating)?\n\na. 9793344\n\nb. <class 'float'>\n\nc. 10.0\n\n5 . Which value might be returned by type(rating)?\n\na. 10.0\n\nb. \"float\"\n\nc. <class 'float'>\n\n6 . What expression returns the value of an object?\n\na. value(rating)\n\nb. rating\n\nc. \"rating\"\n\nEXPLORING FURTHER\nAs shown in a memory diagram, variables and objects are two separate ideas. Calling a function like id() or type() returns information about an object, not a variable. In fact, a variable doesn't have an identity or a type, as shown in this example: >>> rating = 10 # Integer object somewhere in memory.\n\n>>> type(rating) <class 'int'> >>> id(rating) 9793344 >>> rating = \"ten\" # String object somewhere else in memory.",
+    "context_ids": [
+      "openstax-py-ch03_p10_para_02",
+      "openstax-py-ch03_p10_para_03",
+      "openstax-py-ch03_p11_para_00"
+    ],
+    "context_chars": 1867,
+    "elapsed_ms": 2018.16,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "config": "improve2_hybrid_llm_rerank_adj2200",
+    "query_id": "q24",
+    "split": "test",
+    "type": "metadata_filter",
+    "multi_evidence": false,
+    "question": "What types of containers can a for loop iterate over in Python, and why is a string considered iterable?",
+    "applied_filter": {
+      "section": "ch05_loops"
+    },
+    "filter_source": "user_provided",
+    "top_k": 3,
+    "budget_chars": 2200,
+    "include_next_adjacent": true,
+    "results": [
+      {
+        "id": "openstax-py-ch05_p05_para_00",
+        "source_id": "openstax-py-ch05",
+        "source": "starter/data/openstax_python_ch05_loops.pdf",
+        "page": 5,
+        "text": "For loop\nIn Python, a container can be a range of numbers, a string of characters, or a list of values. To access objects within a container, an iterative loop can be designed to retrieve objects one at a time. A for loop iterates over all elements in a container. Ex: Iterating over a class roster and printing students' names.\n\nCHECKPOINT\n\nFor loop example for iterating over a container object\nFor loop example for iterating over a container object; ch 5, video 3 (https://www.openstax.org/r/for-loopiterating)\n\nCONCEPTS IN PRACTICE\n\nFor loop over a string container\nA string variable can be considered a container of multiple characters, and hence can be iterated on. Given the following code, answer the questions. str_var = \"A string\" count = 0 for c in str_var: count += 1 print(count)",
+        "metadata": {
+          "section": "ch05_loops",
+          "chapter": "Chapter 5: Loops",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 792,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 0
+        },
+        "score": 1.0,
+        "rank": 1,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 1,
+          "dense_score": 0.737039,
+          "bm25_rank": 1,
+          "bm25_score": 20.781204
+        },
+        "pre_rerank_rank": 1,
+        "pre_rerank_score": 0.03278688524590164,
+        "hit": true
+      },
+      {
+        "id": "openstax-py-ch05_p05_para_01",
+        "source_id": "openstax-py-ch05",
+        "source": "starter/data/openstax_python_ch05_loops.pdf",
+        "page": 5,
+        "text": "[For loop over a string container] 1 . What is the program's output?\n\na. 7\n\nb. 8\n\nc. 9\n\n2 . What's the code's output if the line count += 1 is replaced with count *= 2?\n\na. 0\n\nb. 16\n\nc. 28\n\n3 . What is printed if the code is changed as follows?\n\nstr_var = \"A string\" count = 0 for c in str_var: count += 1 # New line print(c, end = '*') print(count) 5.2 • For loop 119",
+        "metadata": {
+          "section": "ch05_loops",
+          "chapter": "Chapter 5: Loops",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 368,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 1
+        },
+        "score": 0.5,
+        "rank": 2,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 2,
+          "dense_score": 0.474971,
+          "bm25_rank": 2,
+          "bm25_score": 12.141123
+        },
+        "pre_rerank_rank": 2,
+        "pre_rerank_score": 0.03225806451612903,
+        "hit": false
+      },
+      {
+        "id": "openstax-py-ch05_p06_para_00",
+        "source_id": "openstax-py-ch05",
+        "source": "starter/data/openstax_python_ch05_loops.pdf",
+        "page": 6,
+        "text": "a. A string*\n\nb. A*s*t*r*i*n*g*\n\nc. A* *s*t*r*i*n*g* Range() function in for loop A for loop can be used for iteration and counting. The range() function is a common approach for implementing counting in a for loop. A range() function generates a sequence of integers between the two numbers given a step size. This integer sequence is inclusive of the start and exclusive of the end of the sequence. The range() function can take up to three input values. Examples are provided in the table below.\n\nRange function Description Example Output\n\nrange(end)\n• Generates a sequence beginning at 0 until end.\n\n• Step size: 1 range(4) 0, 1, 2, 3 range(start, end)\n\n• Generates a sequence beginning at start until end.",
+        "metadata": {
+          "section": "ch05_loops",
+          "chapter": "Chapter 5: Loops",
+          "year": 2024,
+          "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+          "char_count": 710,
+          "chunk_strategy": "by_paragraph",
+          "chunk_index": 0
+        },
+        "score": 0.333333,
+        "rank": 3,
+        "strategy": "hybrid_llm_rerank",
+        "fusion_details": {
+          "dense_rank": 4,
+          "dense_score": 0.361937,
+          "bm25_rank": 6,
+          "bm25_score": 9.409654
+        },
+        "pre_rerank_rank": 4,
+        "pre_rerank_score": 0.030776515151515152,
+        "hit": false
+      }
+    ],
+    "context": "[openstax-py-ch05_p05_para_00 | starter/data/openstax_python_ch05_loops.pdf | page 5]\nFor loop\nIn Python, a container can be a range of numbers, a string of characters, or a list of values. To access objects within a container, an iterative loop can be designed to retrieve objects one at a time. A for loop iterates over all elements in a container. Ex: Iterating over a class roster and printing students' names.\n\nCHECKPOINT\n\nFor loop example for iterating over a container object\nFor loop example for iterating over a container object; ch 5, video 3 (https://www.openstax.org/r/for-loopiterating)\n\nCONCEPTS IN PRACTICE\n\nFor loop over a string container\nA string variable can be considered a container of multiple characters, and hence can be iterated on. Given the following code, answer the questions. str_var = \"A string\" count = 0 for c in str_var: count += 1 print(count)\n\n[openstax-py-ch05_p05_para_01 | starter/data/openstax_python_ch05_loops.pdf | page 5]\n[For loop over a string container] 1 . What is the program's output?\n\na. 7\n\nb. 8\n\nc. 9\n\n2 . What's the code's output if the line count += 1 is replaced with count *= 2?\n\na. 0\n\nb. 16\n\nc. 28\n\n3 . What is printed if the code is changed as follows?\n\nstr_var = \"A string\" count = 0 for c in str_var: count += 1 # New line print(c, end = '*') print(count) 5.2 • For loop 119\n\n[openstax-py-ch05_p06_para_00 | starter/data/openstax_python_ch05_loops.pdf | page 6]\na. A string*\n\nb. A*s*t*r*i*n*g*\n\nc. A* *s*t*r*i*n*g* Range() function in for loop A for loop can be used for iteration and counting. The range() function is a common approach for implementing counting in a for loop. A range() function generates a sequence of integers between the two numbers given a step size. This integer sequence is inclusive of the start and exclusive of the end of the sequence. The range() function can take up to three input values. Examples are provided in the table below.\n\nRange function Description Example Output\n\nrange(end)\n• Generates a sequence beginning at 0 until end.\n\n• Step size: 1 range(4) 0, 1, 2, 3 range(start, end)\n\n• Generates a sequence beginning at start until end.",
+    "context_ids": [
+      "openstax-py-ch05_p05_para_00",
+      "openstax-py-ch05_p05_para_01",
+      "openstax-py-ch05_p06_para_00"
+    ],
+    "context_chars": 2132,
+    "elapsed_ms": 1856.422,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

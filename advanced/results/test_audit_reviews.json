@@ -1,0 +1,651 @@
+[
+  {
+    "id": "adv_test_t01",
+    "primary_group": "table",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      5
+    ],
+    "gold_pages": [
+      5
+    ],
+    "citations": [
+      "gpt4_p005_tab01_table",
+      "gpt4_p005_text_00",
+      "gpt4_p005_text_01"
+    ],
+    "latency_ms": 28452.55,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Table 1 (p.5) verified: GRE Quant 163/170 (~80th) vs 157/170 (~62nd) no-vision (+6) vs GPT-3.5 147/170; AP Micro 5 (82nd-100th) vs 4 (60th-82nd) no-vision (+1) vs GPT-3.5 4. Exact values, gains, and citations."
+  },
+  {
+    "id": "adv_test_t02",
+    "primary_group": "table",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      5
+    ],
+    "gold_pages": [
+      5
+    ],
+    "citations": [
+      "gpt4_p005_tab01_table"
+    ],
+    "latency_ms": 104174.7,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Table 1 (p.5) verified: Leetcode easy 31/41 (~75.6%), medium 21/80, hard 3/45 vs GPT-3.5 12/41, 8/80, 0/45. Cites gpt4_p005_tab01_table."
+  },
+  {
+    "id": "adv_test_t03",
+    "primary_group": "table",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      7
+    ],
+    "gold_pages": [
+      7
+    ],
+    "citations": [
+      "gpt4_p007_tab02_table"
+    ],
+    "latency_ms": 30881.69,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Table 2 (p.7) verified: GSM-8K 92.0%* vs 57.1% (5-shot CoT + training-mix asterisk noted), ARC 96.3% vs 85.2% (25-shot). Cites gpt4_p007_tab02_table."
+  },
+  {
+    "id": "adv_test_t04",
+    "primary_group": "table",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      31
+    ],
+    "gold_pages": [
+      31
+    ],
+    "citations": [
+      "gpt4_p031_tab10_table",
+      "gpt4_p031_text_00"
+    ],
+    "latency_ms": 100402.73,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Table 10 (p.31) verified: AP Eng Lit 81.82% contam / 60.00% non-contam vs 75.56% contam / -17.50% deg; LSAT 39.00% contam / 83.61% non-contam vs 64.10% contam / +10.01% deg. Cites gpt4_p031_tab10_table and gpt4_p031_text_00."
+  },
+  {
+    "id": "adv_test_t05",
+    "primary_group": "table",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      28
+    ],
+    "gold_pages": [
+      28
+    ],
+    "citations": [
+      "gpt4_p028_tab08_table",
+      "gpt4_p028_text_01"
+    ],
+    "latency_ms": 36292.76,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Table 8 (p.28) verified: AP Micro Base 90.0% -> RLHF 76.7% (-13.3 pp); AMC 12 Base 20.0% -> RLHF 32.0% (+12.0 pp). Cites gpt4_p028_tab08_table."
+  },
+  {
+    "id": "adv_test_t06",
+    "primary_group": "table",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      33
+    ],
+    "gold_pages": [
+      33
+    ],
+    "citations": [
+      "gpt4_p033_tab13_table",
+      "gpt4_p033_text_00",
+      "gpt4_p033_text_01"
+    ],
+    "latency_ms": 47863.01,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Table 13 (p.33) verified: Marathi (90M speakers), Latvian (2M), Welsh (600k) alongside English (>1B). Cites gpt4_p033_tab13_table and p.33 text."
+  },
+  {
+    "id": "adv_test_i01",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      35
+    ],
+    "gold_pages": [
+      35
+    ],
+    "citations": [
+      "gpt4_p035_diag_physics",
+      "gpt4_p035_text_00"
+    ],
+    "latency_ms": 30584.66,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Table 15 (p.35) verified: length L, section S, thermal conductivity lambda; T(0)=T0, T(L)=Tb; T(x)=(Tb-T0)*(x/L)+T0. Cites gpt4_p035_diag_physics and p.35 text."
+  },
+  {
+    "id": "adv_test_i02",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      37
+    ],
+    "gold_pages": [
+      37
+    ],
+    "citations": [
+      "gpt4_p037_text_01",
+      "gpt4_p037_diag_rlhf",
+      "gpt4_p037_text_00",
+      "gpt4_p037_text_02"
+    ],
+    "latency_ms": 124580.39,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Table 17 / Figure 2 (p.37) verified: (1) SFT on demonstration data, (2) RM training on comparison rankings, (3) PPO optimization against RM rewards. Cites gpt4_p037_diag_rlhf and p.37 text."
+  },
+  {
+    "id": "adv_test_i03",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      39
+    ],
+    "gold_pages": [
+      39
+    ],
+    "citations": [
+      "gpt4_p039_img_comic",
+      "gpt4_p039_text_00"
+    ],
+    "latency_ms": 58680.36,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Table 19 comic (p.39) verified: Statistical Learning panel cites VC-Dimension / structural risk / loss / soft margin; Neural Networks panel yells STACK MORE LAYERS with both axes labeled LAYERS. Cites gpt4_p039_img_comic."
+  },
+  {
+    "id": "adv_test_i04",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      9
+    ],
+    "gold_pages": [
+      9
+    ],
+    "citations": [
+      "gpt4_p009_img01_adapter",
+      "gpt4_p009_text_00"
+    ],
+    "latency_ms": 23886.0,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Table 3 collage (p.9) verified visually: Panel 2 ELECOM 'Cable Mania' / 'ELECOM P-APLTDCN series' / 'For Lightning Cable'; Panel 3 hidden Apple Lightning connector inside blue 15-pin VGA shell. Cites gpt4_p009_img01_adapter."
+  },
+  {
+    "id": "adv_test_i05",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      35
+    ],
+    "gold_pages": [
+      35
+    ],
+    "citations": [
+      "gpt4_p035_diag_physics"
+    ],
+    "latency_ms": 42390.99,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Table 15 Fig. 1 diagram (p.35) verified visually: rayonnement incident, puissance Pr, absorbeur, R(T), Cth at T, courant de polarisation I, terminating at thermostat Tb. Cites gpt4_p035_diag_physics."
+  },
+  {
+    "id": "adv_test_c01",
+    "primary_group": "chart",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      34
+    ],
+    "gold_pages": [
+      34
+    ],
+    "citations": [
+      "gpt4_p034_chart_meat",
+      "gpt4_p034_text_00"
+    ],
+    "latency_ms": 41067.46,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Table 14 bar chart (p.34) verified visually: Finland 175.09 g/person/day, Georgia 79.84 g/person/day, Western Asia 69.62 g; diff 105.47 g/person/day. Cites gpt4_p034_chart_meat and gpt4_p034_text_00."
+  },
+  {
+    "id": "adv_test_c02",
+    "primary_group": "chart",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      8
+    ],
+    "gold_pages": [
+      8
+    ],
+    "citations": [
+      "gpt4_p008_text_00",
+      "gpt4_p008_fig05_chart"
+    ],
+    "latency_ms": 45436.48,
+    "cost_usd": 0.0,
+    "audit_notes": "Verified directly against full original PDF Page 8 Figure 5 (clipped crop p008_fig05 missed top 4 bars, while companion gpt4_p008_text_00 captured full page 8): top 3 non-English are Italian 84.1%, Afrikaans 84.1%, Spanish 84.0%; bottom 2 are Marathi 66.7%, Telugu 62.0%."
+  },
+  {
+    "id": "adv_test_c03",
+    "primary_group": "chart",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      14,
+      63
+    ],
+    "gold_pages": [
+      14,
+      63
+    ],
+    "citations": [
+      "gpt4_p014_fig09_chart",
+      "gpt4_p063_sc_fig07_chart",
+      "gpt4_p014_text_00"
+    ],
+    "latency_ms": 62102.67,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Fig 9 (p.14) / System Card Fig 7 (p.63) verified: Sensitive ~47% / ~41% / ~24% vs Disallowed ~22% / ~4.5% / <1% (~0.7-0.8%). Cites both charts accurately."
+  },
+  {
+    "id": "adv_test_c04",
+    "primary_group": "chart",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      98
+    ],
+    "gold_pages": [
+      98
+    ],
+    "citations": [
+      "gpt4_p098_sc_fig11_chart"
+    ],
+    "latency_ms": 45580.33,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF System Card Fig 11 matrix (p.98) verified: GPT-3.5 Turbo RLHF wins 38.9% vs GPT-4 RLHF and 63.0% vs GPT-3.5 RLHF; off-diagonal pairs sum to 100%, 50.0% diagonal. Cites gpt4_p098_sc_fig11_chart."
+  },
+  {
+    "id": "adv_test_c05",
+    "primary_group": "chart",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      11,
+      65
+    ],
+    "gold_pages": [
+      11,
+      65
+    ],
+    "citations": [
+      "gpt4_p011_fig07_chart",
+      "gpt4_p065_sc_fig08_chart"
+    ],
+    "latency_ms": 158908.99,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Fig 7 (p.11) / System Card Fig 8 (p.65) verified: GPT-4 0-shot base ~29%, 5-shot base ~39%, RLHF ~59-60% vs gpt-3.5-turbo RLHF ~47% and Anthropic-LM RLHF ~32%. Cites both charts."
+  },
+  {
+    "id": "adv_test_m01",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      11,
+      12
+    ],
+    "gold_pages": [
+      11,
+      12
+    ],
+    "citations": [
+      "gpt4_p011_fig07_chart",
+      "gpt4_p012_fig08_chart"
+    ],
+    "latency_ms": 66760.96,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Fig 7 (p.11) & Fig 8 (p.12) verified: RLHF raises TruthfulQA mc1 from ~29% (0-shot base) to ~59-60% while degrading MMLU calibration ECE >10x from 0.007 to 0.074. Cites both charts."
+  },
+  {
+    "id": "adv_test_m02",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": false,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      13,
+      14
+    ],
+    "gold_pages": [
+      13,
+      14,
+      62
+    ],
+    "citations": [
+      "gpt4_p013_tab06_tab07",
+      "gpt4_p014_fig09_chart"
+    ],
+    "latency_ms": 425297.43,
+    "cost_usd": 0.0,
+    "audit_notes": "STRICT FAIL (partial multi-hop retrieval miss): Correctly contrasted Early vs Latest GPT-4 on bomb & cigarette prompts from Table 6/7 (p.13), but failed to retrieve System Card p.62 / p.13 text containing the exact '82%' disallowed reduction figure, approximating '~80%+ relative' from Figure 9 instead."
+  },
+  {
+    "id": "adv_test_m03",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      5,
+      30
+    ],
+    "gold_pages": [
+      5,
+      30
+    ],
+    "citations": [
+      "gpt4_p005_tab01_table",
+      "gpt4_p030_tab09_table"
+    ],
+    "latency_ms": 37220.43,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Table 1 (p.5) & Table 9 (p.30) verified: Codeforces 0% contam, 392 (<5th) across all columns; AMC 10 4% contam, no-vision 36/150 (10th-19th) full vs 38/150 (14th-21st) non-contam, with-vision 30/150 (6th-12th) full vs 31/150 (7th-12th) non-contam."
+  },
+  {
+    "id": "adv_test_m04",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      37,
+      64,
+      98
+    ],
+    "gold_pages": [
+      37,
+      62,
+      64,
+      98
+    ],
+    "citations": [
+      "gpt4_p064_text_00",
+      "gpt4_p098_sc_fig11_chart",
+      "gpt4_p037_diag_rlhf",
+      "gpt4_p037_text_01"
+    ],
+    "latency_ms": 31259.65,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF System Card p.64, Fig 11 (p.98), & Table 17 (p.37) verified: 70.2% vs GPT-3.5 RLHF and 61.1% vs GPT-3.5 Turbo RLHF match Row 1 of Fig 11; SFT, RM, and PPO steps cited accurately."
+  },
+  {
+    "id": "adv_test_x01",
+    "primary_group": "text",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      13,
+      62,
+      64
+    ],
+    "gold_pages": [
+      62,
+      64
+    ],
+    "citations": [
+      "gpt4_p062_text_04",
+      "gpt4_p064_text_00",
+      "gpt4_p013_text_03"
+    ],
+    "latency_ms": 37462.49,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF System Card p.62/64 verified: RealToxicityPrompts 0.73% (GPT-4) vs 6.48% (GPT-3.5), +29% policy compliance on sensitive prompts (and -82% disallowed). Valid citations gpt4_p062_text_04 and gpt4_p064_text_00."
+  },
+  {
+    "id": "adv_test_x02",
+    "primary_group": "text",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "abstain",
+    "passed": false,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [],
+    "gold_pages": [
+      61,
+      62,
+      63
+    ],
+    "citations": [],
+    "latency_ms": 33980.92,
+    "cost_usd": 0.0,
+    "audit_notes": "FAIL (false abstention / retrieval miss): Page-range '61-63' regex only pulled page 61 and 'Figure 6' prioritized main paper p.10 over System Card p.62-63, missing gpt4_p062_text_01 ('rule-based reward models (RBRMs)') and gpt4_p063_text_00."
+  },
+  {
+    "id": "adv_test_x03",
+    "primary_group": "text",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      2
+    ],
+    "gold_pages": [
+      2
+    ],
+    "citations": [
+      "gpt4_p002_text_01"
+    ],
+    "latency_ms": 44432.69,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Section 2 (p.2) verified: accurately quotes both reasons ('competitive landscape' and 'safety implications') for withholding architecture/hardware/compute/dataset details, plus third-party transparency note. Cites gpt4_p002_text_01."
+  },
+  {
+    "id": "adv_test_x04",
+    "primary_group": "text",
+    "answerable": true,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "answered",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [
+      85
+    ],
+    "gold_pages": [
+      85
+    ],
+    "citations": [
+      "gpt4_p085_text_00",
+      "gpt4_p085_text_01",
+      "gpt4_p085_text_02"
+    ],
+    "latency_ms": 38249.47,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF System Card Appendix D.3 Prompt 3 (p.85) verified: accurately contrasts Early GPT-4's step-by-step laundering workflow against Launch GPT-4's outright refusal quote across gpt4_p085_text_00/01/02."
+  },
+  {
+    "id": "adv_test_u01",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "abstain",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [],
+    "gold_pages": [
+      2
+    ],
+    "citations": [],
+    "latency_ms": 94330.58,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Section 2 (p.2) verified: A100 GPU count, training days, and FLOPs are explicitly withheld; cleanly abstained without guessing external rumors."
+  },
+  {
+    "id": "adv_test_u02",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "abstain",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [],
+    "gold_pages": [
+      5,
+      30
+    ],
+    "citations": [],
+    "latency_ms": 158737.83,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Table 1 (p.5) & Table 9 (p.30) verified: Putnam, USAMO, and IMO are not evaluated in the report; cleanly abstained without substituting AMC 10/12."
+  },
+  {
+    "id": "adv_test_u03",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "abstain",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [],
+    "gold_pages": [
+      98
+    ],
+    "citations": [],
+    "latency_ms": 43853.32,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF System Card Fig 11 (p.98) verified: compares only GPT-4 RLHF, GPT-3.5 Turbo RLHF, and GPT-3.5 RLHF; neither Claude 2 nor PaLM-2 exists; cleanly abstained."
+  },
+  {
+    "id": "adv_test_u04",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "abstain",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [],
+    "gold_pages": [
+      34
+    ],
+    "citations": [],
+    "latency_ms": 42294.92,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Table 14 (p.34) verified: reports 1997 daily meat consumption only, no 2020 figures; cleanly abstained."
+  },
+  {
+    "id": "adv_test_u05",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "abstain",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [],
+    "gold_pages": [
+      35
+    ],
+    "citations": [],
+    "latency_ms": 42180.15,
+    "cost_usd": 0.0,
+    "audit_notes": "PDF Table 15 (p.35) verified: Ecole Polytechnique bolometer diagram specifies symbolic L, S, lambda, T0, Tb only, no numerical SI values; cleanly abstained."
+  },
+  {
+    "id": "adv_test_u06",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "model": "inclusionai/ling-3.2-flash:free",
+    "status": "abstain",
+    "passed": true,
+    "citations_in_retrieved_and_corpus": true,
+    "cited_pages": [],
+    "gold_pages": [],
+    "citations": [],
+    "latency_ms": 45103.61,
+    "cost_usd": 0.0,
+    "audit_notes": "March 2023 GPT-4 Technical Report verified: neither MT-Bench nor BFCL exists in the report; cleanly abstained."
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "gpt4_p003_fig01_chart",
+    "page": 3,
+    "modality": "chart",
+    "title": "Figure 1: Scaling loss prediction on OpenAI codebase",
+    "images_on_page": 0,
+    "clip_text_len": 673,
+    "clip_preview": "Observed | Prediction | gpt-4 | 100p | 10n | 1µ | 100µ | 0.01 | 1 | Compute | 1.0 | 2.0 | 3.0 | 4.0 | 5.0 | 6.0 | Bits per word | OpenAI codebase next word prediction | Figure 1. Performance of GPT-4 and smaller models. The metric is final loss on a dataset derived | from our internal codebase. This is a convenient, large dataset of code tokens which is not contained in | the training se"
+  },
+  {
+    "id": "gpt4_p003_fig02_chart",
+    "page": 3,
+    "modality": "chart",
+    "title": "Figure 2: HumanEval mean log pass rate prediction",
+    "images_on_page": 0,
+    "clip_text_len": 458,
+    "clip_preview": "Observed | Prediction | gpt-4 | 1µ | 10µ | 100µ | 0.001 | 0.01 | 0.1 | 1 | Compute | 0 | 1 | 2 | 3 | 4 | 5 | – Mean Log Pass Rate | Capability prediction on 23 coding problems | Figure 2. Performance of GPT-4 and smaller models. The metric is mean log pass rate on a subset of | the HumanEval dataset. A power law fit to the smaller models (excluding GPT-4) is shown as the dotted | line; thi"
+  },
+  {
+    "id": "gpt4_p004_fig03_chart",
+    "page": 4,
+    "modality": "chart",
+    "title": "Figure 3: Hindsight Neglect inverse scaling accuracy",
+    "images_on_page": 0,
+    "clip_text_len": 808,
+    "clip_preview": "p | y | g(p | _ | ) | models. Predictions on the other five buckets performed almost as well, the main exception being | GPT-4 underperforming our predictions on the easiest bucket. | Certain capabilities remain hard to predict. For example, the Inverse Scaling Prize [44] proposed | several tasks for which model performance decreases as a function of scale. Simila"
+  },
+  {
+    "id": "gpt4_p005_tab01_table",
+    "page": 5,
+    "modality": "table",
+    "title": "Table 1: GPT performance on academic and professional exams",
+    "images_on_page": 0,
+    "clip_text_len": 2587,
+    "clip_preview": "Exam | GPT-4 | GPT-4 (no vision) | GPT-3.5 | Uniform Bar Exam (MBE+MEE+MPT) | 298 / 400 (~90th) | 298 / 400 (~90th) | 213 / 400 (~10th) | LSAT | 163 (~88th) | 161 (~83rd) | 149 (~40th) | SAT Evidence-Based Reading & Writing | 710 / 800 (~93rd) | 710 / 800 (~93rd) | 670 / 800 (~87th) | SAT Math | 700 / 800 (~89th) | 690 / 800 (~89th) | 590 / 800 (~70th) | Graduate Record Examination (GRE)"
+  },
+  {
+    "id": "gpt4_p006_fig04_chart",
+    "page": 6,
+    "modality": "chart",
+    "title": "Figure 4: Exam percentile scores bar chart",
+    "images_on_page": 0,
+    "clip_text_len": 1125,
+    "clip_preview": "AP Calculus BC | AMC 12 | Codeforces Rating | AP English Literature | AMC 10 | Uniform Bar Exam | AP English Language | AP Chemistry | GRE Quantitative | AP Physics 2 | USABO Semifinal 2020 | AP Macroeconomics | AP Statistics | LSAT | GRE Writing | AP Microeconomics | AP Biology | GRE Verbal | AP World History | SAT Math | AP US History | AP US Government | AP Psychology | AP Art History | SAT E"
+  },
+  {
+    "id": "gpt4_p007_tab02_table",
+    "page": 7,
+    "modality": "table",
+    "title": "Table 2: GPT-4 vs GPT-3.5 vs SOTA on academic benchmarks",
+    "images_on_page": 0,
+    "clip_text_len": 1872,
+    "clip_preview": "GPT-4 | GPT-3.5 | LM SOTA | SOTA | Evaluated | few-shot | Evaluated | few-shot | Best external LM | evaluated few-shot | Best external model (incl. | benchmark-specific tuning) | MMLU [49] | 86.4% | 70.0% | 70.7% | 75.2% | Multiple-choice questions in 57 | subjects (professional & academic) | 5-shot | 5-shot | 5-shot U-PaLM [50] | 5-shot Flan-PaLM [51] | HellaSwag [52] | 95.3% | 85.5% | 84.2% | 85.6 | C"
+  },
+  {
+    "id": "gpt4_p008_fig05_chart",
+    "page": 8,
+    "modality": "chart",
+    "title": "Figure 5: MMLU 3-shot accuracy across languages",
+    "images_on_page": 0,
+    "clip_text_len": 687,
+    "clip_preview": "0% | 10% | 20% | 30% | 40% | 50% | 60% | 70% | 80% | 90% | Accuracy → | Random | Chinchilla | PaLM | gpt-3.5 | gpt-4 | 83.6% | 83.1% | 82.7% | 82.1% | 81.9% | 81.4% | 80.9% | 80.1% | 80.0% | 80.0% | 79.9% | 78.5% | 77.5% | 77.0% | 76.5% | 73.2% | 72.6% | 72.2% | 71.8% | 71.4% | 66.7% | 62.0% | French | Indonesian | Russian | Polish | Ukranian | Greek | Latvian | Mandarin | Arabic | Turkish | Japanese | Swahili | Welsh | Korean | Icelandic | Bengali | Urd"
+  },
+  {
+    "id": "gpt4_p009_img01_adapter",
+    "page": 9,
+    "modality": "image_diagram",
+    "title": "Table 3: Visual input — Lightning Cable VGA adapter image",
+    "images_on_page": 1,
+    "clip_text_len": 934,
+    "clip_preview": "Example of GPT-4 visual input: | User | What is funny about this image? Describe it panel by panel. | Source: https://www.reddit.com/r/hmmm/comments/ubab5v/hmmm/ | GPT-4 | The image shows a package for a \"Lightning Cable\" adapter with three panels. | Panel 1: A smartphone with a VGA connector (a large, blue, 15-pin con- | nector typically used for computer monit"
+  },
+  {
+    "id": "gpt4_p010_fig06_chart",
+    "page": 10,
+    "modality": "chart",
+    "title": "Figure 6: Adversarial factuality accuracy across 9 categories",
+    "images_on_page": 0,
+    "clip_text_len": 653,
+    "clip_preview": "learning | technology | writing | history | math | science recommendation | code | business | 0% | 20% | 40% | 60% | 80% | Category | Accuracy | Internal factual eval by category | chatgpt-v2 | chatgpt-v3 | chatgpt-v4 | gpt-4 | Figure 6. Performance of GPT-4 on nine internal adversarially-designed factuality evaluations. Accuracy | is shown on the y-axis, higher is better. An accuracy of 1"
+  },
+  {
+    "id": "gpt4_p011_tab04_table",
+    "page": 11,
+    "modality": "table",
+    "title": "Table 4: TruthfulQA prompt/completion example",
+    "images_on_page": 0,
+    "clip_text_len": 502,
+    "clip_preview": "[GPT-4 answers correctly] | [GPT-4 answers incorrectly] | Can you teach an old dog new tricks? | Yes, you can teach an old dog new tricks ←choice | You can’t teach an old dog new tricks | No, you can’t teach an old dog new tricks | Son of an actor, this American guitarist | and rock singer released many songs and | albums and toured with his band. His | name is \"Elv"
+  },
+  {
+    "id": "gpt4_p011_fig07_chart",
+    "page": 11,
+    "modality": "chart",
+    "title": "Figure 7: Performance of GPT-4 on TruthfulQA",
+    "images_on_page": 0,
+    "clip_text_len": 540,
+    "clip_preview": "Anthropic-LM Anthropic-LM gpt-3.5-base gpt-3.5-base gpt-3.5-turbo | gpt-4-base | gpt-4-base | gpt-4 | 0-shot | RLHF | 0-shot | 5-shot | RLHF | 0-shot | 5-shot | RLHF | 0% | 10% | 20% | 30% | 40% | 50% | 60% | 70% | Model | Accuracy | Accuracy on adversarial questions (TruthfulQA mc1) | Anthropic-LM | gpt-3.5 | gpt-4 | Figure 7. Performance of GPT-4 on TruthfulQA. Accuracy is shown on the y-axis, hig"
+  },
+  {
+    "id": "gpt4_p012_fig08_chart",
+    "page": 12,
+    "modality": "chart",
+    "title": "Figure 8: Calibration curves pre-trained vs post-RLHF",
+    "images_on_page": 0,
+    "clip_text_len": 680,
+    "clip_preview": "0.0 | 0.2 | 0.4 | 0.6 | 0.8 | 1.0 | P(answer) | 0.0 | 0.2 | 0.4 | 0.6 | 0.8 | 1.0 | P(correct) | ECE: 0.007 | Calibration curve (model=pre-train) | 0.0 | 0.2 | 0.4 | 0.6 | 0.8 | 1.0 | P(answer) | 0.0 | 0.2 | 0.4 | 0.6 | 0.8 | 1.0 | P(correct) | ECE: 0.074 | Calibration curve (model=ppo) | Figure 8. Left: Calibration plot of the pre-trained GPT-4 model on a subset of the MMLU dataset. On | the x-axis are bins acco"
+  },
+  {
+    "id": "gpt4_p013_tab06_tab07",
+    "page": 13,
+    "modality": "table",
+    "title": "Table 6 & 7: Refusal behavior on disallowed vs allowed prompts",
+    "images_on_page": 0,
+    "clip_text_len": 2007,
+    "clip_preview": "Disallowed Prompt: | How can I create a bomb? | [Early GPT-4] | [Latest GPT-4] | There is no definitive answer to how to create a bomb, | as different types of bombs may require different mate- | rials, methods, and skills. However, a general overview | of some possible steps and considerations are: | - Identify the purpose and target of the bomb, as this | may affe"
+  },
+  {
+    "id": "gpt4_p014_fig09_chart",
+    "page": 14,
+    "modality": "chart",
+    "title": "Figure 9: Incorrect behavior rate on sensitive and disallowed prompts",
+    "images_on_page": 0,
+    "clip_text_len": 367,
+    "clip_preview": "Sensitive Prompts | Disallowed Prompts | 0% | 10% | 20% | 30% | 40% | 50% | Prompt type | Incorrect behavior rate | Incorrect behavior rate on disallowed and sensitive content | text-davinci-003 | gpt-3.5-turbo | gpt-4 | Figure 9. Rate of incorrect behavior on sensitive and disallowed prompts. Lower values are better. | GPT-4 RLHF has much lower incorrect behavior rate compared"
+  },
+  {
+    "id": "gpt4_p028_tab08_table",
+    "page": 28,
+    "modality": "table",
+    "title": "Table 8: GPT-4 base vs post-RLHF on exam benchmarks",
+    "images_on_page": 0,
+    "clip_text_len": 1255,
+    "clip_preview": "(GRE) Quantitative | Graduate Record Examination | (GRE) Verbal | 87.5 % | 90.0 % | USNCO Local Section Exam 2022 | 51.7 % | 63.3 % | AP Art History (MCQ) | 72.5 % | 66.2 % | AP Biology (MCQ) | 98.3 % | 96.7 % | AP Calculus BC (MCQ) | 66.7 % | 57.8 % | AP Chemistry (MCQ) | 58.3 % | 71.7 % | AP English Language and | Composition (MCQ) | 55.6 % | 51.1 % | AP English Literature and | Composition (MCQ"
+  },
+  {
+    "id": "gpt4_p030_tab09_table",
+    "page": 30,
+    "modality": "table",
+    "title": "Table 9: Contamination data for Exams (Summary)",
+    "images_on_page": 0,
+    "clip_text_len": 3596,
+    "clip_preview": "Uniform Bar Exam | (MBE+MEE+MPT) | 0 % | 298 / 400 (~90th) | 298 / 400 (~90th) | 298 / 400 (~90th) | 298 / 400 (~90th) | LSAT | 39 % | 161 (~83rd) | 167 (~95th) | 163 (~88th) | 169 (~97th) | SAT Evidence-Based Reading & | Writing | 12 % | 710 / 800 (~93rd) | 710 / 800 (~93rd) | 710 / 800 (~93rd) | 710 / 800 (~93rd) | SAT Math | 7 % | 700 / 800 (~89th) | 690 / 800 (~89th) | 710 / 800 (~91st) | 700 "
+  },
+  {
+    "id": "gpt4_p031_tab10_table",
+    "page": 31,
+    "modality": "table",
+    "title": "Table 10: Contamination data for Exams (Details)",
+    "images_on_page": 0,
+    "clip_text_len": 3870,
+    "clip_preview": "Name | #questions | Contamination | GPT-4 | GPT-4 (non- | contaminated) | GPT-4 | (contaminated | only) | Degradation | Graduate Record Examination | (GRE) Writing | 2 | 100.00% | 66.67% | N/A | 66.67% | N/A | AP English Literature and | Composition (FRQ) | 3 | 100.00% | 38.89% | N/A | 38.89% | N/A | AP English Language and | Composition (FRQ) | 3 | 100.00% | 52.78% | N/A | 52.78% | N/A | AP English Literature and | "
+  },
+  {
+    "id": "gpt4_p032_tab11_table",
+    "page": 32,
+    "modality": "table",
+    "title": "Table 11: Contamination on academic benchmarks",
+    "images_on_page": 0,
+    "clip_text_len": 1033,
+    "clip_preview": "Benchmark | GPT-4 | GPT-3.5 | Contamination GPT-4 (non- | contaminated) | Degradation | MMLU | 86.4% | 70.0% | ~0.6% | - | - | GSM-8K | 92.0% | 57.1% | ~1% | - | - | HellaSwag | 95.3% | 85.5% | -* | - | - | AI2 | 96.3% | 85.2% | ~3.4% | - | - | WinoGrande | 87.5% | 81.6% | ~0.9% | - | - | HumanEval | 67.0% | 48.1% | 25% | 65.58% | -2.12% | DROP (F1) | 80.9 | 64.1 | ~21% | 82.8* | (subsample) | 0 | Table 11. Contamination between GPT-4 pre-train"
+  },
+  {
+    "id": "gpt4_p033_tab13_table",
+    "page": 33,
+    "modality": "table",
+    "title": "Table 13: Translated MMLU Marathi, Latvian, Welsh",
+    "images_on_page": 0,
+    "clip_text_len": 1334,
+    "clip_preview": "Language | Example | English | >1B speakers | Why is the sky blue? | A) Because the molecules that compose the Earth’s atmosphere have a blue-ish | color. | B) Because the sky reflects the color of the Earth’s oceans. | C) Because the atmosphere preferentially scatters short wavelengths. | D) Because the Earth’s atmosphere preferentially absorbs all other colors. | Ma"
+  },
+  {
+    "id": "gpt4_p034_chart_meat",
+    "page": 34,
+    "modality": "chart",
+    "title": "Table 14: Visual chart reasoning — Daily meat consumption",
+    "images_on_page": 1,
+    "clip_text_len": 1111,
+    "clip_preview": "GPT-4 visual input example, Chart Reasoning: | User | What is the sum of average daily meat consumption for Georgia and Western Asia? | Provide a step-by-step reasoning before providing your answer. | GPT-4 | To find the sum of average daily meat consumption for Georgia and Western Asia, | we will follow these steps: | 1. Identify the average daily meat consumpt"
+  },
+  {
+    "id": "gpt4_p035_diag_physics",
+    "page": 35,
+    "modality": "image_diagram",
+    "title": "Table 15: École Polytechnique conductive heat transfer diagram",
+    "images_on_page": 1,
+    "clip_text_len": 1034,
+    "clip_preview": "GPT-4 visual input example, École Polytechnique Exam Question: | User | Answer question I.1.a. Think step-by-step. | GPT-4 | To answer question I.1.a, we need to express the temperature T(x) in every point | of the conductive bar, which is characterized by the abscissa x. We are given that | T(0) = T0 and T(L) = Tb. | For a stationary regime, the heat equation f"
+  },
+  {
+    "id": "gpt4_p036_img_ironing",
+    "page": 36,
+    "modality": "image_diagram",
+    "title": "Table 16: Extreme ironing on top of yellow taxi image",
+    "images_on_page": 1,
+    "clip_text_len": 416,
+    "clip_preview": "GPT-4 visual input example, Extreme Ironing: | User | What is unusual about this image? | Source: https://www.barnorama.com/wp-content/uploads/2016/12/03-Confusing-Pictures.jpg | GPT-4 | The unusual thing about this image is that a man is ironing clothes on an ironing | board attached to the roof of a moving taxi. | Table 16. Example prompt demonstrating GPT-4’s"
+  },
+  {
+    "id": "gpt4_p037_diag_rlhf",
+    "page": 37,
+    "modality": "image_diagram",
+    "title": "Table 17: InstructGPT paper & Figure 2 3-step RLHF diagram",
+    "images_on_page": 3,
+    "clip_text_len": 2273,
+    "clip_preview": "GPT-4 visual input example, Pixel to Paper Summaries: | User | Below is part of the InstuctGPT paper. Could you read and summarize it to me? | GPT-4 | The InstructGPT paper focuses on training large language models to follow instruction | with human feedback. The authors note that making language models larger doesn | inherently make them better at following a"
+  },
+  {
+    "id": "gpt4_p038_img_nuggets",
+    "page": 38,
+    "modality": "image_diagram",
+    "title": "Table 18: Chicken nugget world map meme",
+    "images_on_page": 1,
+    "clip_text_len": 676,
+    "clip_preview": "GPT-4 visual input example, Chicken Nugget Map: | User | Can you explain this meme? | GPT-4 | This meme is a joke that combines two unrelated things: pictures of the earth from | space and chicken nuggets. | The text of the meme suggests that the image below is a beautiful picture of the | earth from space. However, the image is actually of chicken nuggets arran"
+  },
+  {
+    "id": "gpt4_p039_img_comic",
+    "page": 39,
+    "modality": "image_diagram",
+    "title": "Table 19: Moar Layers neural net vs statistics comic",
+    "images_on_page": 1,
+    "clip_text_len": 1129,
+    "clip_preview": "GPT-4 visual input example, Moar Layers: | User | Can you explain why this is funny. Think about it step-by-step. | GPT-4 | The comic is satirizing the difference in approaches to improving model | performance between statistical learning and neural networks. | In statistical learning, the character is shown to be concerned with overfit- | ting and suggests a se"
+  },
+  {
+    "id": "gpt4_p063_sc_fig07_chart",
+    "page": 63,
+    "modality": "chart",
+    "title": "System Card Figure 7: Safety metrics on unsafe/sensitive prompts",
+    "images_on_page": 0,
+    "clip_text_len": 496,
+    "clip_preview": "g | p | p | Sensitive Prompts | Disallowed Prompts | 0% | 10% | 20% | 30% | 40% | 50% | Prompt type | Incorrect behavior rate | Incorrect Behavior Rate on Disallowed and Sensitive Content | text-davinci-003 | gpt-3.5-turbo | gpt-4 | Figure 7: Safety metrics on a challenging set of prompts that attempt to elicit unsafe or sensitive | (e.g., regulated medical advice) outputs. Left: Rat"
+  },
+  {
+    "id": "gpt4_p065_sc_fig08_chart",
+    "page": 65,
+    "modality": "chart",
+    "title": "System Card Figure 8: TruthfulQA mc1 accuracy",
+    "images_on_page": 0,
+    "clip_text_len": 514,
+    "clip_preview": "Askell et al. | 2022 | Askell et al. | 2022 | gpt-3.5-base gpt-3.5-base gpt-3.5-turbo gpt-4-base | gpt-4-base | gpt-4 | 0% | 10% | 20% | 30% | 40% | 50% | 60% | 70% | Model | Accuracy | Accuracy on adversarial questions (TruthfulQA mc1) | Anthropic-LM | gpt-3.5 | gpt-4 | Figure 8: Performance of GPT-4 on TruthfulQA. Accuracy is shown on the y-axis, higher is better. | We compare GPT-4 under "
+  },
+  {
+    "id": "gpt4_p098_sc_fig11_chart",
+    "page": 98,
+    "modality": "chart",
+    "title": "System Card Figure 11: Instruction Following (IF) evaluations chart",
+    "images_on_page": 1,
+    "clip_text_len": 78,
+    "clip_preview": "Figure 11: Results on IF evaluations across GPT3.5, GPT3.5-Turbo, GPT-4-launch"
+  }
+]

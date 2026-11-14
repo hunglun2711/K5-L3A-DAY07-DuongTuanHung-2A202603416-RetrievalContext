@@ -1,0 +1,44 @@
+[
+  {
+    "config": "agent_baseline_tfidf",
+    "split": "dev",
+    "total_cases": 21,
+    "answered": 11,
+    "abstained": 10,
+    "errors": 0,
+    "total_searches": 24,
+    "total_model_calls": 45,
+    "total_prompt_tokens": 17143,
+    "total_completion_tokens": 1815,
+    "total_seconds": 82.04,
+    "total_cost_usd": 0.00366045
+  },
+  {
+    "config": "agent_dense_day6",
+    "split": "dev",
+    "total_cases": 21,
+    "answered": 18,
+    "abstained": 3,
+    "errors": 0,
+    "total_searches": 21,
+    "total_model_calls": 42,
+    "total_prompt_tokens": 21916,
+    "total_completion_tokens": 2324,
+    "total_seconds": 120.35,
+    "total_cost_usd": 0.00468528
+  },
+  {
+    "config": "agent_chosen_multitool",
+    "split": "dev",
+    "total_cases": 21,
+    "answered": 18,
+    "abstained": 3,
+    "errors": 0,
+    "total_searches": 46,
+    "total_model_calls": 45,
+    "total_prompt_tokens": 79044,
+    "total_completion_tokens": 4264,
+    "total_seconds": 147.53,
+    "total_cost_usd": 0.01408966
+  }
+]

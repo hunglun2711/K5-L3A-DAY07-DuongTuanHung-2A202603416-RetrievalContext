@@ -1,0 +1,14 @@
+{
+  "title": "GPT-4 Technical Report",
+  "publisher": "OpenAI",
+  "arxiv_id": "2303.08774v6",
+  "source_url": "https://arxiv.org/pdf/2303.08774.pdf",
+  "abs_url": "https://arxiv.org/abs/2303.08774",
+  "local_pdf_path": "advanced/data/gpt4_technical_report_100p.pdf",
+  "access_and_license": "Publicly accessible OpenAI technical report hosted on arXiv under arXiv's non-exclusive distribution license; excluded from Git via .gitignore and reproducible via python advanced/scripts/prepare_advanced_corpus.py.",
+  "prepared_at": "2026-11-14T11:59:15.018246+00:00",
+  "page_count": 100,
+  "pdf_bytes": 5245564,
+  "sha256": "c33a66dadca2388d7b172d6293b00dc32b71110c6f38fafe0d41112e61be7774",
+  "total_extracted_chars": 283983
+}

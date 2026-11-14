@@ -1,0 +1,20 @@
+{
+  "query_id": "u05",
+  "split": "test",
+  "answerable": false,
+  "question": "How does Python's C3 linearization algorithm compute the Method Resolution Order (MRO) when a class uses multiple inheritance?",
+  "status": "error",
+  "error": "OpenRouter rerank error HTTP 402: {\"error\":{\"message\":\"This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits.\",\"code\":402,\"metadata\":{\"reason\":\"in_flight_budget_exhausted\",\"limit_source\":\"openrouter_in_flight_budget\",\"remedy_hint\":\"Retry after yo",
+  "answer": "",
+  "citations": [],
+  "final_context": "",
+  "final_context_ids": [],
+  "events": [],
+  "num_searches": 0,
+  "model_calls": 0,
+  "elapsed_ms": 0.0,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "embed_tokens": 0,
+  "service_cost_usd": 0.0
+}

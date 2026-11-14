@@ -1,0 +1,192 @@
+{
+  "corpus_name": "OpenStax Introduction to Python Programming (4-Chapter Excerpt)",
+  "publisher": "OpenStax, Rice University",
+  "source_url": "https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Python_Programming-WEB.pdf",
+  "license_or_permission": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "accessed_at": "2026-11-13T11:11:22.235303+00:00",
+  "version_note": "WEB PDF edition retrieved from OpenStax CMS assets",
+  "page_counting_rule": "Each physical PDF page is extracted via pypdf and normalized (NFC, whitespace cleanup). Pages that are blank (0 chars), Table of Contents ('CONTENTS'), or cover/title pages under 250 normalized characters are excluded from valid content pages and logged.",
+  "total_physical_pages": 44,
+  "total_valid_content_pages": 41,
+  "total_excluded_pages": 3,
+  "total_normalized_chars": 54015,
+  "documents": [
+    {
+      "source_id": "openstax-py-ch01",
+      "title": "Introduction to Python Programming — Chapter 1 Excerpt (Statements, Input/Output, Variables)",
+      "source_path_or_url": "starter/data/openstax_python_ch01_intro.pdf",
+      "upstream_url": "https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Python_Programming-WEB.pdf",
+      "license_or_permission": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "accessed_at": "2026-11-13T11:11:22.235303+00:00",
+      "section": "ch01_statements_variables",
+      "chapter": "Chapter 1: Statements",
+      "year": 2024,
+      "source_book_page_indices_0based": [
+        0,
+        2,
+        6,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "physical_page_count": 13,
+      "valid_page_numbers": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "excluded_pages": [
+        {
+          "page": 1,
+          "reason": "blank_page",
+          "char_count": 0
+        },
+        {
+          "page": 2,
+          "reason": "cover_or_title_page",
+          "char_count": 199
+        },
+        {
+          "page": 3,
+          "reason": "table_of_contents",
+          "char_count": 720
+        }
+      ],
+      "valid_page_count": 10,
+      "total_normalized_chars": 15517
+    },
+    {
+      "source_id": "openstax-py-ch03",
+      "title": "Introduction to Python Programming — Chapter 3 Excerpt (Strings, f-Strings, Objects)",
+      "source_path_or_url": "starter/data/openstax_python_ch03_types.pdf",
+      "upstream_url": "https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Python_Programming-WEB.pdf",
+      "license_or_permission": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "accessed_at": "2026-11-13T11:11:22.235303+00:00",
+      "section": "ch03_data_types",
+      "chapter": "Chapter 3: Objects",
+      "year": 2024,
+      "source_book_page_indices_0based": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "physical_page_count": 11,
+      "valid_page_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "excluded_pages": [],
+      "valid_page_count": 11,
+      "total_normalized_chars": 15184
+    },
+    {
+      "source_id": "openstax-py-ch04",
+      "title": "Introduction to Python Programming — Chapter 4 Excerpt (Booleans, If-Else, Boolean Operations)",
+      "source_path_or_url": "starter/data/openstax_python_ch04_branching.pdf",
+      "upstream_url": "https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Python_Programming-WEB.pdf",
+      "license_or_permission": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "accessed_at": "2026-11-13T11:11:22.235303+00:00",
+      "section": "ch04_branching",
+      "chapter": "Chapter 4: Decisions",
+      "year": 2024,
+      "source_book_page_indices_0based": [
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103
+      ],
+      "physical_page_count": 10,
+      "valid_page_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "excluded_pages": [],
+      "valid_page_count": 10,
+      "total_normalized_chars": 11752
+    },
+    {
+      "source_id": "openstax-py-ch05",
+      "title": "Introduction to Python Programming — Chapter 5 Excerpt (While Loops, For Loops, Nested Loops)",
+      "source_path_or_url": "starter/data/openstax_python_ch05_loops.pdf",
+      "upstream_url": "https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Python_Programming-WEB.pdf",
+      "license_or_permission": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "accessed_at": "2026-11-13T11:11:22.235303+00:00",
+      "section": "ch05_loops",
+      "chapter": "Chapter 5: Loops",
+      "year": 2024,
+      "source_book_page_indices_0based": [
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133
+      ],
+      "physical_page_count": 10,
+      "valid_page_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "excluded_pages": [],
+      "valid_page_count": 10,
+      "total_normalized_chars": 11562
+    }
+  ]
+}

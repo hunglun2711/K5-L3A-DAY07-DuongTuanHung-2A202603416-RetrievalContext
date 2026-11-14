@@ -9,3 +9,8 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Large PDF and local vector store binaries (reproducible via scripts)
+advanced/data/*.pdf
+advanced/data/qdrant_storage/
+advanced/data/.embedding_cache.json

@@ -1,0 +1,129 @@
+{
+  "split": "test",
+  "scale": "0=missing, 1=partial, 2=complete",
+  "summary": {
+    "baseline_tfidf": {
+      "n": 6,
+      "grade_0": 4,
+      "grade_1": 1,
+      "grade_2": 1,
+      "mean_context_grade": 0.5,
+      "grade_2_rate": 0.1667
+    },
+    "improve2_hybrid_llm_rerank_adj2200": {
+      "n": 6,
+      "grade_0": 0,
+      "grade_1": 0,
+      "grade_2": 6,
+      "mean_context_grade": 2.0,
+      "grade_2_rate": 1.0
+    }
+  },
+  "per_question": {
+    "q19": {
+      "baseline_tfidf": {
+        "context_grade": 2,
+        "context_ids": [
+          "openstax-py-ch01_p06_para_01"
+        ],
+        "notes": "p06_para_01 fits inside budget=800 (612 chars) and explicitly contrasts Standard Library vs community libraries and cites Pandas for data analysis."
+      },
+      "improve2_hybrid_llm_rerank_adj2200": {
+        "context_grade": 2,
+        "context_ids": [
+          "openstax-py-ch01_p06_para_01",
+          "openstax-py-ch01_p06_para_02",
+          "openstax-py-ch01_p05_para_02"
+        ],
+        "notes": "p06_para_01 is ranked #1 and packed cleanly with adjacent p06_para_02 (2100 chars total); complete evidence."
+      }
+    },
+    "q20": {
+      "baseline_tfidf": {
+        "context_grade": 1,
+        "context_ids": [
+          "openstax-py-ch03_p01_para_02"
+        ],
+        "notes": "Context contains only p01_para_02 (string indexes numbered left-to-right from 0) and misses p01_para_01 (definition of container object). Partial evidence (1/2 parts)."
+      },
+      "improve2_hybrid_llm_rerank_adj2200": {
+        "context_grade": 2,
+        "context_ids": [
+          "openstax-py-ch03_p01_para_02",
+          "openstax-py-ch03_p01_para_01",
+          "openstax-py-ch03_p09_para_01"
+        ],
+        "notes": "Includes both p01_para_02 (string indexes from 0) and p01_para_01 (container is an object that can hold an arbitrary number of other objects). Complete evidence."
+      }
+    },
+    "q21": {
+      "baseline_tfidf": {
+        "context_grade": 0,
+        "context_ids": [
+          "openstax-py-ch04_p02_para_01"
+        ],
+        "notes": "Although p02_para_00 ranked #1, it was 793 chars (>800 with header) so pack_context dropped it; context kept only quiz chunk p02_para_01 without the definition or capitalization rule."
+      },
+      "improve2_hybrid_llm_rerank_adj2200": {
+        "context_grade": 2,
+        "context_ids": [
+          "openstax-py-ch04_p02_para_00",
+          "openstax-py-ch04_p02_para_01",
+          "openstax-py-ch04_p03_para_01"
+        ],
+        "notes": "p02_para_00 is packed at rank #1 along with p02_para_01, stating bool represents true/false and capitalization is required."
+      }
+    },
+    "q22": {
+      "baseline_tfidf": {
+        "context_grade": 0,
+        "context_ids": [
+          "openstax-py-ch05_p01_para_01"
+        ],
+        "notes": "Context contains only p01_para_01 (cut off mid-sentence before bullet points) and dropped rank-2 p02_para_00 due to budget=800 truncation."
+      },
+      "improve2_hybrid_llm_rerank_adj2200": {
+        "context_grade": 2,
+        "context_ids": [
+          "openstax-py-ch05_p02_para_00",
+          "openstax-py-ch05_p02_para_01"
+        ],
+        "notes": "p02_para_00 ranked #1 and packed with adjacent p02_para_01, giving exact True/False loop branching outcomes."
+      }
+    },
+    "q23": {
+      "baseline_tfidf": {
+        "context_grade": 0,
+        "context_ids": [],
+        "notes": "Context is completely empty (0 chars): all 3 retrieved chunks exceeded ~710 chars so none survived pack_context(budget=800)."
+      },
+      "improve2_hybrid_llm_rerank_adj2200": {
+        "context_grade": 2,
+        "context_ids": [
+          "openstax-py-ch03_p10_para_02",
+          "openstax-py-ch03_p10_para_03",
+          "openstax-py-ch03_p11_para_00"
+        ],
+        "notes": "Contains p10_para_02 ('Once created, an object's identity never changes', id()/type()) and p11_para_00 (id()/type() describe objects not variables + rating=10 -> rating='ten' example); full evidence to answer both parts (p11_para_01 adds closing sentence in agentic get_adjacent_chunks)."
+      }
+    },
+    "q24": {
+      "baseline_tfidf": {
+        "context_grade": 0,
+        "context_ids": [
+          "openstax-py-ch05_p01_para_01"
+        ],
+        "notes": "Rank-1 hit p05_para_00 (792 chars) was dropped by budget=800; only irrelevant ch05_p01_para_01 was packed."
+      },
+      "improve2_hybrid_llm_rerank_adj2200": {
+        "context_grade": 2,
+        "context_ids": [
+          "openstax-py-ch05_p05_para_00",
+          "openstax-py-ch05_p05_para_01",
+          "openstax-py-ch05_p06_para_00"
+        ],
+        "notes": "p05_para_00 is packed at rank #1 alongside p05_para_01 and p06_para_00, explicitly listing range, string, and list containers and explaining string iteration."
+      }
+    }
+  }
+}

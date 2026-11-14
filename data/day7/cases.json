@@ -1,0 +1,252 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "In the print() function, what are the default separator between comma-separated values and the default character added at the end of the output?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "direct"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Why does Python remain readable for beginners compared to Java when printing 'Hello, World!'?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "paraphrase"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "What characters are permitted in a Python variable name, and what restriction applies to the starting character and reserved words?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "conditional_exception"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "When reading user input in a basic statement, what are the three components of variable = input(\"prompt\") and can the prompt be left out?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "metadata_filter",
+    "filter": {
+      "section": "ch01_statements_variables"
+    }
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "How should you enclose a string literal in Python if the text inside it contains a single quote versus a double quote?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "conditional_exception"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Which built-in Python functions convert between a character and its Unicode integer code point?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "direct"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "In f-string number formatting, what does the format specifier 08.4f produce?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "direct"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "What are the three properties every Python object has, and what changes when a variable like rating is reassigned from an int to a str?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "metadata_filter",
+    "filter": {
+      "section": "ch03_data_types"
+    }
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "How many code points did original ASCII define compared to Unicode?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "paraphrase"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Which escape sequence is used to insert a tab character, and how do you print a literal backslash in a Python string?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "direct"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "When converting numbers and strings with bool(), which values evaluate to True and which evaluate to False?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "conditional_exception"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What mistake occurs when using = instead of == in a comparison, and how do the two operators differ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "metadata_filter",
+    "filter": {
+      "section": "ch04_branching"
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "What indentation guideline does PEP 8 recommend for an if statement body, and what happens if the body is empty?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "conditional_exception"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "In an if-else structure, how many branches can run during one execution and how should the else keyword be aligned?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "paraphrase"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "What are Python's three logical operators, and when does the and operator return True?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "direct"
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question": "When using a counter variable in a while loop, what is the step size and how does a positive versus negative step size affect counting direction?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "metadata_filter",
+    "filter": {
+      "section": "ch05_loops"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "question": "In Python's range() function, are the start and end values inclusive or exclusive, and how many arguments can range() accept?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "conditional_exception"
+  },
+  {
+    "id": "q18",
+    "split": "dev",
+    "question": "In a nested loop, which loop governs how many times the inner loop completes a full run?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "paraphrase"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "What distinguishes a Python library from the Standard Library, and what example library is mentioned for data analysis?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "paraphrase"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "What is a container object in Python, and how are character indexes numbered from left to right in a string?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "direct"
+  },
+  {
+    "id": "q21",
+    "split": "test",
+    "question": "What binary values does the bool data type represent, and is capitalization required for Python's Boolean keywords?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "conditional_exception"
+  },
+  {
+    "id": "q22",
+    "split": "test",
+    "question": "In a while loop, what happens immediately after the loop expression evaluates to True versus False?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "direct"
+  },
+  {
+    "id": "q23",
+    "split": "test",
+    "question": "Which built-in functions return information about an object rather than a variable, and why does reassigning a variable not change an object's identity?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "metadata_filter",
+    "filter": {
+      "section": "ch03_data_types"
+    }
+  },
+  {
+    "id": "q24",
+    "split": "test",
+    "question": "What types of containers can a for loop iterate over in Python, and why is a string considered iterable?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "type": "metadata_filter",
+    "filter": {
+      "section": "ch05_loops"
+    }
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "question": "How do Python's match and case statements perform structural pattern matching, and how can an if guard be added to a case pattern?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The 4-chapter OpenStax excerpt only covers Chapters 1, 3, 4, and 5 (statements, objects, if-else branching, loops) and never covers structural pattern matching (match/case)."
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "question": "What is the average time complexity of dictionary key lookup in Python, and how does CPython resolve hash table collisions?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Dictionaries (Chapter 10) and hash table implementation / collision resolution / Big-O complexity are not included in this 4-chapter corpus."
+  },
+  {
+    "id": "u03",
+    "split": "dev",
+    "question": "In Python loops, how do async def and await keywords schedule tasks on an asyncio event loop to iterate asynchronously?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chapter 5 only covers synchronous while loops, for loops, and nested loops; asyncio, async def, and await do not appear anywhere in the corpus."
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "How does the yield keyword turn a Python function into a generator, and what exception is raised when a for loop finishes exhausting it?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Functions (Chapter 6), generators, yield, and StopIteration are outside Chapters 1, 3, 4, and 5 in this corpus."
+  },
+  {
+    "id": "u05",
+    "split": "test",
+    "question": "How does Python's C3 linearization algorithm compute the Method Resolution Order (MRO) when a class uses multiple inheritance?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Classes and inheritance (Chapters 11 and 13) are not in the 4-chapter corpus; C3 linearization and MRO never appear in any chunk."
+  }
+]

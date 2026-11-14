@@ -1,0 +1,42 @@
+{
+  "split": "dev",
+  "configs": {
+    "text_only_dense": {
+      "n_cases": 18,
+      "status_counts": {
+        "answered": 13,
+        "abstain": 5
+      },
+      "provider_errors": 0,
+      "answerable_answered_with_citation": "13/15",
+      "unanswerable_abstained": "3/3",
+      "median_latency_ms": 4546.12,
+      "total_cost_usd": 0.00416,
+      "total_llm_calls": 18,
+      "total_tool_calls": 18,
+      "modalities_retrieved": {
+        "text": 72
+      }
+    },
+    "multimodal_hybrid_agent": {
+      "n_cases": 18,
+      "status_counts": {
+        "answered": 15,
+        "abstain": 3
+      },
+      "provider_errors": 0,
+      "answerable_answered_with_citation": "15/15",
+      "unanswerable_abstained": "3/3",
+      "median_latency_ms": 5754.5,
+      "total_cost_usd": 0.014339,
+      "total_llm_calls": 41,
+      "total_tool_calls": 32,
+      "modalities_retrieved": {
+        "table": 36,
+        "text": 69,
+        "image_diagram": 4,
+        "chart": 8
+      }
+    }
+  }
+}

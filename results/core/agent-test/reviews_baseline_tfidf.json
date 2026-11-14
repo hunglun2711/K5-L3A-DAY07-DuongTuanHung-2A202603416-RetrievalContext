@@ -1,0 +1,56 @@
+[
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Verified complete answer and verbatim supporting chunk citations."
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 1,
+    "citation_support": [
+      true
+    ],
+    "notes": "Partial answer: honestly states container object is missing from context; correctly answers string indexes from p01_para_02."
+  },
+  {
+    "query_id": "q21",
+    "answer_grade": 1,
+    "citation_support": [
+      false
+    ],
+    "notes": "Quiz chunk p02_para_01 only lists MCQs (does not state 'correspond to 1 and 0' or capitalization rule); claims rely on parametric fill-in."
+  },
+  {
+    "query_id": "q22",
+    "answer_grade": 0,
+    "citation_support": [],
+    "notes": "False abstention due to insufficient/truncated retrieval context."
+  },
+  {
+    "query_id": "q23",
+    "answer_grade": 0,
+    "citation_support": [],
+    "notes": "False abstention due to insufficient/truncated retrieval context."
+  },
+  {
+    "query_id": "q24",
+    "answer_grade": 0,
+    "citation_support": [],
+    "notes": "False abstention due to insufficient/truncated retrieval context."
+  },
+  {
+    "query_id": "u04",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Searched corpus and cleanly abstained on out-of-scope Python topic."
+  },
+  {
+    "query_id": "u05",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Searched corpus and cleanly abstained on out-of-scope Python topic."
+  }
+]

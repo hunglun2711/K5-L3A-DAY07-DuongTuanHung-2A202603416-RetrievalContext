@@ -1,0 +1,427 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "In the print() function, what are the default separator between comma-separated values and the default character added at the end of the output?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch01",
+        "page": 8,
+        "evidence": "By default, each value is separated by a space character in the output. The sep option can be used to change this behavior.\n\nBy default, the print() function adds a newline character at the end of the output."
+      }
+    ],
+    "expected_answer": "By default, comma-separated values are separated by a space character, and print() adds a newline character at the end of the output.",
+    "filter": null,
+    "type": "direct",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Why does Python remain readable for beginners compared to Java when printing 'Hello, World!'?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch01",
+        "page": 6,
+        "evidence": "The hello world program is only one line in Python: print(\"Hello, World!\") In contrast, the hello world program is five lines in Java (a different language)."
+      }
+    ],
+    "expected_answer": "Python's syntax is concise and straightforward: printing 'Hello, World!' takes only one line in Python compared to five lines in Java.",
+    "filter": null,
+    "type": "paraphrase",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "What characters are permitted in a Python variable name, and what restriction applies to the starting character and reserved words?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch01",
+        "page": 12,
+        "evidence": "A variable name can consist of letters, digits, and underscores and be of any length. The name cannot start with a digit."
+      }
+    ],
+    "expected_answer": "A variable name may contain letters, digits, and underscores of any length, cannot start with a digit, is case-sensitive, and cannot be a Python reserved keyword.",
+    "filter": null,
+    "type": "conditional_exception",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "When reading user input in a basic statement, what are the three components of variable = input(\"prompt\") and can the prompt be left out?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch01",
+        "page": 9,
+        "evidence": "An input statement, variable = input(\"prompt\"), has three parts: 1. A variable refers to a value stored in memory."
+      }
+    ],
+    "expected_answer": "The three parts are the variable storing the value, the input() function reading one line, and the prompt message (which can be omitted or replaced with any message).",
+    "filter": {
+      "section": "ch01_statements_variables"
+    },
+    "type": "metadata_filter",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "How should you enclose a string literal in Python if the text inside it contains a single quote versus a double quote?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch01",
+        "page": 13,
+        "evidence": "To include a single quote (') in a string, enclose the string with matching double quotes (\"). Ex: \"Won't this work?\" To include a double quote (\"), enclose the string with matching single quotes (')."
+      }
+    ],
+    "expected_answer": "Enclose a string containing a single quote with double quotes, and enclose a string containing a double quote with single quotes.",
+    "filter": null,
+    "type": "conditional_exception",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Which built-in Python functions convert between a character and its Unicode integer code point?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch03",
+        "page": 2,
+        "evidence": "The built-in ord() function converts a character to a code point. Ex: ord(\"P\") returns the integer 80."
+      },
+      {
+        "source_id": "openstax-py-ch03",
+        "page": 2,
+        "evidence": "Similarly, the built-in chr() function converts a code point to a character."
+      }
+    ],
+    "expected_answer": "ord() converts a character to its Unicode code point integer, and chr() converts a code point integer back to a character.",
+    "filter": null,
+    "type": "direct",
+    "multi_evidence": true,
+    "required_evidence_count": 2
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "In f-string number formatting, what does the format specifier 08.4f produce?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch03",
+        "page": 7,
+        "evidence": "08.4f Fixed-point, rounded to 4 decimal places, at least 8 characters wide, with leading zeros."
+      }
+    ],
+    "expected_answer": "Fixed-point notation rounded to 4 decimal places, at least 8 characters wide, padded with leading zeros.",
+    "filter": null,
+    "type": "direct",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "What are the three properties every Python object has, and what changes when a variable like rating is reassigned from an int to a str?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch03",
+        "page": 10,
+        "evidence": "Every object has an identity, a type, and a value:"
+      }
+    ],
+    "expected_answer": "Every object has an identity (id()), a type (type()), and a value; reassigning rating changes which object the variable refers to, not the object's identity or type.",
+    "filter": {
+      "section": "ch03_data_types"
+    },
+    "type": "metadata_filter",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "How many code points did original ASCII define compared to Unicode?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch03",
+        "page": 2,
+        "evidence": "Originally, ASCII defined only 128 code points, enough to support the English language. Unicode defines over one million code"
+      }
+    ],
+    "expected_answer": "Originally ASCII defined 128 code points for English, whereas Unicode defines over one million code points supporting most written languages.",
+    "filter": null,
+    "type": "paraphrase",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Which escape sequence is used to insert a tab character, and how do you print a literal backslash in a Python string?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch03",
+        "page": 4,
+        "evidence": "An escape sequence uses a backslash (\\) to represent a special character within a string."
+      }
+    ],
+    "expected_answer": "\\t represents a tab character, and \\\\ represents a literal backslash character.",
+    "filter": null,
+    "type": "direct",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "When converting numbers and strings with bool(), which values evaluate to True and which evaluate to False?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch04",
+        "page": 3,
+        "evidence": "bool() converts a value to a Boolean value, True or False.\n\n• True: any non-zero number, any non-empty string\n\n• False: 0, empty string"
+      }
+    ],
+    "expected_answer": "Any non-zero number and any non-empty string convert to True, while 0 and an empty string convert to False.",
+    "filter": null,
+    "type": "conditional_exception",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What mistake occurs when using = instead of == in a comparison, and how do the two operators differ?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch04",
+        "page": 5,
+        "evidence": "The = operator performs assignment and will modify the variable. The == operator performs comparison, does not modify the variable, and produces True or False."
+      }
+    ],
+    "expected_answer": "Using = performs assignment and modifies the variable, whereas == performs comparison, does not modify the variable, and returns True or False.",
+    "filter": {
+      "section": "ch04_branching"
+    },
+    "type": "metadata_filter",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "What indentation guideline does PEP 8 recommend for an if statement body, and what happens if the body is empty?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch04",
+        "page": 6,
+        "evidence": "The PEP 8 style guide recommends four spaces per indentation level. The Python interpreter will produce an error if the body is empty."
+      }
+    ],
+    "expected_answer": "PEP 8 recommends four spaces per indentation level, and the Python interpreter produces an error if an if statement's body is empty.",
+    "filter": null,
+    "type": "conditional_exception",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "In an if-else structure, how many branches can run during one execution and how should the else keyword be aligned?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch04",
+        "page": 8,
+        "evidence": "When an if-else statement is executed, one and only one of the branches is taken. That is, the body of the if or the body of the else is executed. Note: The else statement is at the same level of indentation as the if statement, and the body is indented."
+      }
+    ],
+    "expected_answer": "One and only one branch (either the if body or the else body) executes, and else must be at the same indentation level as the if statement.",
+    "filter": null,
+    "type": "paraphrase",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "What are Python's three logical operators, and when does the and operator return True?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch04",
+        "page": 10,
+        "evidence": "Python has three logical operators: and, or, and not. The and operator takes two condition operands and returns True if both conditions are true."
+      }
+    ],
+    "expected_answer": "Python's three logical operators are and, or, and not; the and operator returns True only if both condition operands are True.",
+    "filter": null,
+    "type": "direct",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question": "When using a counter variable in a while loop, what is the step size and how does a positive versus negative step size affect counting direction?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch05",
+        "page": 3,
+        "evidence": "The change in the counter's value in each iteration is called the step size. The step size can be any positive or negative value. If the step size is a positive number, the counter counts in ascending order, and if the step size is a negative number, the counter counts in descending order."
+      }
+    ],
+    "expected_answer": "The change in the counter's value per iteration is the step size: a positive step size counts in ascending order, while a negative step size counts in descending order.",
+    "filter": {
+      "section": "ch05_loops"
+    },
+    "type": "metadata_filter",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "question": "In Python's range() function, are the start and end values inclusive or exclusive, and how many arguments can range() accept?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch05",
+        "page": 6,
+        "evidence": "This integer sequence is inclusive of the start and exclusive of the end of the sequence. The range() function can take up to three input values."
+      }
+    ],
+    "expected_answer": "range() generates integers inclusive of start and exclusive of end, and can accept up to three arguments (end; start and end; or start, end, and step).",
+    "filter": null,
+    "type": "conditional_exception",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q18",
+    "split": "dev",
+    "question": "In a nested loop, which loop governs how many times the inner loop completes a full run?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch05",
+        "page": 8,
+        "evidence": "The outer loop controls the number of the inner loop's full execution. More than one inner loop can exist in a nested loop."
+      }
+    ],
+    "expected_answer": "The outer loop controls the number of full executions of the inner loop, and more than one inner loop can exist inside a nested loop.",
+    "filter": null,
+    "type": "paraphrase",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "What distinguishes a Python library from the Standard Library, and what example library is mentioned for data analysis?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch01",
+        "page": 6,
+        "evidence": "Python comes with an extensive Standard Library (https://openstax.org/r/100pythlibrary) for solving everyday computing problems like extracting data from files and creating summary reports. In addition, the community develops many other libraries for Python. Ex: Pandas (https://openstax.org/r/100pandas) is a widely used library for data analysis."
+      }
+    ],
+    "expected_answer": "A library is reusable code for other programs; Python includes an extensive built-in Standard Library, while community-developed libraries like Pandas are widely used for data analysis.",
+    "filter": null,
+    "type": "paraphrase",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "What is a container object in Python, and how are character indexes numbered from left to right in a string?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch03",
+        "page": 1,
+        "evidence": "A container is an object that can hold an arbitrary number of other objects."
+      }
+    ],
+    "expected_answer": "A container is an object that can hold an arbitrary number of other objects (such as lists and tuples), and string indexes are numbered from left to right starting at 0.",
+    "filter": null,
+    "type": "direct",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q21",
+    "split": "test",
+    "question": "What binary values does the bool data type represent, and is capitalization required for Python's Boolean keywords?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch04",
+        "page": 2,
+        "evidence": "The bool data type, standing for Boolean, represents a binary value of either true or false. true and false are keywords, and capitalization is required."
+      }
+    ],
+    "expected_answer": "The bool data type represents a binary value of either True or False, and capitalization is required for the Boolean keywords.",
+    "filter": null,
+    "type": "conditional_exception",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q22",
+    "split": "test",
+    "question": "In a while loop, what happens immediately after the loop expression evaluates to True versus False?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch05",
+        "page": 2,
+        "evidence": "• If true, the loop body will execute at least one more time (also called looping or iterating one more time).\n\n• If false, the loop's execution will terminate and the next statement after the loop body will execute."
+      }
+    ],
+    "expected_answer": "If True, the loop body executes at least one more time; if False, the loop terminates and the statement following the loop body executes.",
+    "filter": null,
+    "type": "direct",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q23",
+    "split": "test",
+    "question": "Which built-in functions return information about an object rather than a variable, and why does reassigning a variable not change an object's identity?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch03",
+        "page": 11,
+        "evidence": "Calling a function like id() or type() returns information about an object, not a variable. In fact, a variable doesn't have an identity or a type, as shown in this example:"
+      }
+    ],
+    "expected_answer": "id() and type() return information about an object, not a variable; a variable itself has no identity or type, so reassigning it only changes which object it refers to.",
+    "filter": {
+      "section": "ch03_data_types"
+    },
+    "type": "metadata_filter",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  },
+  {
+    "id": "q24",
+    "split": "test",
+    "question": "What types of containers can a for loop iterate over in Python, and why is a string considered iterable?",
+    "gold": [
+      {
+        "source_id": "openstax-py-ch05",
+        "page": 5,
+        "evidence": "In Python, a container can be a range of numbers, a string of characters, or a list of values. To access objects within a container, an iterative loop can be designed to retrieve objects one at a time. A for loop iterates over all elements in a container."
+      }
+    ],
+    "expected_answer": "A container can be a range of numbers, a string of characters, or a list of values; a string variable is a container of multiple characters so a for loop can iterate over it one character at a time.",
+    "filter": {
+      "section": "ch05_loops"
+    },
+    "type": "metadata_filter",
+    "multi_evidence": false,
+    "required_evidence_count": 1
+  }
+]

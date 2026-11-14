@@ -1,0 +1,30 @@
+[
+  {
+    "config": "agent_baseline_tfidf",
+    "split": "test",
+    "total_cases": 8,
+    "answered": 3,
+    "abstained": 5,
+    "errors": 0,
+    "total_searches": 9,
+    "total_model_calls": 17,
+    "total_prompt_tokens": 6586,
+    "total_completion_tokens": 598,
+    "total_seconds": 32.85,
+    "total_cost_usd": 0.0013467
+  },
+  {
+    "config": "agent_chosen_multitool",
+    "split": "test",
+    "total_cases": 8,
+    "answered": 6,
+    "abstained": 2,
+    "errors": 0,
+    "total_searches": 20,
+    "total_model_calls": 20,
+    "total_prompt_tokens": 43223,
+    "total_completion_tokens": 1886,
+    "total_seconds": 88.08,
+    "total_cost_usd": 0.00745285
+  }
+]

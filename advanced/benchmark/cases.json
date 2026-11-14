@@ -1,0 +1,338 @@
+[
+  {
+    "id": "adv_dev_t01",
+    "split": "dev",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "In Table 1, what score and estimated percentile did GPT-4 (with vision) achieve on the Uniform Bar Exam (MBE+MEE+MPT), and by how many points did it exceed GPT-3.5?"
+  },
+  {
+    "id": "adv_dev_t02",
+    "split": "dev",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "According to Table 2, on which single academic benchmark did external benchmark-specific tuned SOTA still outperform GPT-4, and what were their exact F1 scores?"
+  },
+  {
+    "id": "adv_dev_t03",
+    "split": "dev",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "In Table 8, what is the overall average score across multiple-choice exam benchmarks for the GPT-4 base model compared to the post-RLHF GPT-4 model?"
+  },
+  {
+    "id": "adv_dev_i01",
+    "split": "dev",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "question": "In Table 3's three-panel visual input example, what connector is shown plugged into the smartphone, how many pins does it have, and what makes the adapter humorous?"
+  },
+  {
+    "id": "adv_dev_i02",
+    "split": "dev",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "question": "What unusual scene is photographed in Table 16 ('Extreme Ironing') on page 36?"
+  },
+  {
+    "id": "adv_dev_i03",
+    "split": "dev",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "question": "In Table 18 ('Chicken Nugget Map'), what expectation does the meme's caption text set up, and what is actually depicted in the photograph below it?"
+  },
+  {
+    "id": "adv_dev_c01",
+    "split": "dev",
+    "primary_group": "chart",
+    "answerable": true,
+    "question": "In Figure 3 ('Inverse scaling prize, hindsight neglect'), what accuracy pattern appears from ada through gpt-3.5, and how does gpt-4 break it?"
+  },
+  {
+    "id": "adv_dev_c02",
+    "split": "dev",
+    "primary_group": "chart",
+    "answerable": true,
+    "question": "How many evaluation categories appear on the x-axis of Figure 6 ('Internal factual eval by category'), and by how many percentage points does GPT-4 improve over the latest GPT-3.5 model overall?"
+  },
+  {
+    "id": "adv_dev_c03",
+    "split": "dev",
+    "primary_group": "chart",
+    "answerable": true,
+    "question": "In System Card Figure 11 (pairwise Instruction Following matrix on page 98), what are GPT-4 RLHF's exact win rates against GPT-3.5 Turbo RLHF and GPT-3.5 RLHF?"
+  },
+  {
+    "id": "adv_dev_m01",
+    "split": "dev",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "question": "Combining Table 1 (page 5) and Table 9 (page 30), what is GPT-4's LSAT contamination percentage, and how does its full-exam LSAT score compare to its non-contaminated LSAT score?"
+  },
+  {
+    "id": "adv_dev_m02",
+    "split": "dev",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "question": "Using Table 2 (page 7) and Table 11 (page 32) together, report GPT-4's 0-shot HumanEval score, its pretraining contamination percentage, non-contaminated score, and measured degradation."
+  },
+  {
+    "id": "adv_dev_m03",
+    "split": "dev",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "question": "Contrast RLHF's effect on MMLU Expected Calibration Error (Figure 8, page 12) versus its effect on average MCQ exam benchmark accuracy (Table 8, page 28)."
+  },
+  {
+    "id": "adv_dev_x01",
+    "split": "dev",
+    "primary_group": "text",
+    "answerable": true,
+    "question": "In Section 5 (Limitations, page 10), why is GPT-4 not yet fully reliable, and what exact usage protocols does the report recommend for high-stakes contexts?"
+  },
+  {
+    "id": "adv_dev_x02",
+    "split": "dev",
+    "primary_group": "text",
+    "answerable": true,
+    "question": "In Appendix C (page 29), what exact 50-character substring-matching rule defines whether an evaluation example is contaminated by GPT-4's training data?"
+  },
+  {
+    "id": "adv_dev_x03",
+    "split": "dev",
+    "primary_group": "text",
+    "answerable": true,
+    "question": "What did ARC conclude on System Card page 56 after testing versions of GPT-4 on the autonomous replication task (without task-specific fine-tuning)?"
+  },
+  {
+    "id": "adv_dev_u01",
+    "split": "dev",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "How many total parameters (in trillions), transformer layers, and attention heads does GPT-4 use according to Section 2 of the report?"
+  },
+  {
+    "id": "adv_dev_u02",
+    "split": "dev",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "In Table 14's daily meat consumption chart (page 34), what were the exact 1997 grams-per-day figures for Brazil and Vietnam?"
+  },
+  {
+    "id": "adv_dev_u03",
+    "split": "dev",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "What accuracy did GPT-4 achieve on SWE-bench Verified and GPQA Diamond in Table 2?"
+  },
+  {
+    "id": "adv_test_t01",
+    "split": "test",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "In Table 1 (page 5), compare GPT-4 (with vision), GPT-4 (no vision), and GPT-3.5 on GRE Quantitative and AP Microeconomics: on which exam(s) did vision raise GPT-4's score, and by how much?"
+  },
+  {
+    "id": "adv_test_t02",
+    "split": "test",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "Using Table 1 (page 5), state GPT-4's exact pass fractions on Leetcode easy, medium, and hard versus GPT-3.5, and calculate the percentage of Leetcode easy problems GPT-4 solved."
+  },
+  {
+    "id": "adv_test_t03",
+    "split": "test",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "According to Table 2 (page 7), what are GPT-4's versus GPT-3.5's scores on GSM-8K and AI2 Reasoning Challenge (ARC), and what shot/prompting settings were used for GPT-4 on each?"
+  },
+  {
+    "id": "adv_test_t04",
+    "split": "test",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "In Table 10 (page 31), compare AP English Literature and Composition (MCQ) and LSAT (MCQ): give their contamination rates, non-contaminated vs contaminated GPT-4 accuracies, and Degradation values."
+  },
+  {
+    "id": "adv_test_t05",
+    "split": "test",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "Using Table 8 (page 28), calculate the score change in percentage points from GPT-4 Base model to RLHF model on AP Microeconomics (MCQ) versus AMC 12."
+  },
+  {
+    "id": "adv_test_t06",
+    "split": "test",
+    "primary_group": "table",
+    "answerable": true,
+    "question": "From Table 13 (page 33), what three low/medium-resource languages besides English are used to showcase translated MMLU questions, and what speaker population is listed for each?"
+  },
+  {
+    "id": "adv_test_i01",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "question": "In Table 15's French physics exam diagram (Ecole Polytechnique, page 35), what three physical parameters characterize the conductive bar ('barreau conducteur'), what boundary conditions are given for T(0) and T(L), and what closed-form expression for T(x) does GPT-4 derive?"
+  },
+  {
+    "id": "adv_test_i02",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "question": "From Table 17 (page 37, Pixel to Paper Summaries / InstructGPT Figure 2 diagram), identify all three steps of the RLHF training pipeline and what data or algorithm each step uses."
+  },
+  {
+    "id": "adv_test_i03",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "question": "In the Table 19 'Moar Layers' cartoon (page 39), what technical statistical-learning concepts does the top panel advocate vs the bottom neural-networks panel, and what unusual labels appear on BOTH axes of the green easel plot?"
+  },
+  {
+    "id": "adv_test_i04",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "question": "Inspecting Panels 2 and 3 of the Table 3 visual collage (page 9), what brand/product series is printed on the retail blister package, and what is hidden at the tip inside the VGA connector in Panel 3?"
+  },
+  {
+    "id": "adv_test_i05",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "answerable": true,
+    "question": "In Figure 1 ('Schema d'un bolometre') of Table 15 (page 35), what radiation and electric components appear at the absorber above the bar, and what element terminates the bottom of the conductive bar?"
+  },
+  {
+    "id": "adv_test_c01",
+    "split": "test",
+    "primary_group": "chart",
+    "answerable": true,
+    "question": "From Table 14's horizontal bar chart ('Daily meat consumption per person, 1997', page 34), what are Finland's and Georgia's exact daily values (with units), and by how many grams per person per day does Finland exceed Western Asia?"
+  },
+  {
+    "id": "adv_test_c02",
+    "split": "test",
+    "primary_group": "chart",
+    "answerable": true,
+    "question": "In Figure 5 (page 8, MMLU 3-shot accuracy across languages), identify the top three highest-scoring non-English languages and the bottom two lowest-scoring languages plotted, with exact percentages."
+  },
+  {
+    "id": "adv_test_c03",
+    "split": "test",
+    "primary_group": "chart",
+    "answerable": true,
+    "question": "In Figure 9 (page 14) / System Card Figure 7 (page 63), compare the approximate incorrect behavior rates of text-davinci-003, gpt-3.5-turbo, and gpt-4 on Sensitive Prompts versus Disallowed Prompts."
+  },
+  {
+    "id": "adv_test_c04",
+    "split": "test",
+    "primary_group": "chart",
+    "answerable": true,
+    "question": "In System Card Figure 11 (page 98 IF heatmap matrix), what is GPT-3.5 Turbo RLHF's win rate against GPT-4 RLHF versus against GPT-3.5 RLHF, and verify whether complementary pairs sum to 100%."
+  },
+  {
+    "id": "adv_test_c05",
+    "split": "test",
+    "primary_group": "chart",
+    "answerable": true,
+    "question": "From Figure 7 / System Card Figure 8 (TruthfulQA mc1 accuracy on page 11 / 65), trace GPT-4's accuracy across 0-shot base, 5-shot base, and RLHF relative to gpt-3.5-turbo RLHF and Anthropic-LM RLHF."
+  },
+  {
+    "id": "adv_test_m01",
+    "split": "test",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "question": "Combine Figure 7 (page 11 TruthfulQA) and Figure 8 (page 12 Calibration curves): what dual effect does RLHF post-training produce across truthfulness vs probability calibration?"
+  },
+  {
+    "id": "adv_test_m02",
+    "split": "test",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "question": "Synthesize Table 6 & 7 (page 13) with System Card page 62 / Figure 9 (page 14): how did Latest GPT-4 alter behavior relative to Early GPT-4 on both the disallowed bomb prompt and allowed cigarette prompt, and by what percentage did GPT-4 cut disallowed responses vs GPT-3.5?"
+  },
+  {
+    "id": "adv_test_m03",
+    "split": "test",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "question": "Compare Codeforces Rating and AMC 10 across Table 1 (page 5) and Table 9 (page 30): report their contamination percentages and compare GPT-4 (with vision) and GPT-4 (no vision) full vs non-contaminated results."
+  },
+  {
+    "id": "adv_test_m04",
+    "split": "test",
+    "primary_group": "multi_hop",
+    "answerable": true,
+    "question": "Connect System Card page 64 prose with System Card Figure 11 (page 98) and Table 17 (page 37): verify if page 64's preference rates over GPT-3.5 RLHF and GPT-3.5 Turbo RLHF match Figure 11, and list the three InstructGPT RLHF stages used."
+  },
+  {
+    "id": "adv_test_x01",
+    "split": "test",
+    "primary_group": "text",
+    "answerable": true,
+    "question": "In System Card Section 3 (pages 62 and 64), how often did GPT-4 generate toxic content on RealToxicityPrompts compared to GPT-3.5, and by how much did it improve policy-compliant responses to sensitive requests?"
+  },
+  {
+    "id": "adv_test_x02",
+    "split": "test",
+    "primary_group": "text",
+    "answerable": true,
+    "question": "What does 'RBRM' stand for in System Card page 61-63, why did OpenAI introduce it beyond human RLHF rankings, and what three Yes/No questions does the Figure 6 RBRM prompt ask?"
+  },
+  {
+    "id": "adv_test_x03",
+    "split": "test",
+    "primary_group": "text",
+    "answerable": true,
+    "question": "What reasons does Section 2 ('Scope and Limitations of this Technical Report', page 2) give for omitting GPT-4's architecture, hardware, training compute, and dataset construction details?"
+  },
+  {
+    "id": "adv_test_x04",
+    "split": "test",
+    "primary_group": "text",
+    "answerable": true,
+    "question": "In System Card Appendix D.3 (Prompt 3, page 85), contrast how GPT-4 (early) versus GPT-4 (launch) responded to a prompt asking how to evade detection while laundering money."
+  },
+  {
+    "id": "adv_test_u01",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "How many NVIDIA A100 GPUs, training days, and total floating-point operations (FLOPs) were required to pre-train GPT-4?"
+  },
+  {
+    "id": "adv_test_u02",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "In Table 1 or Table 9, what scores did GPT-4 obtain on the Putnam Mathematical Competition, USAMO, and International Mathematical Olympiad (IMO)?"
+  },
+  {
+    "id": "adv_test_u03",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "According to Figure 11 (page 98 IF evaluations), what was GPT-4 RLHF's pairwise win rate against Anthropic's Claude 2 and Google's PaLM-2?"
+  },
+  {
+    "id": "adv_test_u04",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "According to Table 14 (page 34), what were Finland's and Georgia's daily meat consumption figures in 2020 compared to 1997?"
+  },
+  {
+    "id": "adv_test_u05",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "In Table 15's Ecole Polytechnique physics exam diagram (page 35), what numerical value in W/(m*K) is given for thermal conductivity lambda and length L in meters?"
+  },
+  {
+    "id": "adv_test_u06",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "answerable": false,
+    "question": "What score did GPT-4 achieve on MT-Bench and BFCL (Berkeley Function Calling Leaderboard) in the System Card?"
+  }
+]

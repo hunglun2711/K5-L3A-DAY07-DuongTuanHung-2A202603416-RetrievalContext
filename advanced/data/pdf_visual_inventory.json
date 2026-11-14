@@ -1,0 +1,241 @@
+[
+  {
+    "page": 3,
+    "imgs": 0,
+    "captions": [
+      "Figure 1. Performance of GPT-4 and smaller models. The metric is final loss on a dataset derived",
+      "Figure 2. Performance of GPT-4 and smaller models. The metric is mean log pass rate on a subset of"
+    ]
+  },
+  {
+    "page": 4,
+    "imgs": 0,
+    "captions": [
+      "Figure 3. Performance of GPT-4 and smaller models on the Hindsight Neglect task. Accuracy is"
+    ]
+  },
+  {
+    "page": 5,
+    "imgs": 0,
+    "captions": [
+      "Table 1. GPT performance on academic and professional exams. In each case, we simulate the"
+    ]
+  },
+  {
+    "page": 6,
+    "imgs": 0,
+    "captions": [
+      "Figure 4. GPT performance on academic and professional exams. In each case, we simulate the"
+    ]
+  },
+  {
+    "page": 7,
+    "imgs": 0,
+    "captions": [
+      "Table 2. Performance of GPT-4 on academic benchmarks. We compare GPT-4 alongside the best"
+    ]
+  },
+  {
+    "page": 8,
+    "imgs": 0,
+    "captions": [
+      "Figure 5. Performance of GPT-4 in a variety of languages compared to prior models in English on"
+    ]
+  },
+  {
+    "page": 9,
+    "imgs": 1,
+    "captions": [
+      "Table 3. Example prompt demonstrating GPT-4’s visual input capability. The prompt consists of a"
+    ]
+  },
+  {
+    "page": 10,
+    "imgs": 0,
+    "captions": [
+      "Figure 6. Performance of GPT-4 on nine internal adversarially-designed factuality evaluations. Accuracy"
+    ]
+  },
+  {
+    "page": 11,
+    "imgs": 0,
+    "captions": [
+      "Table 4: Example of GPT-4 giving correct and incorrect responses on TruthfulQA",
+      "Figure 7. Performance of GPT-4 on TruthfulQA. Accuracy is shown on the y-axis, higher is better. We"
+    ]
+  },
+  {
+    "page": 12,
+    "imgs": 0,
+    "captions": [
+      "Figure 8. Left: Calibration plot of the pre-trained GPT-4 model on a subset of the MMLU dataset. On",
+      "Table 5: Expert Red Teaming: Example prompt and completions from various models."
+    ]
+  },
+  {
+    "page": 13,
+    "imgs": 0,
+    "captions": [
+      "Table 6: Example prompt and completions for improved refusals on disallowed categories.",
+      "Table 7. Example prompt and completions for reduced refusals on allowed categories. Note: These"
+    ]
+  },
+  {
+    "page": 14,
+    "imgs": 0,
+    "captions": [
+      "Figure 9. Rate of incorrect behavior on sensitive and disallowed prompts. Lower values are better.",
+      "Figure 10 in the System Card for more details) to generate content which violate our usage guidelines."
+    ]
+  },
+  {
+    "page": 28,
+    "imgs": 0,
+    "captions": [
+      "Table 8. Comparison between GPT-4 base and GPT-4 post-RLHF on exam benchmarks. Averaged"
+    ]
+  },
+  {
+    "page": 30,
+    "imgs": 0,
+    "captions": [
+      "Table 9. Contamination data for Exams (Summary). For each of the exams tested, we show the fraction"
+    ]
+  },
+  {
+    "page": 31,
+    "imgs": 0,
+    "captions": [
+      "Table 10. Contamination data for Exams (Details). Detailed contamination information on each of"
+    ]
+  },
+  {
+    "page": 32,
+    "imgs": 0,
+    "captions": [
+      "Table 11. Contamination between GPT-4 pre-training data and academic benchmarks. We report the",
+      "Table 12. MMLU Example prompt, presented in two different languages. Note we do not translate the"
+    ]
+  },
+  {
+    "page": 33,
+    "imgs": 0,
+    "captions": [
+      "Table 13: An example MMLU question translated into Marathi, Latvian, and Welsh."
+    ]
+  },
+  {
+    "page": 34,
+    "imgs": 1,
+    "captions": [
+      "Table 14. Example prompt demonstrating GPT-4’s visual input capability. The prompt consists of a"
+    ]
+  },
+  {
+    "page": 35,
+    "imgs": 1,
+    "captions": [
+      "Table 15. Example prompt demonstrating GPT-4’s visual input capability. The prompt consists of a"
+    ]
+  },
+  {
+    "page": 36,
+    "imgs": 1,
+    "captions": [
+      "Table 16. Example prompt demonstrating GPT-4’s visual input capability. The prompt requires image"
+    ]
+  },
+  {
+    "page": 37,
+    "imgs": 3,
+    "captions": [
+      "Figure 2 in the InstructGPT paper illustrates the three steps of their method:",
+      "Table 17: Example prompt demonstrating GPT-4’s visual input capability."
+    ]
+  },
+  {
+    "page": 38,
+    "imgs": 1,
+    "captions": [
+      "Table 18: Example prompt demonstrating GPT-4’s visual input capability."
+    ]
+  },
+  {
+    "page": 39,
+    "imgs": 1,
+    "captions": [
+      "Table 19: Example prompt demonstrating GPT-4’s visual input capability."
+    ]
+  },
+  {
+    "page": 48,
+    "imgs": 0,
+    "captions": [
+      "Figure 1: Example prompts that led to harmful content in GPT-4-early. GPT-4-launch still has"
+    ]
+  },
+  {
+    "page": 49,
+    "imgs": 0,
+    "captions": [
+      "Figure 2: We highlight this example as a non-adversarial prompt where the generation from GPT-4-"
+    ]
+  },
+  {
+    "page": 50,
+    "imgs": 0,
+    "captions": [
+      "Figure 3: Example prompts that led to biased content in GPT-4-early. These examples demonstrates"
+    ]
+  },
+  {
+    "page": 51,
+    "imgs": 0,
+    "captions": [
+      "Figure 4: Example prompts that led to content that could be used for disinformation or inﬂuence"
+    ]
+  },
+  {
+    "page": 57,
+    "imgs": 0,
+    "captions": [
+      "Figure 5: Example of a potentially risky task GPT-4 augmented with tools can accomplish"
+    ]
+  },
+  {
+    "page": 63,
+    "imgs": 0,
+    "captions": [
+      "Figure 6: Example Prompt for RBRM",
+      "Figure 7: Safety metrics on a challenging set of prompts that attempt to elicit unsafe or sensitive"
+    ]
+  },
+  {
+    "page": 65,
+    "imgs": 0,
+    "captions": [
+      "Figure 8: Performance of GPT-4 on TruthfulQA. Accuracy is shown on the y-axis, higher is better."
+    ]
+  },
+  {
+    "page": 67,
+    "imgs": 0,
+    "captions": [
+      "Figure 9: Example Prompt for GPT-4 Classiﬁcation in Natural Language"
+    ]
+  },
+  {
+    "page": 68,
+    "imgs": 0,
+    "captions": [
+      "Figure 10: Example \"Jailbreaks\" for GPT-4-launch"
+    ]
+  },
+  {
+    "page": 98,
+    "imgs": 1,
+    "captions": [
+      "Figure 11: Results on IF evaluations across GPT3.5, GPT3.5-Turbo, GPT-4-launch"
+    ]
+  }
+]

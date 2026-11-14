@@ -1,0 +1,150 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 0,
+    "citation_support": [],
+    "notes": "False abstention on answerable question."
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 0,
+    "citation_support": [],
+    "notes": "False abstention on answerable question."
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 1,
+    "citation_support": [
+      false
+    ],
+    "notes": "Answer states both ord() and chr() accurately, but only cites p02_para_01 which defines chr(); ord() is in p02_para_00 (parametric fill-in)."
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 0,
+    "citation_support": [],
+    "notes": "False abstention on answerable question."
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 0,
+    "citation_support": [],
+    "notes": "False abstention on answerable question."
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 0,
+    "citation_support": [],
+    "notes": "False abstention on answerable question."
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 1,
+    "citation_support": [
+      false
+    ],
+    "notes": "Stated general rule for True/False values is mostly accurate, but cited quiz chunk p03_para_01 instead of definition chunk p03_para_00."
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 0,
+    "citation_support": [],
+    "notes": "False abstention on answerable question."
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 0,
+    "citation_support": [],
+    "notes": "False abstention on answerable question."
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q16",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Complete grounded answer; every citation verbatim supports attributed claims."
+  },
+  {
+    "query_id": "u01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Correctly searched and abstained because topic is outside Ch1,3,4,5."
+  },
+  {
+    "query_id": "u02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Correctly searched and abstained because topic is outside Ch1,3,4,5."
+  },
+  {
+    "query_id": "u03",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Correctly searched and abstained because topic is outside Ch1,3,4,5."
+  }
+]
